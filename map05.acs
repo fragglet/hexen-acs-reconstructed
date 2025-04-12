@@ -493,6 +493,8 @@ script 37 OPEN
     terminate;
 }
 
+// Started by thing 20 at (-64, -928)
+// Started by thing 21 at (128, -912)
 script 38 (void)
 {
     if(thingcount(T_ICEGOLEM, 1) == 0)

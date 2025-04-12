@@ -17,6 +17,18 @@ int mapvar3;
 // Scripts:
 
 // Started by line 590 at (-544, 288)
+// Started by thing 136 at (832, 880)
+// Started by thing 137 at (832, 880)
+// Started by thing 138 at (960, 880)
+// Started by thing 139 at (960, 880)
+// Started by thing 140 at (1088, 880)
+// Started by thing 141 at (1088, 880)
+// Started by thing 142 at (1088, 1104)
+// Started by thing 143 at (1088, 1104)
+// Started by thing 144 at (960, 1104)
+// Started by thing 145 at (960, 1104)
+// Started by thing 146 at (832, 1104)
+// Started by thing 147 at (832, 1104)
 script 1 (void)
 {
     Floor_LowerByValue(const:7, 32, 120);
@@ -164,6 +176,20 @@ script 9 (void)
     terminate;
 }
 
+// Started by thing 152 at (32, 2416)
+// Started by thing 350 at (288, 608)
+// Started by thing 351 at (-224, 608)
+// Started by thing 352 at (-144, 1824)
+// Started by thing 353 at (-400, 416)
+// Started by thing 354 at (912, 80)
+// Started by thing 355 at (576, -656)
+// Started by thing 356 at (-704, -832)
+// Started by thing 357 at (752, -208)
+// Started by thing 358 at (384, -128)
+// Started by thing 359 at (576, 1472)
+// Started by thing 360 at (736, 672)
+// Started by thing 361 at (1088, 256)
+// Started by thing 362 at (-320, -192)
 script 10 (void)
 {
     if(mapvar3 == 2)

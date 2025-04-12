@@ -28,6 +28,7 @@ int mapvar12;
 // Started by line 656 at (1920, 160)
 // Started by line 769 at (-1816, 160)
 // Started by line 1162 at (96, 2008)
+// Started by thing 3 at (432, 64)
 script 1 (void)
 {
     int var0;

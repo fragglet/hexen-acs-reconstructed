@@ -102,6 +102,21 @@ script 6 (void)
 }
 
 // Started by line 527 at (1576, 2112)
+// Started by thing 203 at (1280, 1904)
+// Started by thing 204 at (1280, 2320)
+// Started by thing 205 at (1440, 2432)
+// Started by thing 206 at (1440, 1792)
+// Started by thing 207 at (-2016, 1792)
+// Started by thing 208 at (-1856, 1904)
+// Started by thing 209 at (-1856, 2320)
+// Started by thing 210 at (-2016, 2432)
+// Started by thing 211 at (-288, -672)
+// Started by thing 212 at (-288, -736)
+// Started by thing 213 at (-288, -800)
+// Started by thing 214 at (-288, -864)
+// Started by thing 215 at (-288, -928)
+// Started by thing 216 at (-288, -992)
+// Started by thing 217 at (-288, -1056)
 script 7 (void)
 {
     if(thingcount(T_DEMON, 23) == 0)
@@ -306,6 +321,8 @@ script 23 (void)
     restart;
 }
 
+// Started by thing 276 at (-544, -352)
+// Started by thing 277 at (-32, -352)
 script 24 (void)
 {
     int var0;
@@ -376,6 +393,8 @@ script 26 OPEN
     }
 }
 
+// Started by thing 281 at (-2048, 2048)
+// Started by thing 282 at (-2048, 2160)
 script 27 (void)
 {
     if(thingcount(T_DEMON, 22) == 0)
@@ -384,6 +403,7 @@ script 27 (void)
     }
 }
 
+// Started by thing 54 at (1632, 2112)
 script 28 (void)
 {
     if(thingcount(T_DEMON, 23) == 0)

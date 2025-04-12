@@ -55,6 +55,7 @@ script 5 (void)
     Floor_RaiseByValue(const:26, 32, 72);
 }
 
+// Started by thing 2 at (-64, 1600)
 script 6 (void)
 {
     Floor_LowerByValue(const:100, 16, 120);

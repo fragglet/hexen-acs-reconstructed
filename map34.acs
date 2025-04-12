@@ -88,6 +88,9 @@ script 3 (void)
     Light_Fade(const:12, 144, 32);
 }
 
+// Started by thing 45 at (-448, 1472)
+// Started by thing 46 at (-576, 1664)
+// Started by thing 47 at (-704, 1472)
 script 4 (int arg0, int arg1)
 {
     int var0;

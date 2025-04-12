@@ -80,6 +80,12 @@ script 3 (void)
     Teleport_NewMap(24, 2);
 }
 
+// Started by thing 239 at (544, 224)
+// Started by thing 240 at (544, -64)
+// Started by thing 241 at (608, -192)
+// Started by thing 266 at (400, 48)
+// Started by thing 267 at (400, -400)
+// Started by thing 268 at (480, -192)
 script 4 (void)
 {
     if(mapvar2 == 0)
@@ -141,6 +147,17 @@ script 9 OPEN
     terminate;
 }
 
+// Started by thing 154 at (-384, 1104)
+// Started by thing 155 at (-960, 1120)
+// Started by thing 156 at (-256, 1040)
+// Started by thing 157 at (-1088, 1056)
+// Started by thing 310 at (-864, 1184)
+// Started by thing 311 at (-256, 1152)
+// Started by thing 312 at (416, -608)
+// Started by thing 313 at (480, -608)
+// Started by thing 314 at (544, -608)
+// Started by thing 504 at (-448, 1168)
+// Started by thing 505 at (-1024, 1200)
 script 10 (void)
 {
     if(thingcount(T_DEMON, 0) < 4)
@@ -237,6 +254,21 @@ script 22 (void)
     Light_Glow(const:33, 160, 144, 30);
 }
 
+// Started by thing 184 at (-288, 752)
+// Started by thing 185 at (32, 992)
+// Started by thing 186 at (-48, 1328)
+// Started by thing 187 at (-448, 1456)
+// Started by thing 188 at (-640, 1216)
+// Started by thing 189 at (-832, 1408)
+// Started by thing 190 at (-1136, 1360)
+// Started by thing 191 at (-1296, 1072)
+// Started by thing 192 at (-1120, 848)
+// Started by thing 506 at (-112, 1280)
+// Started by thing 507 at (-304, 1424)
+// Started by thing 508 at (96, 944)
+// Started by thing 509 at (-656, 1296)
+// Started by thing 510 at (-1216, 1408)
+// Started by thing 511 at (-1376, 1056)
 script 23 (void)
 {
     if(thingcount(T_ETTIN, 22) < 10)

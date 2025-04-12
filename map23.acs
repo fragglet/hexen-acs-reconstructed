@@ -152,6 +152,20 @@ script 13 OPEN
     Stairs_BuildDownSync(const:18, 8, 16, 0);
 }
 
+// Started by thing 93 at (-1504, -1280)
+// Started by thing 94 at (-1344, -1280)
+// Started by thing 95 at (-1184, -1280)
+// Started by thing 96 at (-1024, -1280)
+// Started by thing 97 at (-864, -1280)
+// Started by thing 98 at (-1504, -128)
+// Started by thing 99 at (-1344, -128)
+// Started by thing 100 at (-1184, -128)
+// Started by thing 101 at (-1024, -128)
+// Started by thing 102 at (-864, -128)
+// Started by thing 456 at (-1440, -1344)
+// Started by thing 457 at (-944, -1360)
+// Started by thing 458 at (-1424, -80)
+// Started by thing 459 at (-944, -80)
 script 14 (void)
 {
     if(thingcount(T_FIREGARGOYLE, 12) == 0)
@@ -181,6 +195,18 @@ script 15 (void)
     }
 }
 
+// Started by thing 104 at (-1376, -1744)
+// Started by thing 105 at (-1184, -1744)
+// Started by thing 106 at (-1072, -1648)
+// Started by thing 107 at (-1360, 336)
+// Started by thing 108 at (-1184, 288)
+// Started by thing 109 at (-1024, 176)
+// Started by thing 460 at (-1280, 400)
+// Started by thing 461 at (-1072, 256)
+// Started by thing 462 at (-1456, 112)
+// Started by thing 463 at (-1504, -1520)
+// Started by thing 464 at (-1296, -1840)
+// Started by thing 465 at (-1088, -1728)
 script 16 (void)
 {
     if(thingcount(T_BISHOP, 13) == 0)

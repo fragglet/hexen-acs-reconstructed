@@ -27,6 +27,24 @@ script 1 (void)
     polywait(const:1);
 }
 
+// Started by thing 248 at (3456, 1280)
+// Started by thing 249 at (3456, 2048)
+// Started by thing 567 at (3552, 1376)
+// Started by thing 568 at (3552, 1440)
+// Started by thing 569 at (3552, 1504)
+// Started by thing 570 at (3552, 1568)
+// Started by thing 571 at (3552, 1632)
+// Started by thing 572 at (3552, 1696)
+// Started by thing 573 at (3552, 1760)
+// Started by thing 574 at (3552, 1824)
+// Started by thing 575 at (3424, 1824)
+// Started by thing 576 at (3424, 1760)
+// Started by thing 577 at (3424, 1696)
+// Started by thing 578 at (3424, 1632)
+// Started by thing 579 at (3424, 1568)
+// Started by thing 580 at (3424, 1504)
+// Started by thing 581 at (3424, 1440)
+// Started by thing 582 at (3424, 1376)
 script 2 (void)
 {
 }

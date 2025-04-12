@@ -622,6 +622,7 @@ script 15 (void)
     }
 }
 
+// Started by thing 303 at (-96, 160)
 script 16 (void)
 {
     Thing_Spawn(const:31, T_BRIDGE, 0);

@@ -193,6 +193,7 @@ script 13 (void)
     }
 }
 
+// Started by thing 118 at (-352, -1680)
 script 14 (void)
 {
     if(mapvar4 == 0)
@@ -206,6 +207,7 @@ script 14 (void)
     }
 }
 
+// Started by thing 121 at (-3168, 2176)
 script 15 (void)
 {
     int var0;

@@ -27,6 +27,20 @@ script 1 (void)
     clearlinespecial();
 }
 
+// Started by thing 15 at (-320, 352)
+// Started by thing 16 at (-160, 112)
+// Started by thing 17 at (32, 64)
+// Started by thing 18 at (1216, -432)
+// Started by thing 19 at (1408, -560)
+// Started by thing 20 at (1248, -848)
+// Started by thing 21 at (-1328, -816)
+// Started by thing 22 at (-1424, -1008)
+// Started by thing 23 at (-592, -944)
+// Started by thing 24 at (-448, -1072)
+// Started by thing 363 at (-240, 0)
+// Started by thing 364 at (-1536, -672)
+// Started by thing 365 at (1168, -640)
+// Started by thing 366 at (1328, -1008)
 script 2 (void)
 {
     if(thingcount(T_ETTIN, 1) < 5)
@@ -39,6 +53,23 @@ script 2 (void)
     }
 }
 
+// Started by thing 25 at (-1424, 1312)
+// Started by thing 26 at (-288, 2432)
+// Started by thing 27 at (496, 1488)
+// Started by thing 28 at (688, 1504)
+// Started by thing 29 at (1472, 1312)
+// Started by thing 198 at (1536, 736)
+// Started by thing 199 at (400, 2096)
+// Started by thing 200 at (896, 2032)
+// Started by thing 201 at (-1472, 1888)
+// Started by thing 202 at (448, 976)
+// Started by thing 203 at (-736, 2800)
+// Started by thing 204 at (1520, 1968)
+// Started by thing 367 at (-1296, 2128)
+// Started by thing 368 at (32, 2224)
+// Started by thing 369 at (704, 1808)
+// Started by thing 370 at (1248, 1040)
+// Started by thing 371 at (1584, 320)
 script 3 (void)
 {
     if(thingcount(T_CENTAUR, 1) < 6)
@@ -65,6 +96,11 @@ script 6 (void)
     clearlinespecial();
 }
 
+// Started by thing 38 at (160, -928)
+// Started by thing 40 at (640, -992)
+// Started by thing 41 at (768, -560)
+// Started by thing 42 at (400, -288)
+// Started by thing 43 at (160, -544)
 script 7 (void)
 {
     int var0;
@@ -184,6 +220,8 @@ script 14 (void)
     }
 }
 
+// Started by thing 155 at (1280, -2048)
+// Started by thing 354 at (1280, -2048)
 script 15 (void)
 {
     Floor_LowerInstant(const:20, 0, 18);

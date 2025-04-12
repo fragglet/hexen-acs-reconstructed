@@ -148,6 +148,13 @@ script 8 (void)
     restart;
 }
 
+// Started by thing 20 at (-816, -4000)
+// Started by thing 21 at (-640, -3792)
+// Started by thing 22 at (-368, -3728)
+// Started by thing 23 at (-80, -3824)
+// Started by thing 24 at (96, -3984)
+// Started by thing 651 at (-800, -3712)
+// Started by thing 652 at (-48, -3696)
 script 9 (void)
 {
     if(thingcount(T_CENTAUR, 1) < 3)
@@ -349,6 +356,16 @@ script 21 (void)
     }
 }
 
+// Started by thing 71 at (416, -2016)
+// Started by thing 72 at (416, -1056)
+// Started by thing 73 at (416, -1952)
+// Started by thing 74 at (416, -1120)
+// Started by thing 387 at (1408, -1216)
+// Started by thing 388 at (1408, -1856)
+// Started by thing 389 at (1408, -1472)
+// Started by thing 390 at (1408, -1600)
+// Started by thing 670 at (1408, -1344)
+// Started by thing 671 at (1408, -1728)
 script 22 (void)
 {
     if(thingcount(T_DEMON, 40) < 4)

@@ -83,6 +83,7 @@ script 4 (void)
     setlineblocking(1, OFF);
 }
 
+// Started by thing 19 at (-1920, -1152)
 script 5 (void)
 {
     Thing_Remove(const:1);
