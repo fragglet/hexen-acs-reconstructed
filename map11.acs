@@ -10,7 +10,7 @@
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     until(thingcount(T_ETTIN, 0) == 0)
     {
@@ -63,7 +63,7 @@ script 4 OPEN
     terminate;
 }
 
-script 5 (void)  
+script 5 (void)
 {
     until(thingcount(T_DEMON, 0) < 4)
     {
@@ -74,7 +74,7 @@ script 5 (void)
     restart;
 }
 
-script 6 (void)  
+script 6 (void)
 {
     until(thingcount(T_DEMON, 0) == 0)
     {
@@ -89,7 +89,7 @@ script 6 (void)
     Thing_Remove(const:2);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {

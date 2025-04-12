@@ -20,7 +20,7 @@ int mapvar7;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
 
@@ -45,7 +45,7 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     mapvar0 = random(const:1, 3);
     mapvar1 = random(const:1, 3);
@@ -67,7 +67,7 @@ script 2 (void)
     mapvar5 = 0;
 }
 
-script 3 (void)  
+script 3 (void)
 {
     Polyobj_Move(const:13, 4, 0, 64);
     delay(const:48);
@@ -80,14 +80,14 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     Floor_LowerByValue(const:7, 8, 32);
     Floor_LowerByValue(const:16, 8, 120);
     Stairs_BuildUp(const:15, 4, 16, 0, 0);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
     int var1;
@@ -103,7 +103,7 @@ script 5 (void)
     Thing_Activate(const:1);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     if(mapvar0 && mapvar1 && mapvar2 && !(mapvar7))
     {
@@ -123,7 +123,7 @@ script 6 (void)
     }
 }
 
-script 7 (int arg0)  
+script 7 (int arg0)
 {
     if(mapvar0)
     {
@@ -163,7 +163,7 @@ script 7 (int arg0)
     }
 }
 
-script 8 (int arg0)  
+script 8 (int arg0)
 {
     if(mapvar1)
     {
@@ -204,7 +204,7 @@ script 8 (int arg0)
     }
 }
 
-script 9 (int arg0)  
+script 9 (int arg0)
 {
     if(mapvar2)
     {
@@ -245,7 +245,7 @@ script 9 (int arg0)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {

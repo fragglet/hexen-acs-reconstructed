@@ -17,7 +17,7 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(++mapvar0 == 1)
     {
@@ -64,19 +64,19 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Door_Raise(const:1, 16, 70);
     Plat_DownWaitUpStay(const:3, 16, 105);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     delay(110);
     Teleport_NewMap(24, 2);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(mapvar2 == 0)
     {
@@ -99,7 +99,7 @@ script 5 OPEN
     terminate;
 }
 
-script 6 (void)  
+script 6 (void)
 {
     until(thingcount(T_ETTIN, 0) < 10)
     {
@@ -116,13 +116,13 @@ script 6 (void)
     restart;
 }
 
-script 7 (void)  
+script 7 (void)
 {
     Thing_Activate(const:9);
     Light_Glow(const:9, 176, 160, 30);
 }
 
-script 8 (void)  
+script 8 (void)
 {
 }
 
@@ -136,7 +136,7 @@ script 9 OPEN
     terminate;
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(thingcount(T_DEMON, 0) < 4)
     {
@@ -148,79 +148,79 @@ script 10 (void)
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     Floor_LowerByValue(const:10, 16, 24);
     Polyobj_Move(const:3, 8, 0, 64);
 }
 
-script 12 (void)  
+script 12 (void)
 {
     Thing_Activate(const:11);
     Light_Glow(const:23, 176, 160, 30);
 }
 
-script 13 (void)  
+script 13 (void)
 {
     Thing_Activate(const:12);
     Light_Glow(const:24, 176, 160, 30);
 }
 
-script 14 (void)  
+script 14 (void)
 {
     Thing_Activate(const:13);
     Light_Glow(const:25, 160, 144, 30);
 }
 
-script 15 (void)  
+script 15 (void)
 {
     Thing_Activate(const:14);
     Light_Glow(const:26, 160, 144, 30);
 }
 
-script 16 (void)  
+script 16 (void)
 {
     Thing_Activate(const:15);
     Light_Glow(const:27, 160, 144, 30);
 }
 
-script 17 (void)  
+script 17 (void)
 {
     Thing_Activate(const:16);
     Light_Glow(const:28, 160, 144, 30);
 }
 
-script 18 (void)  
+script 18 (void)
 {
     Thing_Activate(const:17);
     Light_Glow(const:29, 160, 144, 30);
 }
 
-script 19 (void)  
+script 19 (void)
 {
     Thing_Activate(const:18);
     Light_Glow(const:30, 160, 144, 30);
 }
 
-script 20 (void)  
+script 20 (void)
 {
     Thing_Activate(const:19);
     Light_Glow(const:31, 160, 144, 30);
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Thing_Activate(const:20);
     Light_Glow(const:32, 160, 144, 30);
 }
 
-script 22 (void)  
+script 22 (void)
 {
     Thing_Activate(const:21);
     Light_Glow(const:33, 160, 144, 30);
 }
 
-script 23 (void)  
+script 23 (void)
 {
     if(thingcount(T_ETTIN, 22) < 10)
     {
@@ -232,7 +232,7 @@ script 23 (void)
     }
 }
 
-script 24 (void)  
+script 24 (void)
 {
     if(mapvar1 == 0)
     {

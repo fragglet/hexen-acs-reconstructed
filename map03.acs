@@ -20,7 +20,7 @@ int mapvar7;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
 
@@ -47,7 +47,7 @@ script 1 (void)
     Floor_LowerByValue(const:24, 24, 32);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -67,7 +67,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -88,7 +88,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -119,7 +119,7 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
 
@@ -159,7 +159,7 @@ script 5 (void)
     Plat_DownWaitUpStay(const:4, 32, 64);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     if(mapvar7 == 0)
     {
@@ -189,7 +189,7 @@ script 6 (void)
     }
 }
 
-script 7 (void)  
+script 7 (void)
 {
     int var0;
 
@@ -236,7 +236,7 @@ script 7 (void)
     }
 }
 
-script 8 (int arg0, int arg1)  
+script 8 (int arg0, int arg1)
 {
     if(mapvar0 == arg0)
     {
@@ -248,7 +248,7 @@ script 8 (int arg0, int arg1)
     }
 }
 
-script 9 (void)  
+script 9 (void)
 {
     int var0;
 
@@ -268,7 +268,7 @@ script 9 (void)
     Floor_LowerByValue(const:93, 16, 48);
 }
 
-script 10 (void)  
+script 10 (void)
 {
     int var0;
 
@@ -308,14 +308,14 @@ script 10 (void)
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     Door_Open(const:74, 32);
     Light_Fade(const:94, 160, 32);
     Light_Fade(const:95, 160, 32);
 }
 
-script 12 (void)  
+script 12 (void)
 {
     int var0;
     int var1;
@@ -383,7 +383,7 @@ script 12 (void)
     }
 }
 
-script 13 (void)  
+script 13 (void)
 {
     int var0;
 
@@ -405,7 +405,7 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
     Door_Open(const:71, 32);
     Thing_Spawn(const:12, T_ETTIN, 64);
@@ -413,7 +413,7 @@ script 14 (void)
     Thing_Spawn(const:14, T_ETTIN, 160);
 }
 
-script 15 (void)  
+script 15 (void)
 {
     while(1)
     {
@@ -540,13 +540,13 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     Thing_Spawn(const:31, T_BRIDGE, 0);
     Thing_Spawn(const:32, T_BRIDGE, 0);
 }
 
-script 17 (void)  
+script 17 (void)
 {
     if(mapvar4 == 1)
     {
@@ -554,7 +554,7 @@ script 17 (void)
     }
 }
 
-script 18 (void)  
+script 18 (void)
 {
     if(mapvar5 == 1)
     {
@@ -563,7 +563,7 @@ script 18 (void)
     }
 }
 
-script 19 (void)  
+script 19 (void)
 {
     mapvar5 = 1;
     Light_Fade(const:98, 208, 32);
@@ -573,7 +573,7 @@ script 19 (void)
     Thing_Deactivate(const:35);
 }
 
-script 20 (void)  
+script 20 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -584,17 +584,17 @@ script 20 (void)
     }
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Door_Open(const:100, 16);
 }
 
-script 22 (void)  
+script 22 (void)
 {
     Door_Open(const:101, 16);
 }
 
-script 23 (void)  
+script 23 (void)
 {
     if(mapvar7 == 0)
     {
@@ -606,12 +606,12 @@ script 23 (void)
     }
 }
 
-script 24 (void)  
+script 24 (void)
 {
     print(s:"THIS PATH IS BARRED");
 }
 
-script 25 (void)  
+script 25 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {

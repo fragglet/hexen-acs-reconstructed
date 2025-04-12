@@ -23,7 +23,7 @@ int mapvar10;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
     int var1;
@@ -53,7 +53,7 @@ script 1 (void)
     Ceiling_RaiseByValue(const:1, 32, 64);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     int var0;
     int var1;
@@ -66,7 +66,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     int var0;
     int var1;
@@ -87,7 +87,7 @@ script 3 (void)
     Light_Fade(const:8, 176, 32);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
     int var1;
@@ -108,21 +108,21 @@ script 4 (void)
     Light_Fade(const:9, 176, 32);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Floor_RaiseByValue(const:8, 4, 16);
     changefloor(const:8, "F_015");
     Light_Fade(const:8, 144, 32);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     Floor_RaiseByValue(const:9, 4, 16);
     changefloor(const:9, "F_015");
     Light_Fade(const:9, 144, 32);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     int var0;
 
@@ -142,7 +142,7 @@ script 7 (void)
     }
 }
 
-script 12 (void)  
+script 12 (void)
 {
     int var0;
     int var1;
@@ -230,12 +230,12 @@ script 14 OPEN
     }
 }
 
-script 15 (void)  
+script 15 (void)
 {
     mapvar0 = 1;
 }
 
-script 16 (void)  
+script 16 (void)
 {
     int var0;
 
@@ -258,7 +258,7 @@ script 16 (void)
     }
 }
 
-script 17 (void)  
+script 17 (void)
 {
     int var0;
     int var1;
@@ -344,7 +344,7 @@ script 17 (void)
     }
 }
 
-script 18 (void)  
+script 18 (void)
 {
     if(mapvar3 == 0)
     {
@@ -359,7 +359,7 @@ script 18 (void)
     }
 }
 
-script 19 (void)  
+script 19 (void)
 {
     if(mapvar4 == 0)
     {
@@ -374,7 +374,7 @@ script 19 (void)
     }
 }
 
-script 20 (void)  
+script 20 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -436,7 +436,7 @@ script 999 OPEN
     mapvar10 = 0;
 }
 
-script 220 (void)  
+script 220 (void)
 {
     until(thingcount(T_ETTIN, 0) == 0)
     {
@@ -446,7 +446,7 @@ script 220 (void)
     ACS_Execute(221, 40, 0, 0, 0);
 }
 
-script 221 (void)  
+script 221 (void)
 {
     until(thingcount(T_CENTAUR, 0) == 0)
     {
@@ -456,7 +456,7 @@ script 221 (void)
     Thing_Activate(const:245);
 }
 
-script 249 (void)  
+script 249 (void)
 {
     mapvar8 = 1;
     Door_Open(const:10, 16);
@@ -464,12 +464,12 @@ script 249 (void)
     Thing_Deactivate(const:245);
 }
 
-script 250 (void)  
+script 250 (void)
 {
     ACS_Execute(7, 40, 0, 0, 0);
 }
 
-script 251 (void)  
+script 251 (void)
 {
     if(mapvar8)
     {
@@ -487,7 +487,7 @@ script 251 (void)
     }
 }
 
-script 252 (void)  
+script 252 (void)
 {
     if(mapvar8)
     {
@@ -505,7 +505,7 @@ script 252 (void)
     }
 }
 
-script 253 (void)  
+script 253 (void)
 {
     Radius_Quake(2, 5, 1, 5, 245);
     ACS_Execute(1, 40, 0, 0, 0);
@@ -515,7 +515,7 @@ script 253 (void)
     }
 }
 
-script 254 (void)  
+script 254 (void)
 {
     int var0;
     int var1;
@@ -529,7 +529,7 @@ script 254 (void)
     }
 }
 
-script 255 (void)  
+script 255 (void)
 {
     Radius_Quake(const:5, 200, 3, 10, 245);
     Door_Open(const:145, 8);

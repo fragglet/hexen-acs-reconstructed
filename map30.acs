@@ -15,7 +15,7 @@ int mapvar2;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(++mapvar0 == 4)
     {
@@ -23,7 +23,7 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(mapvar1 == 0)
     {
@@ -31,7 +31,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -55,7 +55,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     until(mapvar2 == 1)
     {
@@ -75,19 +75,19 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Door_Raise(const:7, 16, 0);
     terminate;
 }
 
-script 6 (void)  
+script 6 (void)
 {
     Door_Raise(const:3, 16, 0);
     terminate;
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -100,7 +100,7 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -125,12 +125,12 @@ script 8 (void)
     }
 }
 
-script 9 (void)  
+script 9 (void)
 {
     Thing_Spawn(const:1, T_BRIDGE, 0);
 }
 
-script 10 (void)  
+script 10 (void)
 {
     Floor_LowerToNearest(const:5, 8);
     setlinetexture(3, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS07");

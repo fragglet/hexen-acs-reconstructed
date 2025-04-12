@@ -17,7 +17,7 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
 
@@ -31,7 +31,7 @@ script 1 (void)
     ACS_Execute(const:16, 13, 0, 0, 0);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     int var0;
 
@@ -45,7 +45,7 @@ script 2 (void)
     ACS_Execute(3, 13, 0, 0, 0);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     int var0;
 
@@ -57,7 +57,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -71,13 +71,13 @@ script 4 (void)
     Door_Open(const:82, 16);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Floor_RaiseByValue(const:10, 16, 56);
     ACS_Execute(2, 13, 0, 0, 0);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     int var0;
 
@@ -102,7 +102,7 @@ script 6 (void)
     }
 }
 
-script 7 (void)  
+script 7 (void)
 {
     setlinetexture(4, SIDE_FRONT, TEXTURE_TOP, "Spawn09");
     delay(const:2);
@@ -157,7 +157,7 @@ script 7 (void)
     restart;
 }
 
-script 8 (void)  
+script 8 (void)
 {
     Ceiling_LowerAndCrush(17, random(const:32, 64), 100);
     Floor_RaiseByValue(18, 32, 8);
@@ -196,7 +196,7 @@ script 8 (void)
     mapvar4 = 1;
 }
 
-script 9 (void)  
+script 9 (void)
 {
     int var0;
 
@@ -209,7 +209,7 @@ script 9 (void)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(mapvar3 == 0)
     {
@@ -219,7 +219,7 @@ script 10 (void)
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     if(mapvar0 == 0)
     {
@@ -228,7 +228,7 @@ script 11 (void)
     }
 }
 
-script 12 (void)  
+script 12 (void)
 {
     int var0;
 
@@ -248,7 +248,7 @@ script 13 OPEN
     Light_Flicker(const:70, 192, 144);
 }
 
-script 15 (void)  
+script 15 (void)
 {
     setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "Spawn09");
     delay(const:2);
@@ -292,7 +292,7 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     int var0;
     int var1;
@@ -311,44 +311,44 @@ script 16 (void)
     }
 }
 
-script 17 (void)  
+script 17 (void)
 {
     ACS_Terminate(6, 13);
     ACS_Terminate(7, 13);
     Door_Open(200, 16);
 }
 
-script 18 (void)  
+script 18 (void)
 {
     Light_Fade(const:150, 176, 32);
 }
 
-script 19 (void)  
+script 19 (void)
 {
     Light_Fade(const:151, 176, 32);
 }
 
-script 20 (void)  
+script 20 (void)
 {
     Light_Fade(const:152, 176, 32);
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Light_Fade(const:153, 176, 32);
 }
 
-script 22 (void)  
+script 22 (void)
 {
     Light_Fade(const:154, 176, 32);
 }
 
-script 23 (void)  
+script 23 (void)
 {
     Light_Fade(const:155, 176, 32);
 }
 
-script 24 (void)  
+script 24 (void)
 {
     if(mapvar2 == 0)
     {
@@ -357,7 +357,7 @@ script 24 (void)
     }
 }
 
-script 25 (void)  
+script 25 (void)
 {
     if(gametype() != GAME_SINGLE_PLAYER)
     {

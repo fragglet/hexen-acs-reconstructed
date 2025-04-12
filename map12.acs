@@ -25,7 +25,7 @@ int mapvar12;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
     int var1;
@@ -92,7 +92,7 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -107,7 +107,7 @@ script 2 (void)
     Floor_LowerByValue(const:1, 8, 16);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -134,7 +134,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -146,7 +146,7 @@ script 4 (void)
     Door_Close(const:7, 64);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -158,11 +158,11 @@ script 5 (void)
     Floor_LowerByValue(const:2, 8, 16);
 }
 
-script 6 (void)  
+script 6 (void)
 {
 }
 
-script 7 (void)  
+script 7 (void)
 {
     int var0;
 
@@ -182,7 +182,7 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -213,7 +213,7 @@ script 8 (void)
     }
 }
 
-script 9 (int arg0)  
+script 9 (int arg0)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -243,11 +243,11 @@ script 9 (int arg0)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
 }
 
-script 11 (void)  
+script 11 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -354,14 +354,14 @@ script 11 (void)
     }
 }
 
-script 12 (int arg0)  
+script 12 (int arg0)
 {
     Floor_LowerByValue(arg0, 16, 112);
     Thing_Spawn(const:18, T_CENTAUR, 0);
     Thing_Spawn(const:19, T_CENTAUR, 128);
 }
 
-script 13 (void)  
+script 13 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -379,7 +379,7 @@ script 13 (void)
     }
 }
 
-script 14 (int arg0)  
+script 14 (int arg0)
 {
     if(arg0 == mapvar9)
     {

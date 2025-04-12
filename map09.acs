@@ -13,14 +13,14 @@ world int 0:world0;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Floor_LowerByValue(const:7, 16, 80);
     Floor_LowerByValue(const:8, 16, 88);
     Floor_LowerByValue(const:9, 16, 72);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     sectorsound("Switch1", 127);
     delay(const:2);
@@ -46,7 +46,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     sectorsound("Switch1", 127);
     delay(const:2);
@@ -72,12 +72,12 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     Ceiling_RaiseByValue(const:2, 16, 128);
 }
 
-script 5 (int arg0)  
+script 5 (int arg0)
 {
     Thing_Activate(arg0);
     delay(const:128);

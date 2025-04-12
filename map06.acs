@@ -19,7 +19,7 @@ script 1 OPEN
     setlinespecial(2, 80 /*ACS_Execute*/, 8, 0, 0, 0, 0);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -46,7 +46,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     delay(const:25);
     Door_Raise(const:11, 32, 0);
@@ -64,7 +64,7 @@ script 3 (void)
     Floor_LowerByValue(const:9, 4, 104);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -81,7 +81,7 @@ script 4 (void)
     setlineblocking(1, OFF);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Thing_Remove(const:1);
     Thing_Remove(const:2);
@@ -90,7 +90,7 @@ script 5 (void)
     ACS_Terminate(const:2, 0);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     delay(const:25);
     Door_Raise(const:17, 32, 0);
@@ -106,7 +106,7 @@ script 6 (void)
     ACS_Execute(const:7, 0, 0, 0, 0);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     Light_ChangeToValue(const:26, 205);
     Thing_ProjectileGravity(const:8, T_FIREBALL1, 208, 80, 0);
@@ -130,7 +130,7 @@ script 7 (void)
     restart;
 }
 
-script 8 (void)  
+script 8 (void)
 {
     int var0;
 
@@ -147,7 +147,7 @@ script 8 (void)
     setlineblocking(2, OFF);
 }
 
-script 9 (void)  
+script 9 (void)
 {
     setlinespecial(1, 80 /*ACS_Execute*/, 4, 0, 0, 0, 0);
     Thing_Remove(const:8);
@@ -195,7 +195,7 @@ script 10 OPEN
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     Stairs_BuildUp(const:1, 5, 16, 0, 0);
     tagwait(const:1);

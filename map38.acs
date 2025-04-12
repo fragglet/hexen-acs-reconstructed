@@ -10,13 +10,13 @@
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Floor_RaiseByValue(const:2, 4, 128);
     Door_Raise(const:3, 16, 0);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -34,24 +34,24 @@ script 2 (void)
     Plat_PerpetualRaise(const:2, 16, 64);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     delay(const:128);
     Stairs_BuildDown(const:6, 4, 8, 0, 0);
     delay(const:32);
 }
 
-script 4 (void)  
+script 4 (void)
 {
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Floor_LowerByValue(const:25, 32, 104);
     Floor_RaiseByValue(const:26, 32, 72);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     Floor_LowerByValue(const:100, 16, 120);
 }

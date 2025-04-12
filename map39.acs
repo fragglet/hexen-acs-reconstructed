@@ -21,7 +21,7 @@ str mapstr8;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Polyobj_RotateLeft(const:3, 4, 64);
     delay(const:210);
@@ -223,7 +223,7 @@ script 4 OPEN
     restart;
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Thing_Activate(const:6);
     ambientsound("DoorCloseMetal", 127);

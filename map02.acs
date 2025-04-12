@@ -19,7 +19,7 @@ int mapvar6;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(++mapvar1 == 2)
     {
@@ -36,7 +36,7 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Polyobj_RotateRight(const:26, 4, 64);
     delay(const:25);
@@ -46,7 +46,7 @@ script 2 (void)
     delay(const:25);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(mapvar3 == 0)
     {
@@ -68,11 +68,11 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
 }
 
-script 5 (void)  
+script 5 (void)
 {
     if(mapvar4 == 0)
     {
@@ -94,11 +94,11 @@ script 5 (void)
     }
 }
 
-script 6 (void)  
+script 6 (void)
 {
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(thingcount(T_DEMON, 23) == 0)
     {
@@ -125,11 +125,11 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
 }
 
-script 9 (void)  
+script 9 (void)
 {
     mapvar2++;
 }
@@ -145,7 +145,7 @@ script 10 OPEN
     delay(const:35);
 }
 
-script 11 (void)  
+script 11 (void)
 {
     if(mapvar5 == 0)
     {
@@ -167,11 +167,11 @@ script 11 (void)
     }
 }
 
-script 12 (void)  
+script 12 (void)
 {
 }
 
-script 13 (void)  
+script 13 (void)
 {
     if(mapvar6 == 0)
     {
@@ -193,11 +193,11 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
 }
 
-script 15 (void)  
+script 15 (void)
 {
     if(thingcount(T_DEMON, 22) == 0)
     {
@@ -242,32 +242,32 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     delay(const:210);
     Stairs_BuildUpSync(const:6, 16, 24, 0);
 }
 
-script 17 (void)  
+script 17 (void)
 {
     delay(const:210);
     Stairs_BuildUpSync(const:4, 8, 16, 0);
 }
 
-script 18 (void)  
+script 18 (void)
 {
     delay(const:210);
     Stairs_BuildUpSync(const:5, 8, 24, 0);
 }
 
-script 19 (void)  
+script 19 (void)
 {
     Polyobj_RotateRight(const:8, 4, 64);
     Floor_RaiseByValue(const:80, 32, 48);
     Floor_LowerInstant(const:78, 0, 45);
 }
 
-script 20 (void)  
+script 20 (void)
 {
     if(++mapvar0 == 2)
     {
@@ -275,7 +275,7 @@ script 20 (void)
     }
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Plat_DownWaitUpStay(16, 16, 105);
     tagwait(const:16);
@@ -283,11 +283,11 @@ script 21 (void)
     restart;
 }
 
-script 22 (void)  
+script 22 (void)
 {
 }
 
-script 23 (void)  
+script 23 (void)
 {
     Plat_DownWaitUpStay(42, 8, 105);
     tagwait(const:42);
@@ -295,7 +295,7 @@ script 23 (void)
     restart;
 }
 
-script 24 (void)  
+script 24 (void)
 {
     int var0;
 
@@ -311,7 +311,7 @@ script 24 (void)
     }
 }
 
-script 25 (void)  
+script 25 (void)
 {
     delay(const:35);
     Floor_RaiseAndCrush(const:45, 64, 100);
@@ -364,7 +364,7 @@ script 26 OPEN
     }
 }
 
-script 27 (void)  
+script 27 (void)
 {
     if(thingcount(T_DEMON, 22) == 0)
     {
@@ -372,7 +372,7 @@ script 27 (void)
     }
 }
 
-script 28 (void)  
+script 28 (void)
 {
     if(thingcount(T_DEMON, 23) == 0)
     {
@@ -380,23 +380,23 @@ script 28 (void)
     }
 }
 
-script 29 (void)  
+script 29 (void)
 {
     Polyobj_RotateRight(const:2, 4, 64);
     Polyobj_RotateRight(const:10, 4, 64);
 }
 
-script 30 (void)  
+script 30 (void)
 {
     Polyobj_RotateRight(const:16, 4, 64);
 }
 
-script 31 (void)  
+script 31 (void)
 {
     Polyobj_RotateRight(const:12, 4, 64);
 }
 
-script 32 (void)  
+script 32 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -413,7 +413,7 @@ script 32 (void)
     }
 }
 
-script 33 (void)  
+script 33 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {

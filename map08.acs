@@ -22,17 +22,17 @@ world int 0:world0;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Polyobj_RotateRight(const:1, 4, 128);
     polywait(const:1);
 }
 
-script 2 (void)  
+script 2 (void)
 {
 }
 
-script 3 (void)  
+script 3 (void)
 {
     sectorsound("Switch1", 127);
     delay(const:3);
@@ -54,7 +54,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     sectorsound("Switch1", 127);
     delay(const:3);
@@ -87,7 +87,7 @@ script 15 OPEN
     } until(++var0 > 19);
 }
 
-script 16 (void)  
+script 16 (void)
 {
     int var0;
 
@@ -108,7 +108,7 @@ script 16 (void)
     }
 }
 
-script 17 (void)  
+script 17 (void)
 {
     int var0;
 
@@ -133,7 +133,7 @@ script 17 (void)
     }
 }
 
-script 18 (void)  
+script 18 (void)
 {
     if(mapvar6 == 0)
     {
@@ -142,7 +142,7 @@ script 18 (void)
     }
 }
 
-script 20 (void)  
+script 20 (void)
 {
     if(mapvar2 < 3)
     {
@@ -174,7 +174,7 @@ script 20 (void)
     }
 }
 
-script 21 (void)  
+script 21 (void)
 {
     if(++mapvar2 == 3)
     {
@@ -183,7 +183,7 @@ script 21 (void)
     }
 }
 
-script 22 (void)  
+script 22 (void)
 {
     if(mapvar3 == 2)
     {
@@ -211,7 +211,7 @@ script 22 (void)
     }
 }
 
-script 23 (int arg0)  
+script 23 (int arg0)
 {
     if(mapvar3 == 1)
     {
@@ -222,7 +222,7 @@ script 23 (int arg0)
     }
 }
 
-script 24 (void)  
+script 24 (void)
 {
     int var0;
 
@@ -255,7 +255,7 @@ script 24 (void)
     }
 }
 
-script 25 (void)  
+script 25 (void)
 {
     if(mapvar3 == 1)
     {
@@ -267,7 +267,7 @@ script 25 (void)
     mapvar3 = 2;
 }
 
-script 26 (void)  
+script 26 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -276,7 +276,7 @@ script 26 (void)
     }
 }
 
-script 27 (void)  
+script 27 (void)
 {
     if(mapvar5 == 0)
     {
@@ -284,7 +284,7 @@ script 27 (void)
     }
 }
 
-script 28 (void)  
+script 28 (void)
 {
     if(mapvar5 == 0)
     {
@@ -295,7 +295,7 @@ script 28 (void)
     Plat_UpByValue(const:13, 16, 128, 23);
 }
 
-script 29 (void)  
+script 29 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -303,7 +303,7 @@ script 29 (void)
     }
 }
 
-script 50 (void)  
+script 50 (void)
 {
     Thing_Activate(const:60);
     Door_Open(const:105, 16);

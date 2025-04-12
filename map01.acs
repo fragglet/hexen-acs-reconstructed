@@ -19,7 +19,7 @@ int mapvar6;
 // ----------------------------------------
 // Scripts:
 
-script 1 (int arg0, int arg1, int arg2)  
+script 1 (int arg0, int arg1, int arg2)
 {
     int var0;
 
@@ -35,7 +35,7 @@ script 1 (int arg0, int arg1, int arg2)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(mapvar0 == 0)
     {
@@ -44,7 +44,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     int var0;
 
@@ -65,7 +65,7 @@ script 3 (void)
     Polyobj_OR_RotateRight(const:6, 24, 128);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -78,7 +78,7 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -86,7 +86,7 @@ script 5 (void)
     }
 }
 
-script 6 (void)  
+script 6 (void)
 {
     int var0;
 
@@ -100,7 +100,7 @@ script 6 (void)
     Door_Open(const:34, 8);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(mapvar6 < 4)
     {
@@ -111,7 +111,7 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(mapvar1 == 0)
     {
@@ -119,19 +119,19 @@ script 8 (void)
     }
 }
 
-script 9 (void)  
+script 9 (void)
 {
     Door_Open(const:18, 16);
     mapvar1 = 1;
 }
 
-script 10 (void)  
+script 10 (void)
 {
     Door_Open(const:14, 16);
     mapvar2 = 1;
 }
 
-script 11 (void)  
+script 11 (void)
 {
     if(mapvar2 == 0)
     {
@@ -139,7 +139,7 @@ script 11 (void)
     }
 }
 
-script 12 (void)  
+script 12 (void)
 {
     int var0;
     int var1;
@@ -159,7 +159,7 @@ script 12 (void)
     }
 }
 
-script 13 (void)  
+script 13 (void)
 {
     if(mapvar3 == 1)
     {
@@ -167,7 +167,7 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
     if(mapvar4 == 0)
     {
@@ -180,7 +180,7 @@ script 14 (void)
     }
 }
 
-script 15 (void)  
+script 15 (void)
 {
     int var0;
     int var1;
@@ -205,7 +205,7 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     int var0;
 

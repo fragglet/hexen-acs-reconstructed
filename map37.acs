@@ -14,7 +14,7 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
     int var1;
@@ -41,7 +41,7 @@ script 1 (void)
     }
 }
 
-script 2 (int arg0, int arg1)  
+script 2 (int arg0, int arg1)
 {
     int var0;
 
@@ -65,7 +65,7 @@ script 2 (int arg0, int arg1)
     }
 }
 
-script 3 (int arg0, int arg1, int arg2)  
+script 3 (int arg0, int arg1, int arg2)
 {
     int var0;
 
@@ -88,7 +88,7 @@ script 3 (int arg0, int arg1, int arg2)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     mapvar0 += 1;
     if(mapvar0 == 4)
@@ -97,7 +97,7 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     mapvar0 += 1;
     if(mapvar0 == 4)
@@ -106,13 +106,13 @@ script 5 (void)
     }
 }
 
-script 6 (void)  
+script 6 (void)
 {
     Door_Open(const:24, 6);
     Floor_LowerByValue(const:100, 16, 200);
 }
 
-script 7 (int arg0, int arg1)  
+script 7 (int arg0, int arg1)
 {
     int var0;
 

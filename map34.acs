@@ -14,12 +14,12 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Door_Open(const:4, 16);
 }
 
-script 2 (int arg0)  
+script 2 (int arg0)
 {
     int var0;
 
@@ -79,13 +79,13 @@ script 2 (int arg0)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     Door_Open(const:13, 16);
     Light_Fade(const:12, 144, 32);
 }
 
-script 4 (int arg0, int arg1)  
+script 4 (int arg0, int arg1)
 {
     int var0;
     int var1;
@@ -105,7 +105,7 @@ script 4 (int arg0, int arg1)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
 
@@ -121,7 +121,7 @@ script 5 (void)
     }
 }
 
-script 6 (int arg0, int arg1, int arg2)  
+script 6 (int arg0, int arg1, int arg2)
 {
     int var0;
 
@@ -140,12 +140,12 @@ script 6 (int arg0, int arg1, int arg2)
     Light_RaiseByValue(arg1+1, 24);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     Door_Open(const:3, 8);
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -169,7 +169,7 @@ script 8 (void)
     }
 }
 
-script 9 (void)  
+script 9 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -197,7 +197,7 @@ script 9 (void)
     Light_Fade(const:11, 144, 32);
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {

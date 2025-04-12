@@ -20,7 +20,7 @@ int mapvar7;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Door_Raise(const:40, 32, 70);
     delay(const:105);
@@ -29,7 +29,7 @@ script 1 (void)
     Polyobj_DoorSlide(const:19, 32, 192, 64, 70);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Plat_DownWaitUpStay(const:4, 64, 140);
     delay(const:70);
@@ -38,7 +38,7 @@ script 2 (void)
     Door_Raise(const:40, 32, 70);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     Door_Raise(const:41, 32, 70);
     delay(const:105);
@@ -47,7 +47,7 @@ script 3 (void)
     Polyobj_DoorSlide(const:14, 32, 192, 64, 70);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     Plat_DownWaitUpStay(const:2, 64, 140);
     delay(const:70);
@@ -56,7 +56,7 @@ script 4 (void)
     Door_Raise(const:41, 32, 70);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     if(mapvar0 == 0)
     {
@@ -66,7 +66,7 @@ script 5 (void)
     }
 }
 
-script 6 (void)  
+script 6 (void)
 {
     if(mapvar0 == 1)
     {
@@ -76,7 +76,7 @@ script 6 (void)
     }
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(mapvar1 == 1)
     {
@@ -86,7 +86,7 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(mapvar1 == 0)
     {
@@ -109,7 +109,7 @@ script 9 OPEN
     terminate;
 }
 
-script 10 (void)  
+script 10 (void)
 {
     Pillar_BuildAndCrush(const:20, 64, 128, 50);
     tagwait(const:20);
@@ -123,7 +123,7 @@ script 10 (void)
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     Pillar_BuildAndCrush(const:21, 32, 64, 50);
     tagwait(const:21);
@@ -137,7 +137,7 @@ script 11 (void)
     }
 }
 
-script 12 (void)  
+script 12 (void)
 {
     Pillar_BuildAndCrush(const:22, 16, 48, 50);
     tagwait(const:22);
@@ -151,7 +151,7 @@ script 12 (void)
     }
 }
 
-script 13 (void)  
+script 13 (void)
 {
     Pillar_BuildAndCrush(const:23, 24, 32, 50);
     tagwait(const:23);
@@ -165,7 +165,7 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
     Pillar_BuildAndCrush(const:24, 64, 160, 50);
     tagwait(const:24);
@@ -179,7 +179,7 @@ script 14 (void)
     }
 }
 
-script 15 (void)  
+script 15 (void)
 {
     Pillar_BuildAndCrush(const:25, 4, 128, 50);
     tagwait(const:25);
@@ -193,7 +193,7 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     Pillar_BuildAndCrush(const:26, 32, 96, 50);
     tagwait(const:26);
@@ -207,7 +207,7 @@ script 16 (void)
     }
 }
 
-script 17 (void)  
+script 17 (void)
 {
     Pillar_BuildAndCrush(const:27, 8, 72, 50);
     tagwait(const:27);
@@ -221,7 +221,7 @@ script 17 (void)
     }
 }
 
-script 18 (void)  
+script 18 (void)
 {
     Pillar_BuildAndCrush(const:28, 16, 24, 50);
     tagwait(const:28);
@@ -235,7 +235,7 @@ script 18 (void)
     }
 }
 
-script 19 (void)  
+script 19 (void)
 {
     Pillar_BuildAndCrush(const:29, 64, 64, 50);
     tagwait(const:29);
@@ -249,7 +249,7 @@ script 19 (void)
     }
 }
 
-script 20 (void)  
+script 20 (void)
 {
     Pillar_BuildAndCrush(const:30, 24, 192, 50);
     tagwait(const:30);
@@ -263,7 +263,7 @@ script 20 (void)
     }
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Pillar_BuildAndCrush(const:31, 32, 32, 50);
     tagwait(const:31);
@@ -277,7 +277,7 @@ script 21 (void)
     }
 }
 
-script 22 (void)  
+script 22 (void)
 {
     Pillar_BuildAndCrush(const:32, 8, 48, 50);
     tagwait(const:32);
@@ -291,7 +291,7 @@ script 22 (void)
     }
 }
 
-script 23 (void)  
+script 23 (void)
 {
     Pillar_BuildAndCrush(const:33, 4, 128, 50);
     tagwait(const:33);
@@ -305,7 +305,7 @@ script 23 (void)
     }
 }
 
-script 24 (void)  
+script 24 (void)
 {
     Pillar_BuildAndCrush(const:34, 64, 64, 50);
     tagwait(const:34);
@@ -319,7 +319,7 @@ script 24 (void)
     }
 }
 
-script 25 (void)  
+script 25 (void)
 {
     Pillar_BuildAndCrush(const:35, 32, 96, 50);
     tagwait(const:35);
@@ -333,7 +333,7 @@ script 25 (void)
     }
 }
 
-script 26 (void)  
+script 26 (void)
 {
     Pillar_BuildAndCrush(const:36, 16, 32, 50);
     tagwait(const:36);
@@ -347,7 +347,7 @@ script 26 (void)
     }
 }
 
-script 27 (void)  
+script 27 (void)
 {
     Pillar_BuildAndCrush(const:37, 24, 160, 50);
     tagwait(const:37);
@@ -361,7 +361,7 @@ script 27 (void)
     }
 }
 
-script 28 (void)  
+script 28 (void)
 {
     Pillar_BuildAndCrush(const:38, 48, 128, 50);
     tagwait(const:38);
@@ -375,7 +375,7 @@ script 28 (void)
     }
 }
 
-script 29 (void)  
+script 29 (void)
 {
     Pillar_BuildAndCrush(const:39, 160, 64, 50);
     tagwait(const:39);
@@ -389,11 +389,11 @@ script 29 (void)
     }
 }
 
-script 30 (void)  
+script 30 (void)
 {
 }
 
-script 31 (void)  
+script 31 (void)
 {
     if(mapvar2 == 0)
     {
@@ -432,7 +432,7 @@ script 33 OPEN
     terminate;
 }
 
-script 34 (void)  
+script 34 (void)
 {
     if(mapvar7 == 0)
     {
@@ -459,13 +459,13 @@ script 34 (void)
     }
 }
 
-script 35 (void)  
+script 35 (void)
 {
     mapvar3++;
     clearlinespecial();
 }
 
-script 36 (void)  
+script 36 (void)
 {
 }
 
@@ -479,7 +479,7 @@ script 37 OPEN
     terminate;
 }
 
-script 38 (void)  
+script 38 (void)
 {
     if(thingcount(T_ICEGOLEM, 1) == 0)
     {
@@ -488,7 +488,7 @@ script 38 (void)
     }
 }
 
-script 39 (void)  
+script 39 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -508,7 +508,7 @@ script 39 (void)
     }
 }
 
-script 40 (void)  
+script 40 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -528,7 +528,7 @@ script 40 (void)
     }
 }
 
-script 41 (void)  
+script 41 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -553,7 +553,7 @@ script 41 (void)
     }
 }
 
-script 42 (void)  
+script 42 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -589,7 +589,7 @@ script 43 OPEN
     terminate;
 }
 
-script 44 (void)  
+script 44 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -599,7 +599,7 @@ script 44 (void)
     }
 }
 
-script 45 (void)  
+script 45 (void)
 {
     mapvar7 = 1;
     if(gametype() != GAME_NET_DEATHMATCH)

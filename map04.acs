@@ -14,7 +14,7 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Polyobj_Move(const:3, 32, 192, 64);
     delay(const:32);
@@ -31,7 +31,7 @@ script 1 (void)
     Door_Open(const:6, 16);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     int var0;
     int var1;
@@ -98,7 +98,7 @@ script 2 (void)
     Thing_Activate(const:22);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     int var0;
 
@@ -145,7 +145,7 @@ script 4 OPEN
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
 
@@ -166,7 +166,7 @@ script 5 (void)
     }
 }
 
-script 6 (void)  
+script 6 (void)
 {
     if(mapvar0 == 0)
     {
@@ -212,7 +212,7 @@ script 6 (void)
     }
 }
 
-script 7 (void)  
+script 7 (void)
 {
     Door_Open(const:84, 32);
     delay(const:48);
@@ -223,7 +223,7 @@ script 7 (void)
     Thing_Spawn(const:24, T_ETTIN, 128);
 }
 
-script 8 (void)  
+script 8 (void)
 {
     Teleport(const:55);
     if(mapvar1 == 0)
@@ -238,7 +238,7 @@ script 8 (void)
     Thing_Spawn(const:27, T_ETTIN, 128);
 }
 
-script 9 (void)  
+script 9 (void)
 {
     sectorsound("Switch1", 127);
     sectorsound("SwitchOtherLevel", 127);
@@ -258,7 +258,7 @@ script 9 (void)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
     sectorsound("Switch1", 127);
     sectorsound("SwitchOtherLevel", 127);
@@ -278,7 +278,7 @@ script 10 (void)
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
     printbold(s:"STAIRS HAVE RISEN ON THE SEVEN PORTALS");
     sectorsound("Switch1", 127);
@@ -296,13 +296,13 @@ script 11 (void)
     }
 }
 
-script 12 (int arg0)  
+script 12 (int arg0)
 {
     Thing_Activate(const:31);
     Plat_DownWaitUpStay(arg0, 16, 64);
 }
 
-script 13 (void)  
+script 13 (void)
 {
     sectorsound("Switch1", 127);
     setlinetexture(4, SIDE_FRONT, TEXTURE_MIDDLE, "SW_EL2");

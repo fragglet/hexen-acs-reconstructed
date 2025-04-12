@@ -24,7 +24,7 @@ int mapvar11;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(mapvar0 == 0)
     {
@@ -49,7 +49,7 @@ script 2 OPEN
     terminate;
 }
 
-script 3 (void)  
+script 3 (void)
 {
     sectorsound("DoorOpenMetal", 90);
     setlinetexture(7, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR0A");
@@ -57,7 +57,7 @@ script 3 (void)
     clearlinespecial();
 }
 
-script 4 (void)  
+script 4 (void)
 {
     sectorsound("DoorOpenMetal", 90);
     setlinetexture(8, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR0A");
@@ -65,7 +65,7 @@ script 4 (void)
     clearlinespecial();
 }
 
-script 5 (void)  
+script 5 (void)
 {
     sectorsound("DoorOpenMetal", 90);
     setlinetexture(9, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR0A");
@@ -73,7 +73,7 @@ script 5 (void)
     clearlinespecial();
 }
 
-script 6 (void)  
+script 6 (void)
 {
     sectorsound("DoorOpenMetal", 90);
     setlinetexture(10, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR0A");
@@ -81,35 +81,35 @@ script 6 (void)
     clearlinespecial();
 }
 
-script 7 (void)  
+script 7 (void)
 {
     setlinetexture(7, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR02");
     clearlinespecial();
     mapvar2++;
 }
 
-script 8 (void)  
+script 8 (void)
 {
     setlinetexture(8, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR02");
     clearlinespecial();
     mapvar2++;
 }
 
-script 9 (void)  
+script 9 (void)
 {
     setlinetexture(9, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR02");
     clearlinespecial();
     mapvar2++;
 }
 
-script 10 (void)  
+script 10 (void)
 {
     setlinetexture(10, SIDE_FRONT, TEXTURE_MIDDLE, "GEAR02");
     clearlinespecial();
     mapvar2++;
 }
 
-script 11 (void)  
+script 11 (void)
 {
 }
 
@@ -128,7 +128,7 @@ script 12 OPEN
     terminate;
 }
 
-script 13 (void)  
+script 13 (void)
 {
     if(mapvar3 == 0)
     {
@@ -139,7 +139,7 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
     mapvar6 = random(const:1, 8);
     switch(mapvar6)
@@ -280,7 +280,7 @@ script 14 (void)
     restart;
 }
 
-script 15 (void)  
+script 15 (void)
 {
     if(++mapvar8 == 5)
     {
@@ -288,14 +288,14 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     Plat_PerpetualRaise(1, 16, 105);
     Thing_Activate(const:21);
     Light_Fade(const:5, 176, 35);
 }
 
-script 17 (void)  
+script 17 (void)
 {
     Thing_ProjectileGravity(4, T_FIREBALL1, random(const:1, 255), 30, 32);
     thingsound(4, "FireDemonAttack", 127);
@@ -311,7 +311,7 @@ script 17 (void)
     restart;
 }
 
-script 18 (void)  
+script 18 (void)
 {
     if(mapvar11 == 0)
     {
@@ -343,7 +343,7 @@ script 18 (void)
     }
 }
 
-script 19 (void)  
+script 19 (void)
 {
     mapvar1++;
 }
@@ -358,14 +358,14 @@ script 20 OPEN
     terminate;
 }
 
-script 21 (void)  
+script 21 (void)
 {
     Plat_DownWaitUpStay(const:6, 16, 350);
     delay(const:350);
     restart;
 }
 
-script 22 (void)  
+script 22 (void)
 {
     if(++mapvar9 == 4)
     {
@@ -374,7 +374,7 @@ script 22 (void)
     }
 }
 
-script 23 (void)  
+script 23 (void)
 {
     thingsound(50, "ClockTick", 64);
     delay(const:20);

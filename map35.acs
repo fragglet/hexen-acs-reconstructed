@@ -26,7 +26,7 @@ int mapvar13;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     int var0;
 
@@ -60,7 +60,7 @@ script 1 (void)
     }
 }
 
-script 2 (int arg0)  
+script 2 (int arg0)
 {
     int var0;
     int var1;
@@ -150,7 +150,7 @@ script 2 (int arg0)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -164,7 +164,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(mapvar2 == 1)
     {
@@ -172,7 +172,7 @@ script 4 (void)
     }
 }
 
-script 5 (int arg0)  
+script 5 (int arg0)
 {
     int var0;
 

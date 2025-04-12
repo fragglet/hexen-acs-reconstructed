@@ -14,7 +14,7 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(mapvar0 == 0)
     {
@@ -25,7 +25,7 @@ script 1 (void)
     }
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Polyobj_OR_Move(const:8, 6, 64, 128);
     Polyobj_OR_Move(const:7, 6, 64, 1);
@@ -34,7 +34,7 @@ script 2 (void)
     mapvar1++;
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -47,7 +47,7 @@ script 4 (void)
     terminate;
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Polyobj_OR_Move(const:9, 6, 192, 128);
     Polyobj_OR_Move(const:10, 6, 192, 1);
@@ -83,7 +83,7 @@ script 7 OPEN
     setlinespecial(5, 80 /*ACS_Execute*/, 10, 0, 0, 0, 0);
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -107,7 +107,7 @@ script 8 (void)
     }
 }
 
-script 9 (void)  
+script 9 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -129,7 +129,7 @@ script 9 (void)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {

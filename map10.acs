@@ -21,7 +21,7 @@ world int 0:world0;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Thing_Activate(const:7);
     Light_Fade(const:10, 192, 35);
@@ -29,7 +29,7 @@ script 1 (void)
     clearlinespecial();
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(thingcount(T_ETTIN, 1) < 5)
     {
@@ -41,7 +41,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(thingcount(T_CENTAUR, 1) < 6)
     {
@@ -53,19 +53,19 @@ script 3 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Polyobj_Move(const:8, 8, 128, 64);
     clearlinespecial();
 }
 
-script 6 (void)  
+script 6 (void)
 {
     Floor_LowerByValue(const:5, 4, 80);
     clearlinespecial();
 }
 
-script 7 (void)  
+script 7 (void)
 {
     int var0;
 
@@ -85,12 +85,12 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     Door_Raise(const:6, 16, 105);
 }
 
-script 9 (void)  
+script 9 (void)
 {
     if(mapvar0 == 0)
     {
@@ -102,7 +102,7 @@ script 9 (void)
     }
 }
 
-script 10 (void)  
+script 10 (void)
 {
     Polyobj_Move(const:6, 4, 0, 64);
     Thing_Activate(const:5);
@@ -110,7 +110,7 @@ script 10 (void)
     clearlinespecial();
 }
 
-script 11 (void)  
+script 11 (void)
 {
     if(mapvar1 == 0)
     {
@@ -131,7 +131,7 @@ script 12 OPEN
     restart;
 }
 
-script 13 (void)  
+script 13 (void)
 {
     sectorsound("Switch1", 127);
     sectorsound("SwitchOtherLevel", 127);
@@ -152,7 +152,7 @@ script 13 (void)
     }
 }
 
-script 14 (void)  
+script 14 (void)
 {
     sectorsound("Switch1", 127);
     sectorsound("SwitchOtherLevel", 127);
@@ -173,7 +173,7 @@ script 14 (void)
     }
 }
 
-script 15 (void)  
+script 15 (void)
 {
     Floor_LowerInstant(const:20, 0, 18);
     changefloor(const:20, "X_001");

@@ -10,7 +10,7 @@
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Floor_LowerByValue(const:3, 32, 128);
     Floor_LowerByValue(const:4, 32, 120);
@@ -21,7 +21,7 @@ script 1 (void)
     tagwait(const:4);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {
@@ -30,7 +30,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
     {

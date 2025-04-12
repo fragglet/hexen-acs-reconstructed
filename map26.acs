@@ -24,7 +24,7 @@ int mapvar11;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     if(mapvar0 == 1)
     {
@@ -37,7 +37,7 @@ script 1 (void)
     ACS_Execute(23, 26, 1, 0, 0);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(mapvar0 == 2)
     {
@@ -50,7 +50,7 @@ script 2 (void)
     ACS_Execute(23, 26, 2, 0, 0);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(mapvar0 == 3)
     {
@@ -63,7 +63,7 @@ script 3 (void)
     ACS_Execute(23, 26, 3, 0, 0);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(mapvar0 == 4)
     {
@@ -76,7 +76,7 @@ script 4 (void)
     ACS_Execute(23, 26, 4, 0, 0);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     if(mapvar0 == 5)
     {
@@ -89,7 +89,7 @@ script 5 (void)
     ACS_Execute(23, 26, 5, 0, 0);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     if(mapvar0 == 6)
     {
@@ -102,7 +102,7 @@ script 6 (void)
     ACS_Execute(23, 26, 6, 0, 0);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(mapvar0 == 7)
     {
@@ -115,7 +115,7 @@ script 7 (void)
     ACS_Execute(23, 26, 7, 0, 0);
 }
 
-script 8 (void)  
+script 8 (void)
 {
     if(mapvar0 == 8)
     {
@@ -128,7 +128,7 @@ script 8 (void)
     ACS_Execute(23, 26, 8, 0, 0);
 }
 
-script 9 (void)  
+script 9 (void)
 {
     if(mapvar2 == 1)
     {
@@ -214,7 +214,7 @@ script 10 OPEN
     }
 }
 
-script 11 (void)  
+script 11 (void)
 {
 }
 
@@ -261,7 +261,7 @@ script 14 OPEN
     terminate;
 }
 
-script 15 (void)  
+script 15 (void)
 {
     mapvar3++;
 }
@@ -276,7 +276,7 @@ script 16 OPEN
     Floor_LowerByValue(const:29, 64, 120);
 }
 
-script 18 (void)  
+script 18 (void)
 {
     Floor_LowerByValue(const:30, 64, 120);
     delay(const:70);
@@ -289,7 +289,7 @@ script 18 (void)
     terminate;
 }
 
-script 19 (void)  
+script 19 (void)
 {
     delay(const:35);
     setlinetexture(10, SIDE_FRONT, TEXTURE_BOTTOM, "X_SWMP1");
@@ -305,7 +305,7 @@ script 19 (void)
     changefloor(const:31, "X_009");
 }
 
-script 20 (void)  
+script 20 (void)
 {
     delay(const:35);
     ACS_Terminate(const:19, 0);
@@ -348,7 +348,7 @@ script 22 OPEN
     setlinespecial(9, 80 /*ACS_Execute*/, 9, 0, 0, 0, 0);
 }
 
-script 23 (int arg0)  
+script 23 (int arg0)
 {
     setlinetexture(arg0, SIDE_FRONT, TEXTURE_BOTTOM, "S_11");
 }

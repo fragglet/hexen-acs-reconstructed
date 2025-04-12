@@ -10,14 +10,14 @@
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Stairs_BuildUp(const:4, 4, 16, 0, 0);
     delay(const:16);
     Door_Raise(7, 4, 0);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Floor_LowerByValue(10, 16, 128);
     delay(const:64);
@@ -27,7 +27,7 @@ script 2 (void)
     Door_Open(const:34, 16);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     Door_Raise(const:12, 16, 0);
     delay(const:32);
@@ -36,7 +36,7 @@ script 3 (void)
     Floor_RaiseByValueTimes8(const:14, 8, 64);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -51,7 +51,7 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
 

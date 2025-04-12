@@ -10,7 +10,7 @@
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Floor_LowerByValue(const:1, 64, 56);
     Floor_RaiseByValue(const:3, 32, 40);
@@ -19,7 +19,7 @@ script 1 (void)
     changefloor(const:1, "X_009");
 }
 
-script 2 (void)  
+script 2 (void)
 {
     sectorsound("ValveTurn", 127);
     setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "valve02");
@@ -40,7 +40,7 @@ script 2 (void)
     delay(const:32);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     sectorsound("ValveTurn", 127);
     setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "valve02");
@@ -61,13 +61,13 @@ script 3 (void)
     Door_Raise(const:7, 4, 0);
 }
 
-script 4 (void)  
+script 4 (void)
 {
     Floor_LowerByValue(const:8, 16, 72);
     Floor_LowerByValue(const:9, 16, 72);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     sectorsound("ValveTurn", 127);
     setlinetexture(3, SIDE_FRONT, TEXTURE_MIDDLE, "valve02");
@@ -81,7 +81,7 @@ script 5 (void)
     Floor_LowerToLowest(const:12, 8);
 }
 
-script 6 (void)  
+script 6 (void)
 {
     sectorsound("ValveTurn", 127);
     setlinetexture(4, SIDE_FRONT, TEXTURE_MIDDLE, "valve02");
@@ -95,19 +95,19 @@ script 6 (void)
     Floor_LowerToLowest(const:13, 8);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     delay(const:16);
     Plat_UpWaitDownStay(const:23, 16, 16);
 }
 
-script 8 (void)  
+script 8 (void)
 {
     delay(const:32);
     Plat_UpWaitDownStay(const:24, 8, 64);
 }
 
-script 9 (void)  
+script 9 (void)
 {
     Door_Open(const:50, 16);
     Pillar_Open(const:25, 8, 56, 56);

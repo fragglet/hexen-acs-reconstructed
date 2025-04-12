@@ -17,19 +17,19 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Teleport(const:15);
     delay(const:35);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     Door_Open(const:33, 16);
     Floor_LowerInstant(const:5, 0, 250);
 }
 
-script 3 (void)  
+script 3 (void)
 {
     if(mapvar0 == 0)
     {
@@ -56,7 +56,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     if(mapvar2 == 0)
     {
@@ -69,7 +69,7 @@ script 4 (void)
     }
 }
 
-script 5 (void)  
+script 5 (void)
 {
     int var0;
 
@@ -95,13 +95,13 @@ script 6 OPEN
     Light_Fade(const:25, 128, 35);
 }
 
-script 7 (void)  
+script 7 (void)
 {
     setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "BOOKS04");
     mapvar1++;
 }
 
-script 8 (void)  
+script 8 (void)
 {
     setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "BOOKS04");
     mapvar1++;
@@ -114,18 +114,18 @@ script 9 OPEN
     setlinespecial(3, 80 /*ACS_Execute*/, 23, 23, 0, 0, 0);
 }
 
-script 10 (void)  
+script 10 (void)
 {
     Thing_Activate(const:10);
     Light_Fade(const:26, 176, 15);
 }
 
-script 11 (void)  
+script 11 (void)
 {
     Polyobj_DoorSwing(const:3, 8, 64, 70);
 }
 
-script 12 (void)  
+script 12 (void)
 {
     Polyobj_DoorSwing(const:5, 4, 64, 210);
 }
@@ -141,7 +141,7 @@ script 13 OPEN
     Stairs_BuildDownSync(const:18, 8, 16, 0);
 }
 
-script 14 (void)  
+script 14 (void)
 {
     if(thingcount(T_FIREGARGOYLE, 12) == 0)
     {
@@ -150,7 +150,7 @@ script 14 (void)
     }
 }
 
-script 15 (void)  
+script 15 (void)
 {
     if(mapvar3 == 0)
     {
@@ -164,7 +164,7 @@ script 15 (void)
     }
 }
 
-script 16 (void)  
+script 16 (void)
 {
     if(thingcount(T_BISHOP, 13) == 0)
     {
@@ -178,23 +178,23 @@ script 16 (void)
     }
 }
 
-script 17 (void)  
+script 17 (void)
 {
     Thing_Activate(const:17);
     Light_Fade(const:30, 176, 35);
 }
 
-script 18 (void)  
+script 18 (void)
 {
 }
 
-script 20 (void)  
+script 20 (void)
 {
     Polyobj_DoorSwing(const:5, 4, 64, 210);
     Ceiling_RaiseByValue(const:20, 16, 128);
 }
 
-script 22 (int arg0, int arg1, int arg2)  
+script 22 (int arg0, int arg1, int arg2)
 {
     int var0;
 
@@ -209,7 +209,7 @@ script 22 (int arg0, int arg1, int arg2)
     }
 }
 
-script 23 (void)  
+script 23 (void)
 {
     sectorsound("ValveTurn", 127);
     setlinetexture(3, SIDE_FRONT, TEXTURE_MIDDLE, "SW_EL2");
@@ -223,7 +223,7 @@ script 23 (void)
     Teleport_NewMap(const:24, 0);
 }
 
-script 24 (void)  
+script 24 (void)
 {
     print(s:"YOU HEAR A DOOR OPEN UPSTAIRS");
     Door_Raise(const:8, 32, 0);

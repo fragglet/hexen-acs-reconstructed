@@ -16,7 +16,7 @@ int mapvar3;
 // ----------------------------------------
 // Scripts:
 
-script 1 (void)  
+script 1 (void)
 {
     Floor_LowerByValue(const:7, 32, 120);
     Light_Fade(const:90, 160, 64);
@@ -28,7 +28,7 @@ script 1 (void)
     Thing_Spawn(const:4, T_BISHOP, 192);
 }
 
-script 2 (void)  
+script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
     {
@@ -59,7 +59,7 @@ script 2 (void)
     }
 }
 
-script 3 (void)  
+script 3 (void)
 {
     mapvar0 = mapvar0+1;
     if(mapvar0 == 4)
@@ -84,7 +84,7 @@ script 3 (void)
     }
 }
 
-script 4 (void)  
+script 4 (void)
 {
     int var0;
 
@@ -98,7 +98,7 @@ script 4 (void)
     Light_RaiseByValue(const:29, 48);
 }
 
-script 5 (void)  
+script 5 (void)
 {
     Thing_Activate(const:5);
     Light_Fade(const:39, 172, 32);
@@ -110,7 +110,7 @@ script 5 (void)
     }
 }
 
-script 6 (int arg0, int arg1, int arg2)  
+script 6 (int arg0, int arg1, int arg2)
 {
     int var0;
 
@@ -125,7 +125,7 @@ script 6 (int arg0, int arg1, int arg2)
     }
 }
 
-script 7 (void)  
+script 7 (void)
 {
     if(mapvar2 == 0)
     {
@@ -133,19 +133,19 @@ script 7 (void)
     }
 }
 
-script 8 (void)  
+script 8 (void)
 {
     mapvar3++;
     terminate;
 }
 
-script 9 (void)  
+script 9 (void)
 {
     mapvar3++;
     terminate;
 }
 
-script 10 (void)  
+script 10 (void)
 {
     if(mapvar3 == 2)
     {
