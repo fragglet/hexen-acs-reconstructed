@@ -6,12 +6,12 @@
 // ----------------------------------------
 // List of MAP variables:
 int mapvar0;
-int mapvar1;
-int mapvar2;
+int ramparts_opened;
+int courtyard_opened;
 int mapvar3;
 int mapvar4;
 int mapvar5;
-int mapvar6;
+int alcove_count;
 
 // ----------------------------------------
 // Scripts:
@@ -116,12 +116,12 @@ script 6 (void)
 // lines surrounding the teleporter if the player gets too close to it.
 script 7 (void)
 {
-    if(mapvar6 < 4)
+    if(alcove_count < 4)
     {
         Floor_MoveToValueTimes8(const:30, 64, 2, FALSE);
         delay(const:256);
         Floor_RaiseAndCrush(const:30, 32, 100);
-        mapvar6++;
+        alcove_count++;
     }
 }
 
@@ -129,7 +129,7 @@ script 7 (void)
 // the emerald key door that leads up to the ramparts.
 script 8 (void)
 {
-    if(mapvar1 == 0)
+    if(ramparts_opened == 0)
     {
         print(s:"THE DOOR IS LOCKED");
     }
@@ -140,7 +140,7 @@ script 8 (void)
 script 9 (void)
 {
     Door_Open(const:18, 16);
-    mapvar1 = 1;
+    ramparts_opened = 1;
 }
 
 // Script 10 implements the switch found on top of the ramparts next to the
@@ -149,13 +149,13 @@ script 9 (void)
 script 10 (void)
 {
     Door_Open(const:14, 16);
-    mapvar2 = 1;
+    courtyard_opened = 1;
 }
 
 // TODO
 script 11 (void)
 {
-    if(mapvar2 == 0)
+    if(courtyard_opened == 0)
     {
         print(s:"THE DOOR IS LOCKED");
     }
