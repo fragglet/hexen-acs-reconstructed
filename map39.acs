@@ -21,6 +21,7 @@ str mapstr8;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 555 at (0, -1168)
 script 1 (void)
 {
     Polyobj_RotateLeft(const:3, 4, 64);
@@ -223,6 +224,7 @@ script 4 OPEN
     restart;
 }
 
+// Started by line 349 at (64, 1864)
 script 5 (void)
 {
     Thing_Activate(const:6);

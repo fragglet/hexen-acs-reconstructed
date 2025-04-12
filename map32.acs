@@ -10,6 +10,15 @@
 // ----------------------------------------
 // Scripts:
 
+// Started by line 440 at (208, -1664)
+// Started by line 446 at (-176, -1664)
+// Started by line 452 at (432, -1664)
+// Started by line 458 at (720, -2176)
+// Started by line 464 at (272, -2272)
+// Started by line 470 at (432, -2688)
+// Started by line 476 at (48, -2688)
+// Started by line 482 at (-176, -2688)
+// Started by line 488 at (-464, -2176)
 script 1 (void)
 {
     Floor_LowerByValue(const:3, 32, 128);
@@ -30,6 +39,7 @@ script 2 (void)
     }
 }
 
+// Started by line 502 at (48, -2016)
 script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)

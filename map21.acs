@@ -16,6 +16,7 @@ int mapvar3;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 590 at (-544, 288)
 script 1 (void)
 {
     Floor_LowerByValue(const:7, 32, 120);
@@ -28,6 +29,8 @@ script 1 (void)
     Thing_Spawn(const:4, T_BISHOP, 192);
 }
 
+// Started (locked) by line 934 at (-864, 1488)
+// Started (locked) by line 938 at (-1056, 1488)
 script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -59,6 +62,10 @@ script 2 (void)
     }
 }
 
+// Started by line 691 at (-512, 1632)
+// Started by line 694 at (-512, 1664)
+// Started by line 698 at (576, 1632)
+// Started by line 701 at (576, 1664)
 script 3 (void)
 {
     mapvar0 = mapvar0+1;
@@ -84,6 +91,7 @@ script 3 (void)
     }
 }
 
+// Started by line 482 at (-480, 1200)
 script 4 (void)
 {
     int var0;
@@ -98,6 +106,7 @@ script 4 (void)
     Light_RaiseByValue(const:29, 48);
 }
 
+// Started by line 1020 at (880, 992)
 script 5 (void)
 {
     Thing_Activate(const:5);
@@ -110,6 +119,12 @@ script 5 (void)
     }
 }
 
+// Started by line 965 at (832, 1112)
+// Started by line 968 at (832, 872)
+// Started by line 969 at (960, 872)
+// Started by line 970 at (1088, 872)
+// Started by line 971 at (960, 1112)
+// Started by line 972 at (1088, 1112)
 script 6 (int arg0, int arg1, int arg2)
 {
     int var0;
@@ -125,6 +140,10 @@ script 6 (int arg0, int arg1, int arg2)
     }
 }
 
+// Started by line 152 at (-408, 1424)
+// Started by line 169 at (-408, 1872)
+// Started by line 223 at (472, 1872)
+// Started by line 225 at (472, 1424)
 script 7 (void)
 {
     if(mapvar2 == 0)

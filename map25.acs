@@ -17,6 +17,7 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 848 at (-32, -496)
 script 1 (void)
 {
     if(++mapvar0 == 1)
@@ -64,12 +65,15 @@ script 1 (void)
     }
 }
 
+// Started by line 230 at (-704, -288)
+// Started by line 405 at (-704, 96)
 script 2 (void)
 {
     Door_Raise(const:1, 16, 70);
     Plat_DownWaitUpStay(const:3, 16, 105);
 }
 
+// Started by line 857 at (-256, 532)
 script 3 (void)
 {
     delay(110);
@@ -116,6 +120,7 @@ script 6 (void)
     restart;
 }
 
+// Started by line 467 at (-928, -448)
 script 7 (void)
 {
     Thing_Activate(const:9);
@@ -148,72 +153,84 @@ script 10 (void)
     }
 }
 
+// Started by line 937 at (-1392, 336)
 script 11 (void)
 {
     Floor_LowerByValue(const:10, 16, 24);
     Polyobj_Move(const:3, 8, 0, 64);
 }
 
+// Started by line 463 at (-1472, -352)
 script 12 (void)
 {
     Thing_Activate(const:11);
     Light_Glow(const:23, 176, 160, 30);
 }
 
+// Started by line 464 at (-1472, -96)
 script 13 (void)
 {
     Thing_Activate(const:12);
     Light_Glow(const:24, 176, 160, 30);
 }
 
+// Started by line 523 at (-1076, 940)
 script 14 (void)
 {
     Thing_Activate(const:13);
     Light_Glow(const:25, 160, 144, 30);
 }
 
+// Started by line 573 at (-1192, 1084)
 script 15 (void)
 {
     Thing_Activate(const:14);
     Light_Glow(const:26, 160, 144, 30);
 }
 
+// Started by line 525 at (-1072, 1280)
 script 16 (void)
 {
     Thing_Activate(const:15);
     Light_Glow(const:27, 160, 144, 30);
 }
 
+// Started by line 527 at (-856, 1284)
 script 17 (void)
 {
     Thing_Activate(const:16);
     Light_Glow(const:28, 160, 144, 30);
 }
 
+// Started by line 536 at (-400, 1328)
 script 18 (void)
 {
     Thing_Activate(const:17);
     Light_Glow(const:29, 160, 144, 30);
 }
 
+// Started by line 574 at (-176, 1220)
 script 19 (void)
 {
     Thing_Activate(const:18);
     Light_Glow(const:30, 160, 144, 30);
 }
 
+// Started by line 576 at (-116, 1024)
 script 20 (void)
 {
     Thing_Activate(const:19);
     Light_Glow(const:31, 160, 144, 30);
 }
 
+// Started by line 539 at (-288, 872)
 script 21 (void)
 {
     Thing_Activate(const:20);
     Light_Glow(const:32, 160, 144, 30);
 }
 
+// Started by line 534 at (-560, 1204)
 script 22 (void)
 {
     Thing_Activate(const:21);

@@ -19,6 +19,8 @@ script 1 (void)
     Door_Open(const:4, 16);
 }
 
+// Started by line 777 at (-256, 2432)
+// Started by line 847 at (640, 2432)
 script 2 (int arg0)
 {
     int var0;
@@ -79,6 +81,7 @@ script 2 (int arg0)
     }
 }
 
+// Started by line 255 at (-680, -224)
 script 3 (void)
 {
     Door_Open(const:13, 16);
@@ -105,6 +108,7 @@ script 4 (int arg0, int arg1)
     }
 }
 
+// Started by line 1346 at (192, 1088)
 script 5 (void)
 {
     int var0;
@@ -121,6 +125,8 @@ script 5 (void)
     }
 }
 
+// Started by line 1390 at (128, 960)
+// Started by line 1391 at (256, 960)
 script 6 (int arg0, int arg1, int arg2)
 {
     int var0;
@@ -197,6 +203,7 @@ script 9 (void)
     Light_Fade(const:11, 144, 32);
 }
 
+// Started by line 355 at (-192, 1216)
 script 10 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)

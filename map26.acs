@@ -261,6 +261,8 @@ script 14 OPEN
     terminate;
 }
 
+// Started by line 312 at (-1152, 736)
+// Started by line 313 at (-1152, -992)
 script 15 (void)
 {
     mapvar3++;
@@ -276,6 +278,7 @@ script 16 OPEN
     Floor_LowerByValue(const:29, 64, 120);
 }
 
+// Started by line 414 at (1216, -128)
 script 18 (void)
 {
     Floor_LowerByValue(const:30, 64, 120);
@@ -305,6 +308,7 @@ script 19 (void)
     changefloor(const:31, "X_009");
 }
 
+// Started by line 419 at (2320, -128)
 script 20 (void)
 {
     delay(const:35);

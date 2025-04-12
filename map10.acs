@@ -21,6 +21,7 @@ world int 0:world0;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 841 at (352, 552)
 script 1 (void)
 {
     Thing_Activate(const:7);
@@ -53,12 +54,14 @@ script 3 (void)
     }
 }
 
+// Started by line 710 at (1312, -2576)
 script 5 (void)
 {
     Polyobj_Move(const:8, 8, 128, 64);
     clearlinespecial();
 }
 
+// Started (locked) by line 1962 at (-208, -960)
 script 6 (void)
 {
     Floor_LowerByValue(const:5, 4, 80);
@@ -85,11 +88,19 @@ script 7 (void)
     }
 }
 
+// Started (locked) by line 1068 at (816, 224)
+// Started (locked) by line 1069 at (800, 224)
 script 8 (void)
 {
     Door_Raise(const:6, 16, 105);
 }
 
+// Started by line 698 at (-576, 1440)
+// Started by line 699 at (-512, 1568)
+// Started by line 700 at (-384, 1568)
+// Started by line 701 at (-320, 1440)
+// Started by line 702 at (-384, 1332)
+// Started by line 703 at (-512, 1332)
 script 9 (void)
 {
     if(mapvar0 == 0)
@@ -102,6 +113,7 @@ script 9 (void)
     }
 }
 
+// Started (locked) by line 405 at (416, -3488)
 script 10 (void)
 {
     Polyobj_Move(const:6, 4, 0, 64);
@@ -110,6 +122,8 @@ script 10 (void)
     clearlinespecial();
 }
 
+// Started by line 144 at (576, -3040)
+// Started by line 147 at (576, -3008)
 script 11 (void)
 {
     if(mapvar1 == 0)

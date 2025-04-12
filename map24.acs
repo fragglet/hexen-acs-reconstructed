@@ -10,6 +10,7 @@
 // ----------------------------------------
 // Scripts:
 
+// Started by line 319 at (368, 288)
 script 1 (void)
 {
     Floor_LowerByValue(const:1, 64, 56);
@@ -19,6 +20,7 @@ script 1 (void)
     changefloor(const:1, "X_009");
 }
 
+// Started by line 1215 at (976, 256)
 script 2 (void)
 {
     sectorsound("ValveTurn", 127);
@@ -40,6 +42,7 @@ script 2 (void)
     delay(const:32);
 }
 
+// Started by line 598 at (1328, 128)
 script 3 (void)
 {
     sectorsound("ValveTurn", 127);
@@ -61,12 +64,14 @@ script 3 (void)
     Door_Raise(const:7, 4, 0);
 }
 
+// Started by line 761 at (-16, -536)
 script 4 (void)
 {
     Floor_LowerByValue(const:8, 16, 72);
     Floor_LowerByValue(const:9, 16, 72);
 }
 
+// Started by line 857 at (-512, 896)
 script 5 (void)
 {
     sectorsound("ValveTurn", 127);
@@ -81,6 +86,7 @@ script 5 (void)
     Floor_LowerToLowest(const:12, 8);
 }
 
+// Started by line 849 at (-512, 1408)
 script 6 (void)
 {
     sectorsound("ValveTurn", 127);
@@ -95,18 +101,23 @@ script 6 (void)
     Floor_LowerToLowest(const:13, 8);
 }
 
+// Started by line 1159 at (-168, -712)
 script 7 (void)
 {
     delay(const:16);
     Plat_UpWaitDownStay(const:23, 16, 16);
 }
 
+// Started by line 1170 at (-336, -456)
+// Started by line 1176 at (-368, -424)
+// Started by line 1177 at (-304, -424)
 script 8 (void)
 {
     delay(const:32);
     Plat_UpWaitDownStay(const:24, 8, 64);
 }
 
+// Started by line 511 at (440, 448)
 script 9 (void)
 {
     Door_Open(const:50, 16);

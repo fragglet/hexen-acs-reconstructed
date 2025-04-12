@@ -14,6 +14,7 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 458 at (-448, 928)
 script 1 (void)
 {
     Polyobj_Move(const:3, 32, 192, 64);
@@ -31,6 +32,7 @@ script 1 (void)
     Door_Open(const:6, 16);
 }
 
+// Started by line 556 at (504, 1440)
 script 2 (void)
 {
     int var0;
@@ -98,6 +100,7 @@ script 2 (void)
     Thing_Activate(const:22);
 }
 
+// Started by line 654 at (1224, 888)
 script 3 (void)
 {
     int var0;
@@ -145,6 +148,8 @@ script 4 OPEN
     }
 }
 
+// Started by line 847 at (-352, 112)
+// Started by line 852 at (-352, 256)
 script 5 (void)
 {
     int var0;
@@ -166,6 +171,8 @@ script 5 (void)
     }
 }
 
+// Started by line 227 at (1080, 168)
+// Started by line 254 at (264, 168)
 script 6 (void)
 {
     if(mapvar0 == 0)
@@ -212,6 +219,7 @@ script 6 (void)
     }
 }
 
+// Started by line 941 at (672, 776)
 script 7 (void)
 {
     Door_Open(const:84, 32);
@@ -223,6 +231,7 @@ script 7 (void)
     Thing_Spawn(const:24, T_ETTIN, 128);
 }
 
+// Started by line 366 at (672, -512)
 script 8 (void)
 {
     Teleport(const:55);
@@ -296,6 +305,8 @@ script 11 (void)
     }
 }
 
+// Started by line 229 at (1128, 168)
+// Started by line 240 at (216, 168)
 script 12 (int arg0)
 {
     Thing_Activate(const:31);

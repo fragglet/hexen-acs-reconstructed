@@ -10,12 +10,14 @@
 // ----------------------------------------
 // Scripts:
 
+// Started by line 232 at (-64, 2000)
 script 1 (void)
 {
     Floor_RaiseByValue(const:2, 4, 128);
     Door_Raise(const:3, 16, 0);
 }
 
+// Started by line 319 at (-64, 2424)
 script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -34,6 +36,7 @@ script 2 (void)
     Plat_PerpetualRaise(const:2, 16, 64);
 }
 
+// Started by line 248 at (272, 1056)
 script 3 (void)
 {
     delay(const:128);
@@ -45,6 +48,7 @@ script 4 (void)
 {
 }
 
+// Started by line 503 at (-1008, 1124)
 script 5 (void)
 {
     Floor_LowerByValue(const:25, 32, 104);

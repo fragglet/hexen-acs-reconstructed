@@ -14,6 +14,15 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 9 at (160, 704)
+// Started by line 10 at (32, 864)
+// Started by line 11 at (-288, 864)
+// Started by line 12 at (-416, 704)
+// Started by line 19 at (-192, 544)
+// Started by line 25 at (-64, 544)
+// Started by line 136 at (-128, 576)
+// Started by line 451 at (-288, 528)
+// Started by line 452 at (32, 528)
 script 1 (void)
 {
     if(mapvar0 == 0)
@@ -34,6 +43,7 @@ script 2 (void)
     mapvar1++;
 }
 
+// Started by line 601 at (-128, -1088)
 script 4 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)

@@ -13,6 +13,7 @@ world int 0:world0;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 341 at (1256, 392)
 script 1 (void)
 {
     Floor_LowerByValue(const:7, 16, 80);
@@ -72,11 +73,16 @@ script 3 (void)
     }
 }
 
+// Started (locked) by line 440 at (-864, 536)
+// Started (locked) by line 807 at (-960, 544)
 script 4 (void)
 {
     Ceiling_RaiseByValue(const:2, 16, 128);
 }
 
+// Started by line 178 at (1128, 1052)
+// Started by line 479 at (-504, 1116)
+// Started by line 1293 at (1452, 1740)
 script 5 (int arg0)
 {
     Thing_Activate(arg0);

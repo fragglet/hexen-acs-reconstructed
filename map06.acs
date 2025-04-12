@@ -19,6 +19,7 @@ script 1 OPEN
     setlinespecial(2, 80 /*ACS_Execute*/, 8, 0, 0, 0, 0);
 }
 
+// Started by line 105 at (-1216, -112)
 script 2 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -46,6 +47,7 @@ script 2 (void)
     }
 }
 
+// Started by line 769 at (-1216, -64)
 script 3 (void)
 {
     delay(const:25);
@@ -90,6 +92,7 @@ script 5 (void)
     ACS_Terminate(const:2, 0);
 }
 
+// Started by line 902 at (1856, 128)
 script 6 (void)
 {
     delay(const:25);
@@ -130,6 +133,7 @@ script 7 (void)
     restart;
 }
 
+// Started by line 149 at (-32, -2752)
 script 8 (void)
 {
     int var0;
@@ -195,6 +199,7 @@ script 10 OPEN
     }
 }
 
+// Started by line 865 at (2016, -1504)
 script 11 (void)
 {
     Stairs_BuildUp(const:1, 5, 16, 0, 0);

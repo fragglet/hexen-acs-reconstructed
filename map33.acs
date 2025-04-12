@@ -10,6 +10,7 @@
 // ----------------------------------------
 // Scripts:
 
+// Started by line 384 at (1520, -640)
 script 1 (void)
 {
     Stairs_BuildUp(const:4, 4, 16, 0, 0);
@@ -17,6 +18,7 @@ script 1 (void)
     Door_Raise(7, 4, 0);
 }
 
+// Started by line 922 at (-832, 912)
 script 2 (void)
 {
     Floor_LowerByValue(10, 16, 128);
@@ -27,6 +29,7 @@ script 2 (void)
     Door_Open(const:34, 16);
 }
 
+// Started by line 923 at (768, 720)
 script 3 (void)
 {
     Door_Raise(const:12, 16, 0);
@@ -36,6 +39,7 @@ script 3 (void)
     Floor_RaiseByValueTimes8(const:14, 8, 64);
 }
 
+// Started by line 753 at (320, -160)
 script 4 (void)
 {
     int var0;
@@ -51,6 +55,7 @@ script 4 (void)
     }
 }
 
+// Started by line 759 at (304, -224)
 script 5 (void)
 {
     int var0;
@@ -64,6 +69,7 @@ script 5 (void)
     }
 }
 
+// Started by line 384 at (1520, -640)
 script 1 OPEN
 {
 }

@@ -25,6 +25,9 @@ int mapvar12;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 656 at (1920, 160)
+// Started by line 769 at (-1816, 160)
+// Started by line 1162 at (96, 2008)
 script 1 (void)
 {
     int var0;
@@ -92,6 +95,7 @@ script 1 (void)
     }
 }
 
+// Started by line 1534 at (928, 160)
 script 2 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -107,6 +111,7 @@ script 2 (void)
     Floor_LowerByValue(const:1, 8, 16);
 }
 
+// Started by line 546 at (-656, 160)
 script 3 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -134,6 +139,7 @@ script 3 (void)
     }
 }
 
+// Started by line 1535 at (-736, 160)
 script 4 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -146,6 +152,7 @@ script 4 (void)
     Door_Close(const:7, 64);
 }
 
+// Started by line 1507 at (96, -704)
 script 5 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -162,6 +169,7 @@ script 6 (void)
 {
 }
 
+// Started by line 1533 at (96, 1152)
 script 7 (void)
 {
     int var0;
@@ -182,6 +190,7 @@ script 7 (void)
     }
 }
 
+// Started by line 957 at (176, -800)
 script 8 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -213,6 +222,9 @@ script 8 (void)
     }
 }
 
+// Started by line 972 at (96, -1680)
+// Started by line 980 at (-72, -1600)
+// Started by line 993 at (264, -1600)
 script 9 (int arg0)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -354,6 +366,8 @@ script 11 (void)
     }
 }
 
+// Started by line 1121 at (-344, 1504)
+// Started by line 1136 at (536, 1504)
 script 12 (int arg0)
 {
     Floor_LowerByValue(arg0, 16, 112);
@@ -361,6 +375,8 @@ script 12 (int arg0)
     Thing_Spawn(const:19, T_CENTAUR, 128);
 }
 
+// Started by line 1352 at (-160, -896)
+// Started by line 1353 at (352, -896)
 script 13 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -379,6 +395,10 @@ script 13 (void)
     }
 }
 
+// Started by line 431 at (880, 160)
+// Started by line 674 at (-688, 160)
+// Started by line 782 at (96, -664)
+// Started by line 794 at (96, 1112)
 script 14 (int arg0)
 {
     if(arg0 == mapvar9)

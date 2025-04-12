@@ -14,6 +14,14 @@ int mapvar1;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 12 at (128, -340)
+// Started by line 13 at (64, -340)
+// Started by line 61 at (-532, 256)
+// Started by line 62 at (-532, 320)
+// Started by line 63 at (724, 256)
+// Started by line 64 at (724, 320)
+// Started by line 65 at (128, 916)
+// Started by line 66 at (64, 916)
 script 1 (void)
 {
     int var0;
@@ -41,6 +49,18 @@ script 1 (void)
     }
 }
 
+// Started by line 270 at (-1084, 80)
+// Started by line 276 at (-796, 496)
+// Started by line 286 at (260, -568)
+// Started by line 291 at (-60, -968)
+// Started by line 298 at (1012, 80)
+// Started by line 302 at (1268, 80)
+// Started by line 305 at (1012, 496)
+// Started by line 309 at (1268, 496)
+// Started by line 520 at (-60, -568)
+// Started by line 521 at (260, -968)
+// Started by line 522 at (-796, 80)
+// Started by line 523 at (-1092, 496)
 script 2 (int arg0, int arg1)
 {
     int var0;
@@ -65,6 +85,10 @@ script 2 (int arg0, int arg1)
     }
 }
 
+// Started by line 472 at (96, 1312)
+// Started by line 473 at (96, 1376)
+// Started by line 474 at (64, 1344)
+// Started by line 475 at (128, 1344)
 script 3 (int arg0, int arg1, int arg2)
 {
     int var0;
@@ -112,6 +136,22 @@ script 6 (void)
     Floor_LowerByValue(const:100, 16, 200);
 }
 
+// Started by line 524 at (-780, 928)
+// Started by line 525 at (-552, 1152)
+// Started by line 526 at (-336, 812)
+// Started by line 527 at (-428, 720)
+// Started by line 540 at (620, 720)
+// Started by line 541 at (528, 812)
+// Started by line 542 at (744, 1156)
+// Started by line 543 at (972, 928)
+// Started by line 552 at (-428, -144)
+// Started by line 553 at (-336, -236)
+// Started by line 554 at (-560, -588)
+// Started by line 555 at (-784, -360)
+// Started by line 572 at (528, -228)
+// Started by line 573 at (620, -136)
+// Started by line 574 at (976, -352)
+// Started by line 575 at (752, -576)
 script 7 (int arg0, int arg1)
 {
     int var0;

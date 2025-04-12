@@ -17,6 +17,7 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 197 at (1408, 384)
 script 1 (void)
 {
     int var0;
@@ -57,6 +58,7 @@ script 3 (void)
     }
 }
 
+// Started by line 132 at (704, 112)
 script 4 (void)
 {
     int var0;
@@ -71,12 +73,14 @@ script 4 (void)
     Door_Open(const:82, 16);
 }
 
+// Started by line 680 at (944, -32)
 script 5 (void)
 {
     Floor_RaiseByValue(const:10, 16, 56);
     ACS_Execute(2, 13, 0, 0, 0);
 }
 
+// Started by line 1202 at (-1712, 2472)
 script 6 (void)
 {
     int var0;
@@ -157,6 +161,7 @@ script 7 (void)
     restart;
 }
 
+// Started by line 332 at (516, 356)
 script 8 (void)
 {
     Ceiling_LowerAndCrush(17, random(const:32, 64), 100);
@@ -196,6 +201,7 @@ script 8 (void)
     mapvar4 = 1;
 }
 
+// Started by line 520 at (-176, 520)
 script 9 (void)
 {
     int var0;
@@ -219,6 +225,10 @@ script 10 (void)
     }
 }
 
+// Started by line 250 at (1296, -960)
+// Started by line 252 at (1312, -960)
+// Started by line 254 at (1200, -928)
+// Started by line 256 at (1216, -928)
 script 11 (void)
 {
     if(mapvar0 == 0)
@@ -228,6 +238,7 @@ script 11 (void)
     }
 }
 
+// Started by line 1813 at (-2296, 2824)
 script 12 (void)
 {
     int var0;
@@ -311,6 +322,7 @@ script 16 (void)
     }
 }
 
+// Started by line 1228 at (-1616, 2792)
 script 17 (void)
 {
     ACS_Terminate(6, 13);
@@ -348,6 +360,8 @@ script 23 (void)
     Light_Fade(const:155, 176, 32);
 }
 
+// Started by line 1018 at (-1184, 2116)
+// Started by line 1229 at (-1072, 1664)
 script 24 (void)
 {
     if(mapvar2 == 0)
@@ -357,6 +371,7 @@ script 24 (void)
     }
 }
 
+// Started by line 1563 at (1184, -32)
 script 25 (void)
 {
     if(gametype() != GAME_SINGLE_PLAYER)

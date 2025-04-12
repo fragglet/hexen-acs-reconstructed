@@ -20,6 +20,7 @@ int mapvar7;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 306 at (-64, 1304)
 script 1 (void)
 {
     int var0;
@@ -47,6 +48,7 @@ script 1 (void)
     Floor_LowerByValue(const:24, 24, 32);
 }
 
+// Started by line 191 at (96, 1440)
 script 2 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -67,6 +69,7 @@ script 2 (void)
     }
 }
 
+// Started by line 437 at (-480, 520)
 script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -88,6 +91,10 @@ script 3 (void)
     }
 }
 
+// Started by line 824 at (-1600, 1632)
+// Started by line 825 at (-1568, 1600)
+// Started by line 826 at (-1536, 1632)
+// Started by line 827 at (-1568, 1664)
 script 4 (void)
 {
     int var0;
@@ -119,6 +126,7 @@ script 4 (void)
     }
 }
 
+// Started by line 208 at (-216, 1664)
 script 5 (void)
 {
     int var0;
@@ -189,6 +197,7 @@ script 6 (void)
     }
 }
 
+// Started by line 1074 at (96, 2576)
 script 7 (void)
 {
     int var0;
@@ -236,6 +245,70 @@ script 7 (void)
     }
 }
 
+// Started by line 1005 at (-152, 2108)
+// Started by line 1006 at (-164, 2096)
+// Started by line 1007 at (-168, 2080)
+// Started by line 1008 at (-168, 2064)
+// Started by line 1009 at (-164, 2048)
+// Started by line 1010 at (-152, 2036)
+// Started by line 1011 at (-136, 2032)
+// Started by line 1012 at (-120, 2032)
+// Started by line 1013 at (-104, 2036)
+// Started by line 1014 at (-92, 2048)
+// Started by line 1015 at (-88, 2064)
+// Started by line 1016 at (-88, 2080)
+// Started by line 1017 at (-92, 2096)
+// Started by line 1018 at (-104, 2108)
+// Started by line 1019 at (-120, 2112)
+// Started by line 1020 at (-136, 2112)
+// Started by line 1021 at (-24, 2252)
+// Started by line 1022 at (-36, 2240)
+// Started by line 1023 at (-40, 2224)
+// Started by line 1024 at (-40, 2208)
+// Started by line 1025 at (-36, 2192)
+// Started by line 1026 at (-24, 2180)
+// Started by line 1027 at (-8, 2176)
+// Started by line 1028 at (8, 2176)
+// Started by line 1029 at (24, 2180)
+// Started by line 1030 at (36, 2192)
+// Started by line 1031 at (40, 2208)
+// Started by line 1032 at (40, 2224)
+// Started by line 1033 at (36, 2240)
+// Started by line 1034 at (24, 2252)
+// Started by line 1035 at (8, 2256)
+// Started by line 1036 at (-8, 2256)
+// Started by line 1037 at (168, 2252)
+// Started by line 1038 at (156, 2240)
+// Started by line 1039 at (152, 2224)
+// Started by line 1040 at (152, 2208)
+// Started by line 1041 at (156, 2192)
+// Started by line 1042 at (168, 2180)
+// Started by line 1043 at (184, 2176)
+// Started by line 1044 at (200, 2176)
+// Started by line 1045 at (216, 2180)
+// Started by line 1046 at (228, 2192)
+// Started by line 1047 at (232, 2208)
+// Started by line 1048 at (232, 2224)
+// Started by line 1049 at (228, 2240)
+// Started by line 1050 at (216, 2252)
+// Started by line 1051 at (200, 2256)
+// Started by line 1052 at (184, 2256)
+// Started by line 1053 at (296, 2108)
+// Started by line 1054 at (284, 2096)
+// Started by line 1055 at (280, 2080)
+// Started by line 1056 at (280, 2064)
+// Started by line 1057 at (284, 2048)
+// Started by line 1058 at (296, 2036)
+// Started by line 1059 at (312, 2032)
+// Started by line 1060 at (328, 2032)
+// Started by line 1061 at (344, 2036)
+// Started by line 1062 at (356, 2048)
+// Started by line 1063 at (360, 2064)
+// Started by line 1064 at (360, 2080)
+// Started by line 1065 at (356, 2096)
+// Started by line 1066 at (344, 2108)
+// Started by line 1067 at (328, 2112)
+// Started by line 1068 at (312, 2112)
 script 8 (int arg0, int arg1)
 {
     if(mapvar0 == arg0)
@@ -248,6 +321,7 @@ script 8 (int arg0, int arg1)
     }
 }
 
+// Started by line 1149 at (864, 280)
 script 9 (void)
 {
     int var0;
@@ -268,6 +342,8 @@ script 9 (void)
     Floor_LowerByValue(const:93, 16, 48);
 }
 
+// Started by line 1268 at (1104, -480)
+// Started by line 1269 at (624, -480)
 script 10 (void)
 {
     int var0;
@@ -308,6 +384,7 @@ script 10 (void)
     }
 }
 
+// Started by line 1364 at (416, 376)
 script 11 (void)
 {
     Door_Open(const:74, 32);
@@ -315,6 +392,8 @@ script 11 (void)
     Light_Fade(const:95, 160, 32);
 }
 
+// Started by line 1217 at (608, 136)
+// Started by line 1502 at (608, 280)
 script 12 (void)
 {
     int var0;
@@ -383,6 +462,7 @@ script 12 (void)
     }
 }
 
+// Started by line 418 at (608, 416)
 script 13 (void)
 {
     int var0;
@@ -405,6 +485,7 @@ script 13 (void)
     }
 }
 
+// Started by line 1334 at (96, 488)
 script 14 (void)
 {
     Door_Open(const:71, 32);
@@ -413,6 +494,7 @@ script 14 (void)
     Thing_Spawn(const:14, T_ETTIN, 160);
 }
 
+// Started by line 130 at (-96, 992)
 script 15 (void)
 {
     while(1)
@@ -546,6 +628,7 @@ script 16 (void)
     Thing_Spawn(const:32, T_BRIDGE, 0);
 }
 
+// Started by line 213 at (-120, 1664)
 script 17 (void)
 {
     if(mapvar4 == 1)
@@ -554,6 +637,7 @@ script 17 (void)
     }
 }
 
+// Started by line 215 at (312, 1664)
 script 18 (void)
 {
     if(mapvar5 == 1)
@@ -563,6 +647,7 @@ script 18 (void)
     }
 }
 
+// Started by line 978 at (96, 560)
 script 19 (void)
 {
     mapvar5 = 1;
@@ -573,6 +658,8 @@ script 19 (void)
     Thing_Deactivate(const:35);
 }
 
+// Started by line 198 at (-152, 1664)
+// Started by line 247 at (632, 1664)
 script 20 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -594,6 +681,8 @@ script 22 (void)
     Door_Open(const:101, 16);
 }
 
+// Started by line 953 at (872, 1456)
+// Started by line 956 at (872, 1872)
 script 23 (void)
 {
     if(mapvar7 == 0)
@@ -606,11 +695,14 @@ script 23 (void)
     }
 }
 
+// Started by line 129 at (-80, 992)
+// Started by line 131 at (272, 992)
 script 24 (void)
 {
     print(s:"THIS PATH IS BARRED");
 }
 
+// Started by line 7 at (96, 272)
 script 25 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)

@@ -26,6 +26,8 @@ int mapvar13;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 626 at (2584, 2016)
+// Started by line 630 at (2520, 2016)
 script 1 (void)
 {
     int var0;
@@ -60,6 +62,14 @@ script 1 (void)
     }
 }
 
+// Started by line 563 at (1312, -144)
+// Started by line 567 at (1504, -144)
+// Started by line 571 at (1696, -144)
+// Started by line 575 at (1888, -144)
+// Started by line 581 at (1888, -496)
+// Started by line 585 at (1696, -496)
+// Started by line 589 at (1504, -496)
+// Started by line 593 at (1312, -496)
 script 2 (int arg0)
 {
     int var0;
@@ -150,6 +160,9 @@ script 2 (int arg0)
     }
 }
 
+// Started by line 281 at (248, 360)
+// Started by line 434 at (1216, -320)
+// Started by line 854 at (-776, -916)
 script 3 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -164,6 +177,7 @@ script 3 (void)
     }
 }
 
+// Started by line 781 at (752, -1560)
 script 4 (void)
 {
     if(mapvar2 == 1)

@@ -230,11 +230,14 @@ script 14 OPEN
     }
 }
 
+// Started by line 659 at (1392, 320)
 script 15 (void)
 {
     mapvar0 = 1;
 }
 
+// Started by line 874 at (944, 1888)
+// Started by line 878 at (1024, 1872)
 script 16 (void)
 {
     int var0;
@@ -258,6 +261,7 @@ script 16 (void)
     }
 }
 
+// Started by line 652 at (1344, 256)
 script 17 (void)
 {
     int var0;
@@ -344,6 +348,7 @@ script 17 (void)
     }
 }
 
+// Started by line 916 at (992, 80)
 script 18 (void)
 {
     if(mapvar3 == 0)
@@ -359,6 +364,7 @@ script 18 (void)
     }
 }
 
+// Started by line 910 at (992, 560)
 script 19 (void)
 {
     if(mapvar4 == 0)

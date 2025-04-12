@@ -20,6 +20,7 @@ int mapvar7;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 1480 at (480, 160)
 script 1 (void)
 {
     Door_Raise(const:40, 32, 70);
@@ -29,6 +30,8 @@ script 1 (void)
     Polyobj_DoorSlide(const:19, 32, 192, 64, 70);
 }
 
+// Started by line 1512 at (304, -1712)
+// Started by line 1516 at (304, -1936)
 script 2 (void)
 {
     Plat_DownWaitUpStay(const:4, 64, 140);
@@ -38,6 +41,7 @@ script 2 (void)
     Door_Raise(const:40, 32, 70);
 }
 
+// Started (locked) by line 1630 at (-416, 160)
 script 3 (void)
 {
     Door_Raise(const:41, 32, 70);
@@ -47,6 +51,8 @@ script 3 (void)
     Polyobj_DoorSlide(const:14, 32, 192, 64, 70);
 }
 
+// Started (locked) by line 1546 at (-48, -1712)
+// Started (locked) by line 1551 at (-48, -1936)
 script 4 (void)
 {
     Plat_DownWaitUpStay(const:2, 64, 140);
@@ -56,6 +62,7 @@ script 4 (void)
     Door_Raise(const:41, 32, 70);
 }
 
+// Started by line 1275 at (1360, -992)
 script 5 (void)
 {
     if(mapvar0 == 0)
@@ -66,6 +73,7 @@ script 5 (void)
     }
 }
 
+// Started by line 1283 at (1360, 1312)
 script 6 (void)
 {
     if(mapvar0 == 1)
@@ -76,6 +84,7 @@ script 6 (void)
     }
 }
 
+// Started by line 1305 at (-1296, 1312)
 script 7 (void)
 {
     if(mapvar1 == 1)
@@ -86,6 +95,7 @@ script 7 (void)
     }
 }
 
+// Started by line 1297 at (-1296, -992)
 script 8 (void)
 {
     if(mapvar1 == 0)
@@ -432,6 +442,8 @@ script 33 OPEN
     terminate;
 }
 
+// Started by line 1310 at (-640, 1152)
+// Started by line 1313 at (704, 1152)
 script 34 (void)
 {
     if(mapvar7 == 0)
@@ -459,6 +471,8 @@ script 34 (void)
     }
 }
 
+// Started by line 962 at (1528, 160)
+// Started by line 971 at (-1464, 160)
 script 35 (void)
 {
     mapvar3++;
@@ -589,6 +603,7 @@ script 43 OPEN
     terminate;
 }
 
+// Started by line 1607 at (32, 160)
 script 44 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)

@@ -19,6 +19,20 @@ int mapvar6;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 98 at (-1992, 2064)
+// Started by line 513 at (-1956, 2144)
+// Started by line 515 at (-1948, 1984)
+// Started by line 517 at (-208, 1984)
+// Started by line 519 at (-176, 2064)
+// Started by line 521 at (-212, 2140)
+// Started by line 523 at (-1004, 2768)
+// Started by line 525 at (-1096, 2800)
+// Started by line 527 at (-1192, 2768)
+// Started by line 537 at (-560, 2520)
+// Started by line 556 at (-1692, 2508)
+// Started by line 651 at (-1280, 1200)
+// Started by line 662 at (-896, 1200)
+// Started by line 1313 at (-3560, 2184)
 script 1 (int arg0, int arg1, int arg2)
 {
     int var0;
@@ -35,6 +49,10 @@ script 1 (int arg0, int arg1, int arg2)
     }
 }
 
+// Started by line 558 at (-2960, -1248)
+// Started by line 560 at (-2960, -1232)
+// Started by line 562 at (-2704, -1248)
+// Started by line 564 at (-2704, -1232)
 script 2 (void)
 {
     if(mapvar0 == 0)
@@ -44,6 +62,10 @@ script 2 (void)
     }
 }
 
+// Started by line 163 at (-1328, 1472)
+// Started by line 185 at (-816, 1472)
+// Started by line 1761 at (-816, 1296)
+// Started by line 1767 at (-1328, 1296)
 script 3 (void)
 {
     int var0;
@@ -65,6 +87,7 @@ script 3 (void)
     Polyobj_OR_RotateRight(const:6, 24, 128);
 }
 
+// Started by line 1474 at (-2336, 2000)
 script 4 (void)
 {
     int var0;
@@ -78,6 +101,8 @@ script 4 (void)
     }
 }
 
+// Started by line 1492 at (-3400, 1956)
+// Started by line 1499 at (-3224, 1956)
 script 5 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -100,6 +125,14 @@ script 6 (void)
     Door_Open(const:34, 8);
 }
 
+// Started by line 37 at (-1120, 2128)
+// Started by line 38 at (-1120, 1904)
+// Started by line 39 at (-1224, 2016)
+// Started by line 40 at (-1016, 2016)
+// Started by line 141 at (-1204, 1928)
+// Started by line 142 at (-1036, 1928)
+// Started by line 143 at (-1204, 2104)
+// Started by line 144 at (-1036, 2104)
 script 7 (void)
 {
     if(mapvar6 < 4)
@@ -111,6 +144,7 @@ script 7 (void)
     }
 }
 
+// Started by line 992 at (-240, -392)
 script 8 (void)
 {
     if(mapvar1 == 0)
@@ -119,12 +153,14 @@ script 8 (void)
     }
 }
 
+// Started by line 1005 at (-224, -624)
 script 9 (void)
 {
     Door_Open(const:18, 16);
     mapvar1 = 1;
 }
 
+// Started by line 1013 at (-1024, -216)
 script 10 (void)
 {
     Door_Open(const:14, 16);
@@ -139,6 +175,10 @@ script 11 (void)
     }
 }
 
+// Started by line 1378 at (-1504, -512)
+// Started by line 1379 at (-1536, -544)
+// Started by line 1380 at (-1504, -576)
+// Started by line 1381 at (-1472, -544)
 script 12 (void)
 {
     int var0;
@@ -159,6 +199,7 @@ script 12 (void)
     }
 }
 
+// Started by line 1534 at (-1280, -1220)
 script 13 (void)
 {
     if(mapvar3 == 1)
@@ -205,6 +246,7 @@ script 15 (void)
     }
 }
 
+// Started by line 1312 at (-2872, 2172)
 script 16 (void)
 {
     int var0;

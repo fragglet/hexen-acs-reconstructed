@@ -15,6 +15,10 @@ int mapvar2;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 390 at (-1432, 448)
+// Started by line 398 at (-1432, 896)
+// Started by line 401 at (-616, 1088)
+// Started by line 409 at (-616, 256)
 script 1 (void)
 {
     if(++mapvar0 == 4)
@@ -23,6 +27,8 @@ script 1 (void)
     }
 }
 
+// Started by line 416 at (-1536, 672)
+// Started by line 418 at (-2048, 672)
 script 2 (void)
 {
     if(mapvar1 == 0)
@@ -55,6 +61,7 @@ script 3 (void)
     }
 }
 
+// Started by line 679 at (-256, 864)
 script 4 (void)
 {
     until(mapvar2 == 1)
@@ -87,6 +94,7 @@ script 6 (void)
     terminate;
 }
 
+// Started by line 231 at (-544, -544)
 script 7 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -125,6 +133,7 @@ script 8 (void)
     }
 }
 
+// Started by line 595 at (384, 672)
 script 9 (void)
 {
     Thing_Spawn(const:1, T_BRIDGE, 0);

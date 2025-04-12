@@ -42,6 +42,12 @@ script 2 OPEN
     restart;
 }
 
+// Started by line 1782 at (-1664, -192)
+// Started by line 1788 at (-1328, 96)
+// Started by line 1793 at (-1328, -480)
+// Started by line 1800 at (896, -192)
+// Started by line 1806 at (560, 96)
+// Started by line 1811 at (560, -480)
 script 3 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -54,6 +60,7 @@ script 3 (void)
     }
 }
 
+// Started by line 1957 at (960, -2704)
 script 4 (void)
 {
     if(mapvar4 == 6)
@@ -95,6 +102,7 @@ script 4 (void)
     }
 }
 
+// Started by line 957 at (832, -2816)
 script 5 (void)
 {
     delay(const:210);
@@ -102,6 +110,8 @@ script 5 (void)
     Stairs_BuildDown(const:24, 8, 16, 0, 0);
 }
 
+// Started by line 1951 at (2176, -3088)
+// Started by line 1990 at (912, -2384)
 script 6 (void)
 {
     delay(const:105);
@@ -113,6 +123,7 @@ script 6 (void)
     restart;
 }
 
+// Started by line 1584 at (2816, -2896)
 script 7 (void)
 {
     Door_Raise(const:27, 16, 0);
@@ -194,6 +205,11 @@ script 15 (void)
     clearlinespecial();
 }
 
+// Started by line 171 at (-832, 0)
+// Started by line 172 at (-608, 84)
+// Started by line 173 at (-384, 168)
+// Started by line 174 at (-160, 84)
+// Started by line 175 at (64, 0)
 script 16 (void)
 {
     if(mapvar3 == 5)
@@ -206,6 +222,12 @@ script 16 (void)
     }
 }
 
+// Started by line 1698 at (-1328, -336)
+// Started by line 1708 at (-1328, -48)
+// Started by line 1725 at (-1520, -192)
+// Started by line 1735 at (560, -336)
+// Started by line 1745 at (560, -48)
+// Started by line 1762 at (752, -192)
 script 17 (int arg0, int arg1, int arg2)
 {
     int var0;
@@ -263,6 +285,10 @@ script 20 (void)
     }
 }
 
+// Started by line 8 at (-384, 264)
+// Started by line 9 at (-192, 512)
+// Started by line 10 at (-384, 760)
+// Started by line 11 at (-576, 512)
 script 21 (void)
 {
     int var0;
@@ -379,6 +405,18 @@ script 23 OPEN
     ACS_Execute(const:1, 0, 0, 0, 0);
 }
 
+// Started by line 3 at (-64, -1664)
+// Started by line 4 at (-384, -2560)
+// Started by line 5 at (-704, -1664)
+// Started by line 564 at (-640, -768)
+// Started by line 565 at (-576, -704)
+// Started by line 566 at (-512, -640)
+// Started by line 567 at (-448, -576)
+// Started by line 568 at (-384, -512)
+// Started by line 569 at (-320, -576)
+// Started by line 570 at (-256, -640)
+// Started by line 571 at (-192, -704)
+// Started by line 572 at (-128, -768)
 script 24 (void)
 {
     if(mapvar5 == 0)

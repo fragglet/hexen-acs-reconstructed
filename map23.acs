@@ -17,12 +17,14 @@ int mapvar4;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 1028 at (2116, -240)
 script 1 (void)
 {
     Teleport(const:15);
     delay(const:35);
 }
 
+// Started by line 347 at (48, -1824)
 script 2 (void)
 {
     Door_Open(const:33, 16);
@@ -56,6 +58,7 @@ script 3 (void)
     }
 }
 
+// Started by line 1528 at (1600, -1464)
 script 4 (void)
 {
     if(mapvar2 == 0)
@@ -114,17 +117,25 @@ script 9 OPEN
     setlinespecial(3, 80 /*ACS_Execute*/, 23, 23, 0, 0, 0);
 }
 
+// Started by line 64 at (-64, -320)
+// Started by line 65 at (128, -384)
+// Started by line 66 at (320, -320)
+// Started by line 67 at (-76, -216)
+// Started by line 68 at (332, -216)
 script 10 (void)
 {
     Thing_Activate(const:10);
     Light_Fade(const:26, 176, 15);
 }
 
+// Started (locked) by line 335 at (-544, -2672)
+// Started (locked) by line 340 at (-448, -2752)
 script 11 (void)
 {
     Polyobj_DoorSwing(const:3, 8, 64, 70);
 }
 
+// Started (locked) by line 1187 at (-992, -2688)
 script 12 (void)
 {
     Polyobj_DoorSwing(const:5, 4, 64, 210);
@@ -150,6 +161,12 @@ script 14 (void)
     }
 }
 
+// Started by line 1101 at (-1520, -832)
+// Started by line 1102 at (-1336, -800)
+// Started by line 1103 at (-1280, -704)
+// Started by line 1104 at (-1336, -608)
+// Started by line 1105 at (-1520, -576)
+// Started by line 1106 at (-1648, -704)
 script 15 (void)
 {
     if(mapvar3 == 0)
@@ -178,6 +195,7 @@ script 16 (void)
     }
 }
 
+// Started by line 668 at (-384, 448)
 script 17 (void)
 {
     Thing_Activate(const:17);
@@ -194,6 +212,12 @@ script 20 (void)
     Ceiling_RaiseByValue(const:20, 16, 128);
 }
 
+// Started by line 1337 at (2000, 64)
+// Started by line 1349 at (1200, 64)
+// Started by line 1361 at (2128, -1024)
+// Started by line 1374 at (1072, -1024)
+// Started by line 1380 at (1600, -1336)
+// Started by line 1390 at (1600, 304)
 script 22 (int arg0, int arg1, int arg2)
 {
     int var0;

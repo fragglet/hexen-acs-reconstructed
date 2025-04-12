@@ -15,6 +15,7 @@ int mapvar2;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 558 at (-344, 1568)
 script 1 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -26,6 +27,7 @@ script 1 (void)
     Door_Open(const:1, 16);
 }
 
+// Started by line 199 at (-512, 1568)
 script 2 (void)
 {
     Plat_UpWaitDownStay(const:3, 8, 32);
@@ -36,6 +38,7 @@ script 2 (void)
     Door_Raise(const:2, 8, 0);
 }
 
+// Started by line 288 at (1152, 1568)
 script 3 (void)
 {
     int var0;
@@ -51,6 +54,7 @@ script 3 (void)
     Ceiling_RaiseByValue(const:33, 16, 40);
 }
 
+// Started by line 258 at (736, 1168)
 script 4 (void)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -61,6 +65,7 @@ script 4 (void)
     Door_Open(const:13, 8);
 }
 
+// Started by line 881 at (2304, 864)
 script 5 (void)
 {
     if(gametype() != GAME_NET_DEATHMATCH)
@@ -77,6 +82,8 @@ script 5 (void)
     }
 }
 
+// Started by line 237 at (-96, 2320)
+// Started by line 244 at (-32, 816)
 script 6 (int arg0, int arg1, int arg2)
 {
     Thing_Activate(arg1);
@@ -84,6 +91,7 @@ script 6 (int arg0, int arg1, int arg2)
     Light_Fade(arg2, 160, 32);
 }
 
+// Started by line 635 at (480, 608)
 script 7 (void)
 {
     int var0;
@@ -107,6 +115,8 @@ script 7 (void)
     } until(mapvar0 && mapvar1);
 }
 
+// Started by line 629 at (256, 288)
+// Started by line 634 at (704, 288)
 script 8 (int arg0)
 {
     if(gametype() == GAME_NET_DEATHMATCH)
@@ -125,6 +135,7 @@ script 8 (int arg0)
     }
 }
 
+// Started by line 617 at (480, 1616)
 script 9 (void)
 {
     Thing_Activate(const:16);
@@ -133,6 +144,7 @@ script 9 (void)
     mapvar2 = 1;
 }
 
+// Started by line 39 at (352, 1344)
 script 10 (void)
 {
     if(mapvar2 == 1)
@@ -142,6 +154,7 @@ script 10 (void)
     }
 }
 
+// Started by line 927 at (1152, 864)
 script 11 (void)
 {
     int var0;

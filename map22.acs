@@ -24,6 +24,23 @@ int mapvar11;
 // ----------------------------------------
 // Scripts:
 
+// Started by line 77 at (-2464, 2304)
+// Started by line 78 at (-2336, 2432)
+// Started by line 79 at (-2144, 2496)
+// Started by line 80 at (-2016, 2304)
+// Started by line 81 at (-1920, 2176)
+// Started by line 82 at (-1824, 2272)
+// Started by line 83 at (-1600, 2400)
+// Started by line 84 at (-1312, 2496)
+// Started by line 85 at (-544, 2464)
+// Started by line 86 at (-544, 2528)
+// Started by line 87 at (-448, 2624)
+// Started by line 88 at (-192, 2592)
+// Started by line 89 at (160, 2464)
+// Started by line 90 at (448, 2368)
+// Started by line 91 at (544, 2304)
+// Started by line 291 at (-800, 2432)
+// Started by line 1170 at (-1120, 2496)
 script 1 (void)
 {
     if(mapvar0 == 0)
@@ -128,6 +145,10 @@ script 12 OPEN
     terminate;
 }
 
+// Started by line 1076 at (-2176, 608)
+// Started by line 1077 at (-2144, 640)
+// Started by line 1078 at (-2176, 672)
+// Started by line 1079 at (-2208, 640)
 script 13 (void)
 {
     if(mapvar3 == 0)
@@ -139,6 +160,14 @@ script 13 (void)
     }
 }
 
+// Started by line 676 at (-728, 464)
+// Started by line 677 at (-620, 560)
+// Started by line 678 at (-620, 720)
+// Started by line 679 at (-728, 816)
+// Started by line 680 at (-872, 816)
+// Started by line 681 at (-980, 720)
+// Started by line 682 at (-980, 560)
+// Started by line 683 at (-872, 464)
 script 14 (void)
 {
     mapvar6 = random(const:1, 8);
@@ -280,6 +309,11 @@ script 14 (void)
     restart;
 }
 
+// Started by line 1332 at (-2704, -96)
+// Started by line 1338 at (-1936, 1824)
+// Started by line 1344 at (336, 1824)
+// Started by line 1350 at (720, 672)
+// Started by line 1356 at (-352, -1616)
 script 15 (void)
 {
     if(++mapvar8 == 5)
@@ -288,6 +322,7 @@ script 15 (void)
     }
 }
 
+// Started by line 1164 at (-368, 512)
 script 16 (void)
 {
     Plat_PerpetualRaise(1, 16, 105);
@@ -295,6 +330,7 @@ script 16 (void)
     Light_Fade(const:5, 176, 35);
 }
 
+// Started by line 663 at (192, -1120)
 script 17 (void)
 {
     Thing_ProjectileGravity(4, T_FIREBALL1, random(const:1, 255), 30, 32);
@@ -343,6 +379,8 @@ script 18 (void)
     }
 }
 
+// Started by line 92 at (-1264, 1792)
+// Started by line 1166 at (-336, 1792)
 script 19 (void)
 {
     mapvar1++;
@@ -365,6 +403,10 @@ script 21 (void)
     restart;
 }
 
+// Started by line 1314 at (-1760, 1360)
+// Started by line 1320 at (-2128, -352)
+// Started by line 1326 at (160, 1360)
+// Started by line 1378 at (-208, -1440)
 script 22 (void)
 {
     if(++mapvar9 == 4)
