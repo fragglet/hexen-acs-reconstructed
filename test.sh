@@ -5,6 +5,7 @@
 
 set -eu
 
+rm -f *.O
 SDL_VIDEODRIVER=dummy SDL_AUDIODRIVER=dummy dosbox -conf build.cfg
 
 success=true
