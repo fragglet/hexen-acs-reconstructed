@@ -6,13 +6,19 @@ import sys
 
 SCRIPT_DEF_RE = re.compile("script (\d+) ")
 
+ACS_LINE_TYPES = {
+    80: "Started",
+    81: "Suspended",
+    82: "Stopped",
+    83: "Started (locked)"
+}
+
 def describe_line(line_idx, line):
     vx_a, vx_b = ed.vertexes[line.vx_a], ed.vertexes[line.vx_b]
     x = (vx_a.x + vx_b.x) // 2
     y = (vx_a.y + vx_b.y) // 2
-    addendum = " (locked)" if line.action == 83 else ""
-    return "Started%s by line %d at (%d, %d)" % (
-        addendum, line_idx, x, y,
+    return "%s by line %d at (%d, %d)" % (
+        ACS_LINE_TYPES[line.action], line_idx, x, y,
     )
 
 w = WAD()
@@ -22,7 +28,7 @@ for name in w.maps:
     ed = MapEditor(w.maps[name])
     scripts = {}
     for line_idx, line in enumerate(ed.linedefs):
-        if line.action in (80, 83):
+        if line.action in ACS_LINE_TYPES:
             scripts.setdefault(line.arg0, []).append((line_idx, line))
 
     for script, lines in sorted(scripts.items()):
