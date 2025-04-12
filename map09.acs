@@ -7,10 +7,6 @@
 // BEHAVIOR 9 scripts, 11 strings
 
 // ----------------------------------------
-// List of WORLD variables:
-world int 0:world0;
-
-// ----------------------------------------
 // Scripts:
 
 // Started by line 341 at (1256, 392)
@@ -40,7 +36,7 @@ script 2 (void)
     if(gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:20, 13, 0, 0, 0);
-        if(++world0 == 6)
+        if(++shadow_puzzle_pieces == 6)
         {
             ACS_Execute(const:10, 13, 0, 0, 0);
         }
@@ -66,7 +62,7 @@ script 3 (void)
     if(gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:21, 13, 0, 0, 0);
-        if(++world0 == 6)
+        if(++shadow_puzzle_pieces == 6)
         {
             ACS_Execute(const:10, 13, 0, 0, 0);
         }

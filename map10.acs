@@ -15,9 +15,6 @@ int mapvar3;
 int mapvar4;
 int mapvar5;
 
-// List of WORLD variables:
-world int 0:world0;
-
 // ----------------------------------------
 // Scripts:
 
@@ -160,7 +157,7 @@ script 13 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:22, 13, 0, 0, 0);
-    if(++world0 == 6)
+    if(++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
@@ -181,7 +178,7 @@ script 14 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:23, 13, 0, 0, 0);
-    if(++world0 == 6)
+    if(++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
