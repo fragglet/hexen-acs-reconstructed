@@ -18,4 +18,4 @@ for compiled in compiled/map??acs.lmp; do
     fi
 done
 
-$success
+$success && echo "Compiled scripts match IWAD lumps."
