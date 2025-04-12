@@ -291,19 +291,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'FireDemonAttack'
-// [  1] 'GlassShatter'
-// [  2] 'GLASS07'
-// [  3] 'GLASS01'
-// [  4] 'GLASS03'
-// [  5] 'GLASS05'
-// [  6] 'Ambient8'
-// [  7] 'Ambient9'
-// [  8] 'Ambient7'
-// [  9] 'WaterMove'
-// [ 10] 'Ambient1'
-

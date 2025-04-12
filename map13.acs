@@ -506,29 +506,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'MaulatorHamSwing'
-// [  1] 'Spawn09'
-// [  2] 'Spawn10'
-// [  3] 'FireDemonAttack'
-// [  4] 'Spawn08'
-// [  5] 'FOREST12'
-// [  6] 'X_FAC05'
-// [  7] 'X_FAC06'
-// [  8] 'X_FAC07'
-// [  9] 'X_FAC08'
-// [ 10] 'X_FAC09'
-// [ 11] 'MY SERVANTS CAN SMELL YOUR BLOOD, HUMAN'
-// [ 12] 'KoraxVoiceBlood'
-// [ 13] 'X_FAC01'
-// [ 14] 'BLANK'
-// [ 15] 'Ambient1'
-// [ 16] 'Ambient2'
-// [ 17] 'Ambient3'
-// [ 18] 'Ambient4'
-// [ 19] 'Ambient6'
-// [ 20] 'Ambient7'
-

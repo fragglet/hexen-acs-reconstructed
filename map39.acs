@@ -293,20 +293,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'FireDemonAttack'
-// [  1] 'UseArtifact'
-// [  2] 'MaulatorHamSwing'
-// [  3] 'IceGuyAttack'
-// [  4] 'SPAWN09'
-// [  5] 'SPAWN10'
-// [  6] 'SPAWN08'
-// [  7] 'DoorCloseMetal'
-// [  8] 'Ambient10'
-// [  9] 'Ambient12'
-// [ 10] 'Ambient14'
-// [ 11] 'Ambient15'
-

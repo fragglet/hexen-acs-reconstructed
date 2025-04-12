@@ -171,21 +171,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] ' ETTINS LEFT'
-// [  1] 'YOU WAITED TOO LONG, NOW YOU DIE!'
-// [  2] 'SwitchOtherLevel'
-// [  3] 'SW_OL2'
-// [  4] 'SW_OL3'
-// [  5] 'SW_OL4'
-// [  6] 'SW_OL5'
-// [  7] 'A DOOR OPENED ON THE FORSAKEN OUTPOST'
-// [  8] 'Ambient1'
-// [  9] 'Ambient2'
-// [ 10] 'Ambient3'
-// [ 11] 'Ambient4'
-// [ 12] 'Ambient7'
-

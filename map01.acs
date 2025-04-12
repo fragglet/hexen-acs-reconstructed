@@ -309,19 +309,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'GlassShatter'
-// [  1] 'SPAWN09'
-// [  2] 'SPAWN10'
-// [  3] 'FireDemonAttack'
-// [  4] 'SPAWN08'
-// [  5] 'THE DOOR IS LOCKED'
-// [  6] 'BLANK'
-// [  7] 'Ambient6'
-// [  8] 'Ambient1'
-// [  9] 'Ambient10'
-// [ 10] 'Ambient12'
-

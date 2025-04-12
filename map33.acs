@@ -100,11 +100,3 @@ script 254 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Ambient12'
-// [  1] 'Ambient13'
-// [  2] 'Ambient11'
-

@@ -531,21 +531,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'F_061'
-// [  1] 'F_075'
-// [  2] 'F_062'
-// [  3] 'F_063'
-// [  4] 'Switch1'
-// [  5] 'spawn02'
-// [  6] 'spawn03'
-// [  7] 'FireDemonAttack'
-// [  8] 'spawn01'
-// [  9] 'THIS DOOR WON'T OPEN YET'
-// [ 10] 'Ambient9'
-// [ 11] 'Ambient10'
-// [ 12] 'Ambient12'
-

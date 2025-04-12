@@ -401,28 +401,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'X_001'
-// [  1] 'FireDemonAttack'
-// [  2] 'x_001'
-// [  3] 'Switch1'
-// [  4] 'SwitchOtherLevel'
-// [  5] 'SW_OL2'
-// [  6] 'SW_OL3'
-// [  7] 'SW_OL4'
-// [  8] 'SW_OL5'
-// [  9] 'ONE HALF OF THE PUZZLE HAS BEEN SOLVED'
-// [ 10] 'ON THE SEVEN PORTALS'
-// [ 11] 'ONE THIRD OF THE PUZZLE HAS BEEN SOLVED'
-// [ 12] 'STAIRS HAVE RISEN ON THE SEVEN PORTALS'
-// [ 13] 'SW_EL2'
-// [ 14] 'SW_EL3'
-// [ 15] 'SW_EL4'
-// [ 16] 'SW_EL5'
-// [ 17] 'Ambient9'
-// [ 18] 'LavaMove'
-// [ 19] 'Ambient10'
-

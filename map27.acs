@@ -626,26 +626,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'PLANET1'
-// [  1] 'GlassShatter'
-// [  2] 'MONK24'
-// [  3] 'X_FAC05'
-// [  4] 'X_FAC06'
-// [  5] 'X_FAC07'
-// [  6] 'X_FAC08'
-// [  7] 'X_FAC09'
-// [  8] 'WORSHIP ME, AND I MAY YET BE MERCIFUL'
-// [  9] 'KoraxVoiceWorship'
-// [ 10] 'THEN AGAIN, MAYBE NOT'
-// [ 11] 'KoraxVoiceMaybe'
-// [ 12] 'X_FAC01'
-// [ 13] 'BLANK'
-// [ 14] 'EarthStartMove'
-// [ 15] 'Ambient13'
-// [ 16] 'Ambient10'
-// [ 17] 'Ambient11'
-

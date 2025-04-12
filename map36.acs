@@ -341,11 +341,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Ambient12'
-// [  1] 'Ambient14'
-// [  2] 'Ambient15'
-

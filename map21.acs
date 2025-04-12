@@ -293,15 +293,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'A DOOR OPENED IN THE GIBBET'
-// [  1] 'GlassShatter'
-// [  2] 'THE DOOR IS BARRED FROM THE INSIDE'
-// [  3] 'EarthStartMove'
-// [  4] 'Ambient1'
-// [  5] 'Ambient10'
-// [  6] 'Ambient12'
-

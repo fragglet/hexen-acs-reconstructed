@@ -703,21 +703,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Ambient14'
-// [  1] 'SwitchOtherLevel'
-// [  2] 'SW_OL2'
-// [  3] 'SW_OL3'
-// [  4] 'SW_OL4'
-// [  5] 'SW_OL5'
-// [  6] 'ONE THIRD OF THE PUZZLE HAS BEEN SOLVED'
-// [  7] 'ON THE SEVEN PORTALS'
-// [  8] 'STAIRS HAVE RISEN ON THE SEVEN PORTALS'
-// [  9] 'YOU HAVE TO FIND ANOTHER SWITCH...'
-// [ 10] 'STONES GRIND ON THE SEVEN PORTALS'
-// [ 11] 'Ambient15'
-// [ 12] 'Ambient12'
-

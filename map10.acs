@@ -304,20 +304,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Switch1'
-// [  1] 'SwitchOtherLevel'
-// [  2] 'SW_OL2'
-// [  3] 'SW_OL3'
-// [  4] 'SW_OL4'
-// [  5] 'SW_OL5'
-// [  6] 'ONE SIXTH OF THE PUZZLE HAS BEEN SOLVED'
-// [  7] 'ON THE SHADOW WOOD'
-// [  8] 'X_001'
-// [  9] 'Ambient1'
-// [ 10] 'Ambient11'
-// [ 11] 'Ambient10'
-

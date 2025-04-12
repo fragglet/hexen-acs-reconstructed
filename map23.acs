@@ -371,22 +371,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'WaterMove'
-// [  1] 'X_001'
-// [  2] 'F_048'
-// [  3] 'BOOKS04'
-// [  4] 'GlassShatter'
-// [  5] 'ValveTurn'
-// [  6] 'SW_EL2'
-// [  7] 'SW_EL3'
-// [  8] 'SW_EL4'
-// [  9] 'SW_EL5'
-// [ 10] 'YOU HEAR A DOOR OPEN UPSTAIRS'
-// [ 11] 'Ambient10'
-// [ 12] 'Ambient12'
-// [ 13] 'EarthStartMove'
-

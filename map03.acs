@@ -809,23 +809,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'MaulatorHamSwing'
-// [  1] 'FIRE14'
-// [  2] 'X_001'
-// [  3] 'X_005'
-// [  4] 'F_032'
-// [  5] 'FreezeDeath'
-// [  6] 'F_033'
-// [  7] 'IceGuyAttack'
-// [  8] 'FireDemonAttack'
-// [  9] 'spawn06'
-// [ 10] 'spawn07'
-// [ 11] 'spawn05'
-// [ 12] 'THIS PATH IS BARRED'
-// [ 13] 'IceStartMove'
-// [ 14] 'EarthStartMove'
-

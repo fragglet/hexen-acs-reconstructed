@@ -254,12 +254,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Ambient8'
-// [  1] 'Ambient12'
-// [  2] 'Ambient10'
-// [  3] 'WaterMove'
-

@@ -126,13 +126,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'Ambient1'
-// [  1] 'Ambient2'
-// [  2] 'Ambient7'
-// [  3] 'Ambient13'
-// [  4] 'Ambient6'
-

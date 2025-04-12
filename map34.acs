@@ -340,20 +340,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'SwitchOtherLevel'
-// [  1] 'ONE NINTH OF THE PUZZLE HAS BEEN SOLVED'
-// [  2] 'ON THE MONASTERY'
-// [  3] 'GlassShatter'
-// [  4] 'F_SKY'
-// [  5] 'Switch1'
-// [  6] 'SW_OL2'
-// [  7] 'SW_OL3'
-// [  8] 'SW_OL4'
-// [  9] 'SW_OL5'
-// [ 10] 'Ambient13'
-// [ 11] 'Ambient10'
-

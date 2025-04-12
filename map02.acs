@@ -602,32 +602,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'tportx'
-// [  1] 'tport1'
-// [  2] 'ThunderCrash'
-// [  3] 'PRTL07'
-// [  4] 'X_FAC05'
-// [  5] 'X_FAC06'
-// [  6] 'X_FAC07'
-// [  7] 'X_FAC08'
-// [  8] 'X_FAC09'
-// [  9] 'GREETINGS, MORTAL'
-// [ 10] 'KoraxVoiceGreetings'
-// [ 11] 'ARE YOU READY TO DIE?'
-// [ 12] 'KoraxVoiceReady'
-// [ 13] 'X_FAC01'
-// [ 14] 'BLANK'
-// [ 15] 'SwitchOtherLevel'
-// [ 16] 'SW_OL2'
-// [ 17] 'SW_OL3'
-// [ 18] 'SW_OL4'
-// [ 19] 'SW_OL5'
-// [ 20] 'A DOOR OPENED ON THE GUARDIAN OF ICE'
-// [ 21] 'Ambient7'
-// [ 22] 'Ambient10'
-// [ 23] 'Ambient11'
-

@@ -199,17 +199,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'X_009'
-// [  1] 'ValveTurn'
-// [  2] 'valve02'
-// [  3] 'valve01'
-// [  4] 'Ambient5'
-// [  5] 'Ambient8'
-// [  6] 'Ambient9'
-// [  7] 'Ambient12'
-// [  8] 'WaterMove'
-

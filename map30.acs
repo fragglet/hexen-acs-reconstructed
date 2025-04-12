@@ -230,21 +230,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'SwitchOtherLevel'
-// [  1] 'Switch1'
-// [  2] 'SW_OL2'
-// [  3] 'SW_OL3'
-// [  4] 'SW_OL4'
-// [  5] 'SW_OL5'
-// [  6] 'ONE NINTH OF THE PUZZLE HAS BEEN SOLVED'
-// [  7] 'ON THE MONASTERY'
-// [  8] 'GLASS07'
-// [  9] 'GlassShatter'
-// [ 10] 'Ambient10'
-// [ 11] 'Ambient12'
-// [ 12] 'Ambient13'
-

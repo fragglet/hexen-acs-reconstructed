@@ -357,31 +357,3 @@ script 255 OPEN
     }
     restart;
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'THE PORTAL HAS BEEN SEALED'
-// [  1] 'CHOOSE YOUR FATE'
-// [  2] 'PlatformStop'
-// [  3] 'THE DOOR IS BARRED FROM THE INSIDE'
-// [  4] 'Switch1'
-// [  5] 'Bossk2'
-// [  6] 'FOREST12'
-// [  7] 'X_FAC05'
-// [  8] 'X_FAC06'
-// [  9] 'X_FAC07'
-// [ 10] 'X_FAC08'
-// [ 11] 'X_FAC09'
-// [ 12] 'ARE YOU STRONG ENOUGH'
-// [ 13] 'KoraxVoiceStrong'
-// [ 14] 'TO FACE YOUR OWN MASTERS?'
-// [ 15] 'KoraxVoiceFace'
-// [ 16] 'X_FAC01'
-// [ 17] 'BLANK'
-// [ 18] 'Ambient1'
-// [ 19] 'Ambient2'
-// [ 20] 'Ambient3'
-// [ 21] 'Ambient6'
-// [ 22] 'Ambient12'
-

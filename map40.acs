@@ -540,18 +540,3 @@ script 255 (void)
     Radius_Quake(const:5, 200, 3, 10, 245);
     Door_Open(const:145, 8);
 }
-
-
-// ----------------------------------------
-// Strings:
-// [  0] 'spawn02'
-// [  1] 'spawn03'
-// [  2] 'FireDemonAttack'
-// [  3] 'spawn01'
-// [  4] 'X_001'
-// [  5] 'F_015'
-// [  6] 'Switch1'
-// [  7] 'SW_2_DN'
-// [  8] 'SW_2_UP'
-// [  9] 'SW_2_MD'
-
