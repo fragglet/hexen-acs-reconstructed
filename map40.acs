@@ -543,3 +543,5 @@ script 255 (void)
     Radius_Quake(const:5, 200, 3, 10, 245);
     Door_Open(const:145, 8);
 }
+
+// vim: syntax=c

@@ -349,3 +349,5 @@ script 255 OPEN
     }
     restart;
 }
+
+// vim: syntax=c

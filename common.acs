@@ -8,3 +8,5 @@
 #include "specials.acs"
 #include "defs.acs"
 #include "wvars.acs"
+
+// vim: syntax=c

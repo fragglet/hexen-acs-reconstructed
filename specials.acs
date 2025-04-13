@@ -82,3 +82,5 @@ special
 	135:Thing_Spawn(3),
 	137:Thing_SpawnNoFog(3),
 	138:Floor_Waggle(5);
+
+// vim: syntax=c

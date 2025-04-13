@@ -9,3 +9,5 @@
 
 // Number of puzzle pieces found in the Shadow Wood hub (MAP08-10):
 world int 0:shadow_puzzle_pieces;
+
+// vim: syntax=c
