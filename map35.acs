@@ -24,7 +24,7 @@ script 1 (void)
 {
     int var0;
 
-    if(mapvar1 == 0)
+    if (mapvar1 == 0)
     {
         mapvar1 = 1;
         Polyobj_OR_RotateLeft(const:1, 4, 10);
@@ -43,7 +43,7 @@ script 1 (void)
         Floor_RaiseByValue(const:1, 4, 16);
         delay(const:64);
         var0 = 0;
-        while(var0 < 8)
+        while (var0 < 8)
         {
             Floor_RaiseByValue(5+var0, 24, 64);
             tagwait(5+var0);
@@ -67,78 +67,78 @@ script 2 (int arg0)
     int var0;
     int var1;
 
-    if(mapvar0 == 1)
+    if (mapvar0 == 1)
     {
         var1 = 0;
         do
         {
             var0 = random(0, 7);
-            if(var0 == 0)
+            if (var0 == 0)
             {
-                if(mapvar6 == 0)
+                if (mapvar6 == 0)
                 {
                     Floor_LowerByValue(const:16, 16, 160);
                     mapvar6 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 1)
+            else if (var0 == 1)
             {
-                if(mapvar7 == 0)
+                if (mapvar7 == 0)
                 {
                     Pillar_Open(const:15, 8, 56, 56);
                     mapvar7 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 2)
+            else if (var0 == 2)
             {
-                if(mapvar8 == 0)
+                if (mapvar8 == 0)
                 {
                     Pillar_Open(const:14, 8, 56, 56);
                     mapvar8 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 3)
+            else if (var0 == 3)
             {
-                if(mapvar9 == 0)
+                if (mapvar9 == 0)
                 {
                     Pillar_Open(const:99, 8, 56, 56);
                     mapvar9 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 4)
+            else if (var0 == 4)
             {
-                if(mapvar10 == 0)
+                if (mapvar10 == 0)
                 {
                     Pillar_Open(const:17, 8, 56, 56);
                     mapvar10 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 5)
+            else if (var0 == 5)
             {
-                if(mapvar11 == 0)
+                if (mapvar11 == 0)
                 {
                     Pillar_Open(const:18, 8, 56, 56);
                     mapvar11 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 6)
+            else if (var0 == 6)
             {
-                if(mapvar12 == 0)
+                if (mapvar12 == 0)
                 {
                     Pillar_Open(const:19, 8, 56, 56);
                     mapvar12 = 1;
                     var1 = 1;
                 }
             }
-            else if(var0 == 7)
+            else if (var0 == 7)
             {
-                if(mapvar13 == 0)
+                if (mapvar13 == 0)
                 {
                     Polyobj_RotateLeft(const:1, 8, 64);
                     Polyobj_RotateRight(const:2, 8, 64);
@@ -146,7 +146,7 @@ script 2 (int arg0)
                     var1 = 1;
                 }
             }
-        } while(var1 == 0);
+        } while (var1 == 0);
         Floor_LowerByValue(arg0, 16, 48);
         clearlinespecial();
     }
@@ -157,11 +157,11 @@ script 2 (int arg0)
 // Started by line 854 at (-776, -916)
 script 3 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
-    if(mapvar2 == 0)
+    if (mapvar2 == 0)
     {
         Door_Close(const:27, 16);
         ambientsound("PlatformStop", 127);
@@ -172,7 +172,7 @@ script 3 (void)
 // Started by line 781 at (752, -1560)
 script 4 (void)
 {
-    if(mapvar2 == 1)
+    if (mapvar2 == 1)
     {
         print(s:"THE DOOR IS BARRED FROM THE INSIDE");
     }
@@ -182,7 +182,7 @@ script 5 (int arg0)
 {
     int var0;
 
-    switch(arg0)
+    switch (arg0)
     {
     case 1:
         sectorsound("Switch1", 127);
@@ -200,9 +200,9 @@ script 5 (int arg0)
         mapvar5 = 1;
         break;
     }
-    if(mapvar3 && mapvar4 && mapvar5)
+    if (mapvar3 && mapvar4 && mapvar5)
     {
-        while(var0 < 3)
+        while (var0 < 3)
         {
             Door_Open(30+var0, 8);
             tagwait(30+var0);
@@ -213,7 +213,7 @@ script 5 (int arg0)
 
 script 6 OPEN
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -277,7 +277,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -293,7 +293,7 @@ script 254 OPEN
 
     delay(random(3, 4)*100);
     var0 = random(1, 6);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 80));
@@ -323,27 +323,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

@@ -35,7 +35,7 @@ int mapvar11;
 // Started by line 1170 at (-1120, 2496)
 script 1 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         Thing_Activate(const:1);
         mapvar0++;
@@ -44,7 +44,7 @@ script 1 (void)
 
 script 2 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         mapvar2 = 0;
         mapvar3 = 0;
@@ -143,7 +143,7 @@ script 12 OPEN
 // Started by line 1079 at (-2208, 640)
 script 13 (void)
 {
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         Light_Fade(const:10, 128, 35);
         Thing_Deactivate(const:20);
@@ -163,7 +163,7 @@ script 13 (void)
 script 14 (void)
 {
     mapvar6 = random(const:1, 8);
-    switch(mapvar6)
+    switch (mapvar6)
     {
     case 1:
         mapvar7 = 10;
@@ -171,7 +171,7 @@ script 14 (void)
         break;
     case 2:
         mapvar7 = 40;
-        mapstr10 = "UseArtifact";
+        mapstr10 = "UseArtif act";
         break;
     case 3:
         mapvar7 = 50;
@@ -199,7 +199,7 @@ script 14 (void)
         break;
     }
     mapvar4 = random(const:31, 38);
-    switch(mapvar4)
+    switch (mapvar4)
     {
     case 31:
         setlinetexture(11, SIDE_FRONT, TEXTURE_MIDDLE, "SPAWN02");
@@ -308,7 +308,7 @@ script 14 (void)
 // Started by line 1356 at (-352, -1616)
 script 15 (void)
 {
-    if(++mapvar8 == 5)
+    if (++mapvar8 == 5)
     {
         Stairs_BuildDown(const:4, 8, 8, 4, 0);
     }
@@ -341,7 +341,7 @@ script 17 (void)
 
 script 18 (void)
 {
-    if(mapvar11 == 0)
+    if (mapvar11 == 0)
     {
         sectorsound("Switch1", 127);
         setlinetexture(50, SIDE_FRONT, TEXTURE_MIDDLE, "SW_EL2");
@@ -355,7 +355,7 @@ script 18 (void)
         Teleport_NewMap(const:23, 0);
         mapvar11 = 1;
     }
-    else if(mapvar11 == 1)
+    else if (mapvar11 == 1)
     {
         sectorsound("Switch1", 127);
         setlinetexture(50, SIDE_FRONT, TEXTURE_MIDDLE, "SW_EL4");
@@ -401,7 +401,7 @@ script 21 (void)
 // Started by line 1378 at (-208, -1440)
 script 22 (void)
 {
-    if(++mapvar9 == 4)
+    if (++mapvar9 == 4)
     {
         Floor_MoveToValueTimes8(const:7, 16, 12, FALSE);
         terminate;
@@ -427,7 +427,7 @@ script 24 OPEN
 
 script 25 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         delay(const:30);
         setlinetexture(20, SIDE_FRONT, TEXTURE_MIDDLE, "FOREST12");
@@ -471,7 +471,7 @@ script 25 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -497,7 +497,7 @@ script 254 OPEN
 
     delay(random(3, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient11", random(const:50, 100));
@@ -524,27 +524,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

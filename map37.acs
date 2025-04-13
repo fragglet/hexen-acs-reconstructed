@@ -19,12 +19,12 @@ script 1 (void)
     int var0;
     int var1;
 
-    if(mapvar0 == 4)
+    if (mapvar0 == 4)
     {
         delay(const:256);
         var1 = 8;
         var0 = 1;
-        while(var0 < 4)
+        while (var0 < 4)
         {
             Floor_LowerByValue(var0, 8, var0*32);
             Light_Fade(var0, 160-var1, 32);
@@ -57,18 +57,18 @@ script 2 (int arg0, int arg1)
 {
     int var0;
 
-    if(arg0)
+    if (arg0)
     {
         mapvar0 += 1;
         Floor_LowerByValue(arg0, 8, 56);
-        if(mapvar0 == 4)
+        if (mapvar0 == 4)
         {
             Floor_LowerByValue(const:7, 32, 32);
         }
     }
     else
     {
-        while(var0 < 4)
+        while (var0 < 4)
         {
             Thing_Spawn(arg1+var0, T_ETTIN, var0*64);
             delay(const:8);
@@ -85,17 +85,17 @@ script 3 (int arg0, int arg1, int arg2)
 {
     int var0;
 
-    if(arg0)
+    if (arg0)
     {
         mapvar0 += 1;
-        if(mapvar0 == 4)
+        if (mapvar0 == 4)
         {
             Floor_LowerByValue(const:7, 32, 32);
         }
     }
     else
     {
-        while(var0 < 4)
+        while (var0 < 4)
         {
             Thing_Spawn(arg1+var0, T_BISHOP, var0*64);
             delay(const:8);
@@ -107,7 +107,7 @@ script 3 (int arg0, int arg1, int arg2)
 script 4 (void)
 {
     mapvar0 += 1;
-    if(mapvar0 == 4)
+    if (mapvar0 == 4)
     {
         Floor_LowerByValue(const:7, 32, 32);
     }
@@ -116,7 +116,7 @@ script 4 (void)
 script 5 (void)
 {
     mapvar0 += 1;
-    if(mapvar0 == 4)
+    if (mapvar0 == 4)
     {
         Floor_LowerByValue(const:7, 32, 32);
     }
@@ -149,7 +149,7 @@ script 7 (int arg0, int arg1)
 {
     int var0;
 
-    if(arg0)
+    if (arg0)
     {
         Door_Open(arg0, 16);
         Light_RaiseByValue(arg0+1, 56);
@@ -157,13 +157,13 @@ script 7 (int arg0, int arg1)
     }
     else
     {
-        while(var0 < 4)
+        while (var0 < 4)
         {
             Thing_Spawn(arg1+var0, T_ETTIN, var0*64);
             var0++;
         }
     }
-    if(mapvar1 == 4)
+    if (mapvar1 == 4)
     {
         Floor_LowerByValue(const:23, 8, 56);
         tagwait(const:23);
@@ -180,7 +180,7 @@ script 7 (int arg0, int arg1)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -193,7 +193,7 @@ script 254 OPEN
 
     delay(random(2, 5)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient8", random(const:50, 90));
@@ -220,27 +220,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

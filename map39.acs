@@ -37,122 +37,122 @@ script 3 OPEN
     mapvar0 = random(const:1, 8);
     mapvar1 = random(const:1, 8);
     mapvar2 = random(const:1, 8);
-    if(mapvar0 == 1)
+    if (mapvar0 == 1)
     {
         mapvar3 = 10;
         mapstr6 = "FireDemonAttack";
     }
-    else if(mapvar0 == 2)
+    else if (mapvar0 == 2)
     {
         mapvar3 = 40;
-        mapstr6 = "UseArtifact";
+        mapstr6 = "UseArtif act";
     }
-    else if(mapvar0 == 3)
+    else if (mapvar0 == 3)
     {
         mapvar3 = 50;
         mapstr6 = "MaulatorHamSwing";
     }
-    else if(mapvar0 == 4)
+    else if (mapvar0 == 4)
     {
         mapvar3 = 51;
         mapstr6 = "MaulatorHamSwing";
     }
-    else if(mapvar0 == 5)
+    else if (mapvar0 == 5)
     {
         mapvar3 = 52;
         mapstr6 = "MaulatorHamSwing";
     }
-    else if(mapvar0 == 6)
+    else if (mapvar0 == 6)
     {
         mapvar3 = 53;
         mapstr6 = "FireDemonAttack";
     }
-    else if(mapvar0 == 7)
+    else if (mapvar0 == 7)
     {
         mapvar3 = 64;
         mapstr6 = "MaulatorHamSwing";
     }
-    else if(mapvar0 == 8)
+    else if (mapvar0 == 8)
     {
         mapvar3 = 65;
         mapstr6 = "IceGuyAttack";
     }
-    if(mapvar1 == 1)
+    if (mapvar1 == 1)
     {
         mapvar4 = 10;
         mapstr7 = "FireDemonAttack";
     }
-    else if(mapvar1 == 2)
+    else if (mapvar1 == 2)
     {
         mapvar4 = 40;
-        mapstr7 = "UseArtifact";
+        mapstr7 = "UseArtif act";
     }
-    else if(mapvar1 == 3)
+    else if (mapvar1 == 3)
     {
         mapvar4 = 50;
         mapstr7 = "MaulatorHamSwing";
     }
-    else if(mapvar1 == 4)
+    else if (mapvar1 == 4)
     {
         mapvar4 = 51;
         mapstr7 = "MaulatorHamSwing";
     }
-    else if(mapvar1 == 5)
+    else if (mapvar1 == 5)
     {
         mapvar4 = 52;
         mapstr7 = "MaulatorHamSwing";
     }
-    else if(mapvar1 == 6)
+    else if (mapvar1 == 6)
     {
         mapvar4 = 64;
         mapstr7 = "MaulatorHamSwing";
     }
-    else if(mapvar1 == 7)
+    else if (mapvar1 == 7)
     {
         mapvar4 = 53;
         mapstr7 = "FireDemonAttack";
     }
-    else if(mapvar1 == 8)
+    else if (mapvar1 == 8)
     {
         mapvar4 = 65;
         mapstr7 = "IceGuyAttack";
     }
-    if(mapvar2 == 1)
+    if (mapvar2 == 1)
     {
         mapvar5 = 10;
         mapstr8 = "FireDemonAttack";
     }
-    else if(mapvar2 == 2)
+    else if (mapvar2 == 2)
     {
         mapvar5 = 40;
-        mapstr8 = "UseArtifact";
+        mapstr8 = "UseArtif act";
     }
-    else if(mapvar2 == 3)
+    else if (mapvar2 == 3)
     {
         mapvar5 = 50;
         mapstr8 = "MaulatorHamSwing";
     }
-    else if(mapvar2 == 4)
+    else if (mapvar2 == 4)
     {
         mapvar5 = 51;
         mapstr8 = "MaulatorHamSwing";
     }
-    else if(mapvar2 == 5)
+    else if (mapvar2 == 5)
     {
         mapvar5 = 52;
         mapstr8 = "MaulatorHamSwing";
     }
-    else if(mapvar2 == 6)
+    else if (mapvar2 == 6)
     {
         mapvar5 = 53;
         mapstr8 = "FireDemonAttack";
     }
-    else if(mapvar2 == 7)
+    else if (mapvar2 == 7)
     {
         mapvar5 = 64;
         mapstr8 = "MaulatorHamSwing";
     }
-    else if(mapvar2 == 8)
+    else if (mapvar2 == 8)
     {
         mapvar5 = 65;
         mapstr8 = "IceGuyAttack";
@@ -232,7 +232,7 @@ script 254 OPEN
 
     delay(random(4, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient10", random(const:50, 80));
@@ -259,27 +259,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

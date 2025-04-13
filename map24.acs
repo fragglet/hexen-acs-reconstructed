@@ -119,7 +119,7 @@ script 9 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -133,7 +133,7 @@ script 254 OPEN
 
     delay(random(2, 4)*100);
     var0 = random(1, 7);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient5", random(const:70, 100));
@@ -166,27 +166,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

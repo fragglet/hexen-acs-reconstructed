@@ -18,7 +18,7 @@ int mapvar11;
 
 script 1 (void)
 {
-    if(mapvar0 == 1)
+    if (mapvar0 == 1)
     {
         mapvar1++;
         Thing_Spawn(1, random(const:1, 5), 0);
@@ -31,7 +31,7 @@ script 1 (void)
 
 script 2 (void)
 {
-    if(mapvar0 == 2)
+    if (mapvar0 == 2)
     {
         mapvar1++;
         Thing_Spawn(2, random(const:1, 5), 0);
@@ -44,7 +44,7 @@ script 2 (void)
 
 script 3 (void)
 {
-    if(mapvar0 == 3)
+    if (mapvar0 == 3)
     {
         mapvar1++;
         Thing_Spawn(3, random(const:1, 5), 0);
@@ -57,7 +57,7 @@ script 3 (void)
 
 script 4 (void)
 {
-    if(mapvar0 == 4)
+    if (mapvar0 == 4)
     {
         mapvar1++;
         Thing_Spawn(4, random(const:1, 5), 64);
@@ -70,7 +70,7 @@ script 4 (void)
 
 script 5 (void)
 {
-    if(mapvar0 == 5)
+    if (mapvar0 == 5)
     {
         mapvar1++;
         Thing_Spawn(5, random(const:1, 5), 192);
@@ -83,7 +83,7 @@ script 5 (void)
 
 script 6 (void)
 {
-    if(mapvar0 == 6)
+    if (mapvar0 == 6)
     {
         mapvar1++;
         Thing_Spawn(6, random(const:1, 5), 180);
@@ -96,7 +96,7 @@ script 6 (void)
 
 script 7 (void)
 {
-    if(mapvar0 == 7)
+    if (mapvar0 == 7)
     {
         mapvar1++;
         Thing_Spawn(7, random(const:1, 5), 180);
@@ -109,7 +109,7 @@ script 7 (void)
 
 script 8 (void)
 {
-    if(mapvar0 == 8)
+    if (mapvar0 == 8)
     {
         mapvar1++;
         Thing_Spawn(8, random(const:1, 5), 180);
@@ -122,7 +122,7 @@ script 8 (void)
 
 script 9 (void)
 {
-    if(mapvar2 == 1)
+    if (mapvar2 == 1)
     {
         Thing_Spawn(const:9, T_BISHOP, 0);
         Door_Raise(const:10, 16, 0);
@@ -137,67 +137,67 @@ script 10 OPEN
 {
     int var0;
 
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         var0 = 0;
         do
         {
             mapvar0 = random(const:1, 8);
-            switch(mapvar0)
+            switch (mapvar0)
             {
             case 1:
-                if(mapvar4 == 0)
+                if (mapvar4 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 2:
-                if(mapvar5 == 0)
+                if (mapvar5 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 3:
-                if(mapvar6 == 0)
+                if (mapvar6 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 4:
-                if(mapvar7 == 0)
+                if (mapvar7 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 5:
-                if(mapvar8 == 0)
+                if (mapvar8 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 6:
-                if(mapvar9 == 0)
+                if (mapvar9 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 7:
-                if(mapvar10 == 0)
+                if (mapvar10 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             case 8:
-                if(mapvar11 == 0)
+                if (mapvar11 == 0)
                 {
                     var0 = 1;
                 }
                 break;
             }
-        } while(var0 == 0);
+        } while (var0 == 0);
         Plat_UpByValue(mapvar0, 16, 255, 5);
         delay(const:350);
-        if(mapvar1 != 8)
+        if (mapvar1 != 8)
         {
             restart;
         }
@@ -351,7 +351,7 @@ script 23 (int arg0)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -373,7 +373,7 @@ script 254 OPEN
 
     delay(random(5, 7)*100);
     var0 = random(1, 4);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 80));
@@ -397,27 +397,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

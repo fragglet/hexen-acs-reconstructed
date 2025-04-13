@@ -27,7 +27,7 @@ script 1 (void)
 // Started by thing 6 at (128, 1088)
 script 2 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Floor_LowerByValueTimes8(const:1, 16, 30);
         Stairs_BuildDown(const:6, 16, 16, 0, 0);
@@ -37,7 +37,7 @@ script 2 (void)
 // Started by line 502 at (48, -2016)
 script 3 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Floor_LowerByValueTimes8(const:7, 16, 8);
         Floor_LowerByValueTimes8(const:8, 16, 16);
@@ -46,7 +46,7 @@ script 3 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -67,7 +67,7 @@ script 254 OPEN
 
     delay(random(2, 4)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 100));
@@ -94,27 +94,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

@@ -22,7 +22,7 @@ script 1 (int arg0, int arg1, int arg2)
     thingsound(arg1, "GlassShatter", 127);
     delay(const:1);
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(arg1, random(54, 63), random(0, 255), random(10, 40), random(5, 20));
@@ -36,7 +36,7 @@ script 1 (int arg0, int arg1, int arg2)
 // Started by line 564 at (-2704, -1232)
 script 2 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         Polyobj_RotateRight(const:4, 8, 64);
         mapvar0 = 1;
@@ -51,7 +51,7 @@ script 3 (void)
 
     Polyobj_OR_RotateRight(const:6, 24, 128);
     delay(const:40);
-    while(var0 < 18)
+    while (var0 < 18)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "SPAWN09");
         delay(const:2);
@@ -73,7 +73,7 @@ script 4 (void)
     int var0;
 
     delay(const:8);
-    while(var0 < 8)
+    while (var0 < 8)
     {
         Polyobj_OR_Move(var0+8, 16, 192, 64);
         delay(const:32);
@@ -85,7 +85,7 @@ script 4 (void)
 // teleporter that is only accessible in deathmatch mode.
 script 5 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         Door_Open(const:90, 16);
     }
@@ -97,7 +97,7 @@ script 6 (void)
     int var0;
 
     delay(const:8);
-    while(var0 < 8)
+    while (var0 < 8)
     {
         Polyobj_OR_Move(var0+8, 16, 192, 64);
         delay(const:32);
@@ -111,7 +111,7 @@ script 6 (void)
 // lines surrounding the teleporter if the player gets too close to it.
 script 7 (void)
 {
-    if(alcove_count < 4)
+    if (alcove_count < 4)
     {
         Floor_MoveToValueTimes8(const:30, 64, 2, FALSE);
         delay(const:256);
@@ -124,7 +124,7 @@ script 7 (void)
 // the emerald key door that leads up to the ramparts.
 script 8 (void)
 {
-    if(ramparts_opened == 0)
+    if (ramparts_opened == 0)
     {
         print(s:"THE DOOR IS LOCKED");
     }
@@ -150,7 +150,7 @@ script 10 (void)
 // TODO
 script 11 (void)
 {
-    if(courtyard_opened == 0)
+    if (courtyard_opened == 0)
     {
         print(s:"THE DOOR IS LOCKED");
     }
@@ -165,9 +165,9 @@ script 12 (void)
     int var1;
 
     mapvar3 = 1;
-    while(var1 < 20)
+    while (var1 < 20)
     {
-        while(var0 < 4)
+        while (var0 < 4)
         {
             Pillar_BuildAndCrush(40+var0, random(const:8, 32), 0, 20);
             tagwait(40+var0);
@@ -182,7 +182,7 @@ script 12 (void)
 // Started by line 1534 at (-1280, -1220)
 script 13 (void)
 {
-    if(mapvar3 == 1)
+    if (mapvar3 == 1)
     {
         Thing_Remove(const:32);
     }
@@ -191,7 +191,7 @@ script 13 (void)
 // Started by thing 118 at (-352, -1680)
 script 14 (void)
 {
-    if(mapvar4 == 0)
+    if (mapvar4 == 0)
     {
         Thing_Spawn(const:33, T_FIREGARGOYLE, 0);
         Thing_Spawn(const:34, T_ETTIN, 128);
@@ -208,16 +208,16 @@ script 15 (void)
     int var0;
     int var1;
 
-    while(var1 < 20)
+    while (var1 < 20)
     {
-        while(var0 < 8)
+        while (var0 < 8)
         {
             Polyobj_OR_Move(8+var0, 16, 64, 64);
             delay(const:32);
             var0 += 2;
         }
         var0 = 0;
-        while(var0 < 8)
+        while (var0 < 8)
         {
             Polyobj_OR_Move(8+var0, 16, 192, 64);
             delay(const:32);
@@ -235,7 +235,7 @@ script 16 (void)
     int var0;
 
     delay(const:64);
-    while(var0 < 3)
+    while (var0 < 3)
     {
         Floor_LowerByValue(36+var0, 32, 184);
         delay(const:64);
@@ -256,7 +256,7 @@ script 254 OPEN
 
     delay(random(3, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 80));
@@ -283,22 +283,22 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 196);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 196);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 0);
     }

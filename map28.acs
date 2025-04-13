@@ -17,7 +17,7 @@ int mapvar1;
 // Started by line 452 at (32, 528)
 script 1 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         mapvar0++;
         Ceiling_RaiseByValue(const:1, 16, 192);
@@ -38,7 +38,7 @@ script 2 (void)
 // Started by line 601 at (-128, -1088)
 script 4 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -87,7 +87,7 @@ script 7 OPEN
 
 script 8 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         delay(const:2);
@@ -111,7 +111,7 @@ script 8 (void)
 
 script 9 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         delay(const:2);
@@ -133,7 +133,7 @@ script 9 (void)
 
 script 10 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         delay(const:2);
@@ -155,7 +155,7 @@ script 10 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -182,7 +182,7 @@ script 254 OPEN
 
     delay(random(2, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient12", random(const:50, 127));
@@ -209,27 +209,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

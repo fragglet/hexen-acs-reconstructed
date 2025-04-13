@@ -25,7 +25,7 @@ script 2 (void)
 
 script 3 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         Thing_Activate(const:21);
         sectorsound("WaterMove", 127);
@@ -53,7 +53,7 @@ script 3 (void)
 // Started by line 1528 at (1600, -1464)
 script 4 (void)
 {
-    if(mapvar2 == 0)
+    if (mapvar2 == 0)
     {
         Floor_RaiseInstant(const:14, 0, 250);
         tagwait(const:14);
@@ -69,7 +69,7 @@ script 5 (void)
     int var0;
 
     var0 = 0;
-    while(var0 < 51)
+    while (var0 < 51)
     {
         var0++;
         Thing_ProjectileGravity(random(1, 4), random(41, 43), random(1, 255), 30, 0);
@@ -160,7 +160,7 @@ script 13 OPEN
 // Started by thing 459 at (-944, -80)
 script 14 (void)
 {
-    if(thingcount(T_FIREGARGOYLE, 12) == 0)
+    if (thingcount(T_FIREGARGOYLE, 12) == 0)
     {
         delay(const:70);
         Thing_Spawn(const:11, T_DEMON, 0);
@@ -175,13 +175,13 @@ script 14 (void)
 // Started by line 1106 at (-1648, -704)
 script 15 (void)
 {
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         Pillar_Open(const:17, 64, 112, 112);
         Thing_Activate(const:12);
         mapvar3++;
     }
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         Polyobj_DoorSwing(const:5, 4, 64, 210);
     }
@@ -201,9 +201,9 @@ script 15 (void)
 // Started by thing 465 at (-1088, -1728)
 script 16 (void)
 {
-    if(thingcount(T_BISHOP, 13) == 0)
+    if (thingcount(T_BISHOP, 13) == 0)
     {
-        if(mapvar4 == 0)
+        if (mapvar4 == 0)
         {
             Floor_LowerByValueTimes8(const:19, 32, 30);
             Thing_Activate(const:16);
@@ -243,7 +243,7 @@ script 22 (int arg0, int arg1, int arg2)
     Floor_LowerInstant(arg0, 0, 16);
     thingsound(arg1, "GlassShatter", 127);
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(arg1, random(54, 63), random(1, 255), random(10, 40), random(5, 20));
@@ -274,7 +274,7 @@ script 24 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -310,7 +310,7 @@ script 254 OPEN
 
     delay(random(2, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient10", random(const:50, 80));
@@ -337,27 +337,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

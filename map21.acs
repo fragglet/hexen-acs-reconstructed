@@ -37,11 +37,11 @@ script 1 (void)
 // Started (locked) by line 938 at (-1056, 1488)
 script 2 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
-    if(mapvar1 == 0)
+    if (mapvar1 == 0)
     {
         mapvar1 = 1;
         Polyobj_RotateLeft(const:1, 8, 64);
@@ -73,7 +73,7 @@ script 2 (void)
 script 3 (void)
 {
     mapvar0 = mapvar0+1;
-    if(mapvar0 == 4)
+    if (mapvar0 == 4)
     {
         Thing_Spawn(6, T_CENTAUR, 64);
         delay(const:32);
@@ -102,7 +102,7 @@ script 4 (void)
 
     var0 = 1;
     Door_Open(const:6, 8);
-    while(var0 < 4)
+    while (var0 < 4)
     {
         Light_ChangeToValue(25+var0, 112);
         var0++;
@@ -116,7 +116,7 @@ script 5 (void)
     Thing_Activate(const:5);
     Light_Fade(const:39, 172, 32);
     Light_Fade(const:40, 160, 32);
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:24, 23, 0, 0, 0);
         printbold(s:"A DOOR OPENED IN THE GIBBET");
@@ -136,7 +136,7 @@ script 6 (int arg0, int arg1, int arg2)
     Floor_LowerInstant(arg0, 0, 128);
     thingsound(arg1, "GlassShatter", 127);
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(arg1, random(54, 63), random(0, 255), random(10, 40), random(5, 20));
@@ -150,7 +150,7 @@ script 6 (int arg0, int arg1, int arg2)
 // Started by line 225 at (472, 1424)
 script 7 (void)
 {
-    if(mapvar2 == 0)
+    if (mapvar2 == 0)
     {
         print(s:"THE DOOR IS BARRED FROM THE INSIDE");
     }
@@ -184,7 +184,7 @@ script 9 (void)
 // Started by thing 362 at (-320, -192)
 script 10 (void)
 {
-    if(mapvar3 == 2)
+    if (mapvar3 == 2)
     {
         Door_Open(const:50, 16);
     }
@@ -197,7 +197,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -232,7 +232,7 @@ script 254 OPEN
 
     delay(random(5, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("EarthStartMove", random(const:50, 80));
@@ -259,27 +259,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

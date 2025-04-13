@@ -14,7 +14,7 @@ script 1 OPEN
 // Started by line 105 at (-1216, -112)
 script 2 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Light_ChangeToValue(const:27, 205);
         Thing_ProjectileGravity(const:1, T_FIREBALL1, 208, 80, 16);
@@ -64,7 +64,7 @@ script 4 (void)
 
     thingsound(32, "GlassShatter", 127);
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(32, random(54, 63), random(0, 255), random(10, 40), random(5, 20));
@@ -132,7 +132,7 @@ script 8 (void)
     int var0;
 
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(30, random(54, 63), random(0, 255), random(10, 40), random(5, 20));
@@ -160,32 +160,32 @@ script 10 OPEN
 {
     mapvar0 = random(const:1, 3);
     mapvar1 = random(const:1, 3);
-    if(mapvar0 == 1)
+    if (mapvar0 == 1)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS01");
         setlinetexture(1, SIDE_BACK, TEXTURE_MIDDLE, "GLASS01");
     }
-    else if(mapvar0 == 2)
+    else if (mapvar0 == 2)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS03");
         setlinetexture(1, SIDE_BACK, TEXTURE_MIDDLE, "GLASS03");
     }
-    else if(mapvar0 == 3)
+    else if (mapvar0 == 3)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS05");
         setlinetexture(1, SIDE_BACK, TEXTURE_MIDDLE, "GLASS05");
     }
-    if(mapvar1 == 1)
+    if (mapvar1 == 1)
     {
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS01");
         setlinetexture(2, SIDE_BACK, TEXTURE_MIDDLE, "GLASS01");
     }
-    else if(mapvar1 == 2)
+    else if (mapvar1 == 2)
     {
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS03");
         setlinetexture(2, SIDE_BACK, TEXTURE_MIDDLE, "GLASS03");
     }
-    else if(mapvar1 == 3)
+    else if (mapvar1 == 3)
     {
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "GLASS05");
         setlinetexture(2, SIDE_BACK, TEXTURE_MIDDLE, "GLASS05");
@@ -206,7 +206,7 @@ script 11 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -222,7 +222,7 @@ script 254 OPEN
 
     delay(random(4, 7)*100);
     var0 = random(1, 6);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient8", random(const:30, 90));
@@ -252,32 +252,32 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(250, T_ETTIN, 0);
     }

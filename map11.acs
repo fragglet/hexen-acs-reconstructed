@@ -33,7 +33,7 @@ script 2 OPEN
 script 3 OPEN
 {
     delay(const:1500);
-    if(thingcount(T_ETTIN, 0) != 0)
+    if (thingcount(T_ETTIN, 0) != 0)
     {
         ACS_Execute(const:1, 0, 0, 0, 0);
         terminate;
@@ -84,7 +84,7 @@ script 6 (void)
 
 script 7 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "SW_OL2");
@@ -111,7 +111,7 @@ script 254 OPEN
 
     delay(random(3, 4)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 80));
@@ -138,27 +138,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

@@ -18,7 +18,7 @@ script 1 (void)
     int var0;
 
     var0 = 1;
-    while(var0 < 11)
+    while (var0 < 11)
     {
         Polyobj_Move(var0, 12, 0, 64);
         delay(const:24);
@@ -30,7 +30,7 @@ script 1 (void)
     Ceiling_RaiseByValue(const:1, 4, 120);
     tagwait(const:1);
     var0 = 1;
-    while(var0 < 11)
+    while (var0 < 11)
     {
         Polyobj_Move(var0, 4, 128, 64);
         delay(const:110);
@@ -69,7 +69,7 @@ script 3 (void)
     Floor_LowerByValue(const:13, 8, 120);
     delay(const:32);
     Floor_RaiseByValue(const:14, 8, 64);
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Floor_LowerByValue(const:2, 8, 128);
     }
@@ -90,7 +90,7 @@ script 5 (void)
     int var1;
 
     var1 = 32;
-    while(var0 < 6)
+    while (var0 < 6)
     {
         Floor_RaiseByValue(20+var0, 16, var1);
         var1 = var1+32;
@@ -103,7 +103,7 @@ script 5 (void)
 // Started by line 644 at (672, 2160)
 script 6 (void)
 {
-    if(mapvar0 && mapvar1 && mapvar2 && !(mapvar7))
+    if (mapvar0 && mapvar1 && mapvar2 && !(mapvar7))
     {
         Door_Close(const:61, 64);
         tagwait(const:61);
@@ -127,10 +127,10 @@ script 6 (void)
 // Started by line 612 at (-1296, -1828)
 script 7 (int arg0)
 {
-    if(mapvar0)
+    if (mapvar0)
     {
         Polyobj_RotateLeft(const:17, 16, 64);
-        if(mapvar0 == arg0)
+        if (mapvar0 == arg0)
         {
             mapvar3 = 1;
         }
@@ -138,7 +138,7 @@ script 7 (int arg0)
         {
             mapvar3 = 0;
         }
-        if(mapvar3 && mapvar4 && mapvar5)
+        if (mapvar3 && mapvar4 && mapvar5)
         {
             ACS_Terminate(const:6, 36);
             Door_Raise(const:18, 4, 0);
@@ -171,11 +171,11 @@ script 7 (int arg0)
 // Started by line 610 at (-1296, -1764)
 script 8 (int arg0)
 {
-    if(mapvar1)
+    if (mapvar1)
     {
         mapvar4 = 0;
         Polyobj_RotateLeft(const:18, 16, 64);
-        if(mapvar1 == arg0)
+        if (mapvar1 == arg0)
         {
             mapvar4 = 1;
         }
@@ -183,7 +183,7 @@ script 8 (int arg0)
         {
             mapvar4 = 0;
         }
-        if(mapvar3 && mapvar4 && mapvar5)
+        if (mapvar3 && mapvar4 && mapvar5)
         {
             ACS_Terminate(const:6, 36);
             Door_Raise(const:18, 4, 0);
@@ -216,11 +216,11 @@ script 8 (int arg0)
 // Started by line 608 at (-1296, -1700)
 script 9 (int arg0)
 {
-    if(mapvar2)
+    if (mapvar2)
     {
         mapvar5 = 0;
         Polyobj_RotateLeft(const:19, 16, 64);
-        if(mapvar2 == arg0)
+        if (mapvar2 == arg0)
         {
             mapvar5 = 1;
         }
@@ -228,7 +228,7 @@ script 9 (int arg0)
         {
             mapvar5 = 0;
         }
-        if(mapvar3 && mapvar4 && mapvar5)
+        if (mapvar3 && mapvar4 && mapvar5)
         {
             ACS_Terminate(const:6, 36);
             Door_Raise(const:18, 4, 0);
@@ -258,7 +258,7 @@ script 9 (int arg0)
 // Started by line 669 at (848, 2560)
 script 10 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Floor_LowerByValue(const:3, 8, 128);
     }
@@ -266,7 +266,7 @@ script 10 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -280,7 +280,7 @@ script 254 OPEN
 
     delay(random(5*100, 7*100));
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient12", random(const:50, 80));
@@ -307,27 +307,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

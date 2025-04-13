@@ -27,10 +27,10 @@ script 2 (void)
     printbold(s:"ONE SIXTH OF THE PUZZLE HAS BEEN SOLVED");
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:20, 13, 0, 0, 0);
-        if(++shadow_puzzle_pieces == 6)
+        if (++shadow_puzzle_pieces == 6)
         {
             ACS_Execute(const:10, 13, 0, 0, 0);
         }
@@ -53,10 +53,10 @@ script 3 (void)
     printbold(s:"ONE SIXTH OF THE PUZZLE HAS BEEN SOLVED");
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:21, 13, 0, 0, 0);
-        if(++shadow_puzzle_pieces == 6)
+        if (++shadow_puzzle_pieces == 6)
         {
             ACS_Execute(const:10, 13, 0, 0, 0);
         }
@@ -84,7 +84,7 @@ script 100 OPEN
 {
     setlinespecial(1, 80 /*ACS_Execute*/, 2, 9, 0, 0, 0);
     setlinespecial(2, 80 /*ACS_Execute*/, 3, 9, 0, 0, 0);
-    while(1)
+    while (1)
     {
         Thing_SpawnNoFog(2, T_WATERDRIP, 192);
         delay(random(1, 5)*35);
@@ -95,7 +95,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -108,7 +108,7 @@ script 254 OPEN
 
     delay(random(3, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient10", random(const:50, 100));
@@ -135,27 +135,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

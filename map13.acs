@@ -15,7 +15,7 @@ script 1 (void)
     int var0;
 
     var0 = 1;
-    while(var0 < 9)
+    while (var0 < 9)
     {
         Floor_RaiseByValue(var0, 16, 16*var0);
         var0++;
@@ -29,7 +29,7 @@ script 2 (void)
     int var0;
 
     var0 = 1;
-    while(var0 < 9)
+    while (var0 < 9)
     {
         Floor_LowerByValue(var0, 16, 16*var0);
         var0++;
@@ -43,7 +43,7 @@ script 3 (void)
     int var0;
 
     var0 = 0;
-    while(var0 < 9)
+    while (var0 < 9)
     {
         Floor_LowerByValue(9-var0, 16, 16*var0);
         var0++;
@@ -57,7 +57,7 @@ script 4 (void)
 
     var0 = 0;
     ThrustThing(const:128, 16);
-    while(var0 < 9)
+    while (var0 < 9)
     {
         Floor_RaiseByValue(9-var0, 32, 16*var0);
         var0++;
@@ -77,14 +77,14 @@ script 6 (void)
 {
     int var0;
 
-    while(var0 < 3)
+    while (var0 < 3)
     {
         Floor_MoveToValueTimes8(202+var0, 4, 6+(var0*2), FALSE);
         var0++;
     }
     tagwait(const:204);
     ACS_Execute(7, 13, 0, 0, 0);
-    while(1)
+    while (1)
     {
         Thing_Projectile(10, random(51, 52), random(32, 96), 112, 0);
         thingsound(10, "MaulatorHamSwing", 127);
@@ -199,7 +199,7 @@ script 9 (void)
     int var0;
 
     var0 = 0;
-    while(var0 < 9)
+    while (var0 < 9)
     {
         Floor_MoveToValueTimes8(17+var0, 64, 20, TRUE);
         delay(random(const:8, 32));
@@ -209,7 +209,7 @@ script 9 (void)
 
 script 10 (void)
 {
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         Polyobj_RotateRight(const:9, 8, 64);
         Ceiling_RaiseByValue(const:78, 16, 48);
@@ -223,7 +223,7 @@ script 10 (void)
 // Started by line 256 at (1216, -928)
 script 11 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         Polyobj_RotateRight(const:4, 8, 64);
         mapvar0 = 1;
@@ -236,7 +236,7 @@ script 12 (void)
     int var0;
 
     var0 = 1;
-    while(var0 < 11)
+    while (var0 < 11)
     {
         Floor_RaiseByValue(49+var0, 8, var0*24);
         delay(const:8);
@@ -289,7 +289,7 @@ script 15 (void)
     delay(const:2);
     setlinetexture(3, SIDE_FRONT, TEXTURE_MIDDLE, "Spawn08");
     delay(random(const:1, 4));
-    if(mapvar4 == 0)
+    if (mapvar4 == 0)
     {
         restart;
     }
@@ -308,7 +308,7 @@ script 16 (void)
     Thing_Projectile(var1, random(51, 52), 128, 100, 0);
     thingsound(var1, "MaulatorHamSwing", 127);
     delay(random(8, 32));
-    if(mapvar4 == 0)
+    if (mapvar4 == 0)
     {
         restart;
     }
@@ -356,7 +356,7 @@ script 23 (void)
 // Started by line 1229 at (-1072, 1664)
 script 24 (void)
 {
-    if(mapvar2 == 0)
+    if (mapvar2 == 0)
     {
         Ceiling_RaiseByValue(const:205, 16, 64);
         mapvar2 = 1;
@@ -366,7 +366,7 @@ script 24 (void)
 // Started by line 1563 at (1184, -32)
 script 25 (void)
 {
-    if(gametype() != GAME_SINGLE_PLAYER)
+    if (gametype() != GAME_SINGLE_PLAYER)
     {
         Plat_DownWaitUpStay(const:30, 16, 105);
     }
@@ -374,7 +374,7 @@ script 25 (void)
 
 script 100 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         delay(const:30);
         setlinetexture(18, SIDE_FRONT, TEXTURE_MIDDLE, "FOREST12");
@@ -412,7 +412,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -436,7 +436,7 @@ script 254 OPEN
 
     delay(random(2, 4)*100);
     var0 = random(1, 8);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 100));
@@ -472,27 +472,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

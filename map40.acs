@@ -22,9 +22,9 @@ script 1 (void)
 
     Ceiling_LowerByValue(const:1, 32, 64);
     tagwait(const:1);
-    while(var0 < 8)
+    while (var0 < 8)
     {
-        while(var1 < 4)
+        while (var1 < 4)
         {
             setlinetexture(var1+7, SIDE_FRONT, TEXTURE_TOP, "spawn02");
             delay(const:2);
@@ -50,7 +50,7 @@ script 2 (void)
     int var0;
     int var1;
 
-    while(var1 < 6)
+    while (var1 < 6)
     {
         Ceiling_RaiseByValue(var1+2, 64, 112);
         tagwait(var1+2);
@@ -65,9 +65,9 @@ script 3 (void)
 
     Floor_LowerByValue(const:8, 32, 16);
     changefloor(const:8, "X_001");
-    while(var0 < 5)
+    while (var0 < 5)
     {
-        while(var1 < 3)
+        while (var1 < 3)
         {
             Thing_ProjectileGravity(11+var1, T_FIREBALL1, random(0, 255), random(8, 32), random(8, 32));
             thingsound(8+var0, "FireDemonAttack", 127);
@@ -86,9 +86,9 @@ script 4 (void)
 
     Floor_LowerByValue(const:9, 32, 16);
     changefloor(const:9, "X_001");
-    while(var0 < 5)
+    while (var0 < 5)
     {
-        while(var1 < 3)
+        while (var1 < 3)
         {
             Thing_ProjectileGravity(14+var1, T_FIREBALL1, random(0, 255), random(8, 32), random(8, 32));
             thingsound(8+var0, "FireDemonAttack", 127);
@@ -118,7 +118,7 @@ script 7 (void)
 {
     int var0;
 
-    while(var0 < 6)
+    while (var0 < 6)
     {
         Thing_Activate(var0+17);
         var0++;
@@ -126,7 +126,7 @@ script 7 (void)
     }
     var0 = 0;
     delay(random(64, 128));
-    while(var0 < 6)
+    while (var0 < 6)
     {
         Thing_Deactivate(var0+17);
         var0++;
@@ -141,9 +141,9 @@ script 12 (void)
 
     Ceiling_LowerByValue(const:15, 32, 64);
     tagwait(const:15);
-    while(var0 < 8)
+    while (var0 < 8)
     {
-        while(var1 < 4)
+        while (var1 < 4)
         {
             setlinetexture(var1+24, SIDE_FRONT, TEXTURE_TOP, "spawn02");
             delay(const:2);
@@ -197,26 +197,26 @@ script 14 OPEN
     int var0;
 
     var0 = 0;
-    while(var0 < 24)
+    while (var0 < 24)
     {
         Floor_Waggle(120+var0, 36, 64, var0*2, 5);
         var0++;
     }
     tagwait(120);
     delay(random(2, 8));
-    if(mapvar0)
+    if (mapvar0)
     {
         terminate;
     }
     var0 = 0;
-    while(var0 < 24)
+    while (var0 < 24)
     {
         Floor_Waggle(143-var0, 36, 64, var0*2, 5);
         var0++;
     }
     tagwait(120);
     delay(random(2, 8));
-    if(!(mapvar0))
+    if (!(mapvar0))
     {
         restart;
     }
@@ -234,18 +234,18 @@ script 16 (void)
 {
     int var0;
 
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
-    if(mapvar1 == 0)
+    if (mapvar1 == 0)
     {
         Polyobj_RotateRight(const:1, 8, 64);
         mapvar1 = 1;
     }
     delay(random(8, 32));
     var0 = 0;
-    while(var0 < 6)
+    while (var0 < 6)
     {
         Ceiling_RaiseByValue(var0+2, 16, 128);
         var0++;
@@ -259,7 +259,7 @@ script 17 (void)
     int var0;
     int var1;
 
-    if(mapvar2 == 2)
+    if (mapvar2 == 2)
     {
         sectorsound("Switch1", 127);
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "SW_2_DN");
@@ -271,7 +271,7 @@ script 17 (void)
         mapvar4 = 0;
         mapvar5++;
         mapvar6++;
-        switch(var0)
+        switch (var0)
         {
         case 0:
             Thing_Spawn(const:28, T_MANA1, 0);
@@ -314,9 +314,9 @@ script 17 (void)
             Thing_Spawn(const:29, T_MANA3, 0);
             break;
         }
-        if(mapvar5 == 6)
+        if (mapvar5 == 6)
         {
-            while(var1 < 4)
+            while (var1 < 4)
             {
                 Thing_Spawn(var1+30, T_BISHOP, 0);
                 delay(random(8, 32));
@@ -324,11 +324,11 @@ script 17 (void)
                 var1++;
             }
         }
-        if(mapvar6 == 20)
+        if (mapvar6 == 20)
         {
             Thing_Spawn(34, T_ITEMHEALTHFULL, 0);
         }
-        if(mapvar6 == 40)
+        if (mapvar6 == 40)
         {
             Thing_Spawn(30, T_CENTAURLEADER, 0);
             Thing_Spawn(31, T_CENTAURLEADER, 0);
@@ -343,14 +343,14 @@ script 17 (void)
 // Started by line 916 at (992, 80)
 script 18 (void)
 {
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         sectorsound("Switch1", 127);
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "SW_2_MD");
         mapvar2++;
         mapvar3 = 1;
     }
-    if(mapvar2 == 2)
+    if (mapvar2 == 2)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "SW_2_UP");
     }
@@ -359,14 +359,14 @@ script 18 (void)
 // Started by line 910 at (992, 560)
 script 19 (void)
 {
-    if(mapvar4 == 0)
+    if (mapvar4 == 0)
     {
         sectorsound("Switch1", 127);
         setlinetexture(3, SIDE_FRONT, TEXTURE_MIDDLE, "SW_2_MD");
         mapvar2++;
         mapvar4 = 1;
     }
-    if(mapvar2 == 2)
+    if (mapvar2 == 2)
     {
         setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "SW_2_UP");
     }
@@ -374,11 +374,11 @@ script 19 (void)
 
 script 20 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         terminate;
     }
-    if(mapvar7 == 0)
+    if (mapvar7 == 0)
     {
         Polyobj_OR_RotateLeft(const:1, 8, 64);
         mapvar7 = 1;
@@ -394,7 +394,7 @@ script 100 OPEN
     {
         delay(const:128);
     }
-    while(1)
+    while (1)
     {
         var1 = random(1, 6);
         var0 = random(1, 6);
@@ -413,11 +413,11 @@ script 101 OPEN
 {
     int var0;
 
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
-    while(var0 < 5)
+    while (var0 < 5)
     {
         Door_Open(10+var0, 16);
         var0++;
@@ -469,7 +469,7 @@ script 250 (void)
 
 script 251 (void)
 {
-    if(mapvar8)
+    if (mapvar8)
     {
         ACS_Execute(3, 40, 0, 0, 0);
         ACS_Execute(4, 40, 0, 0, 0);
@@ -487,15 +487,15 @@ script 251 (void)
 
 script 252 (void)
 {
-    if(mapvar8)
+    if (mapvar8)
     {
         Radius_Quake(2, 5, 1, 5, 245);
-        if(mapvar9 == 0)
+        if (mapvar9 == 0)
         {
             Door_Open(const:11, 16);
             mapvar9 = 1;
         }
-        else if(mapvar10 == 0)
+        else if (mapvar10 == 0)
         {
             Door_Open(const:13, 16);
             mapvar10 = 1;
@@ -507,7 +507,7 @@ script 253 (void)
 {
     Radius_Quake(2, 5, 1, 5, 245);
     ACS_Execute(1, 40, 0, 0, 0);
-    if(mapvar8)
+    if (mapvar8)
     {
         ACS_Execute(12, 40, 0, 0, 0);
     }
@@ -518,7 +518,7 @@ script 254 (void)
     int var0;
     int var1;
 
-    if(mapvar8 != 0)
+    if (mapvar8 != 0)
     {
         Radius_Quake(2, 5, 1, 5, 245);
         var0 = random(230, 239);

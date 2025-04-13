@@ -57,7 +57,7 @@ script 3 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:18, 13, 0, 0, 0);
-    if(++shadow_puzzle_pieces == 6)
+    if (++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
@@ -79,7 +79,7 @@ script 4 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:19, 13, 0, 0, 0);
-    if(++shadow_puzzle_pieces == 6)
+    if (++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
@@ -101,12 +101,12 @@ script 16 (void)
 {
     int var0;
 
-    if(mapvar1 == 1)
+    if (mapvar1 == 1)
     {
-        if(mapvar0 == 0)
+        if (mapvar0 == 0)
         {
             mapvar0 = 1;
-            while(var0 < 13)
+            while (var0 < 13)
             {
                 Floor_LowerByValue(209+var0, 16, 176);
                 delay(8);
@@ -123,10 +123,10 @@ script 17 (void)
 {
     int var0;
 
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         mapvar0 = 1;
-        while(var0 < 13)
+        while (var0 < 13)
         {
             Floor_LowerByValue(221-var0, 16, 176);
             delay(8);
@@ -134,7 +134,7 @@ script 17 (void)
         }
         delay(const:500);
         var0 = 0;
-        while(var0 < 13)
+        while (var0 < 13)
         {
             Floor_RaiseByValue(209+var0, 16, 176);
             delay(const:8);
@@ -148,7 +148,7 @@ script 17 (void)
 // Started by line 1546 at (704, -976)
 script 18 (void)
 {
-    if(mapvar6 == 0)
+    if (mapvar6 == 0)
     {
         Polyobj_Move(const:2, 8, 64, 128);
         mapvar6 = 2;
@@ -157,7 +157,7 @@ script 18 (void)
 
 script 20 (void)
 {
-    if(mapvar2 < 3)
+    if (mapvar2 < 3)
     {
         Ceiling_LowerByValue(const:33, 16, 24);
         delay(const:20);
@@ -166,7 +166,7 @@ script 20 (void)
         Ceiling_MoveToValueTimes8(const:33, 80, 14, FALSE);
         tagwait(const:33);
     }
-    if(mapvar2 < 3)
+    if (mapvar2 < 3)
     {
         Floor_RaiseByValue(const:34, 16, 24);
         delay(const:20);
@@ -175,7 +175,7 @@ script 20 (void)
         Floor_MoveToValueTimes8(const:34, 80, 9, TRUE);
         tagwait(const:34);
     }
-    if(mapvar2 < 3)
+    if (mapvar2 < 3)
     {
         Floor_RaiseByValue(const:35, 16, 24);
         delay(const:20);
@@ -189,7 +189,7 @@ script 20 (void)
 
 script 21 (void)
 {
-    if(++mapvar2 == 3)
+    if (++mapvar2 == 3)
     {
         Ceiling_RaiseByValue(const:5, 32, 104);
         Floor_LowerByValue(const:30, 16, 24);
@@ -199,24 +199,24 @@ script 21 (void)
 // Started by line 1797 at (3456, 1280)
 script 22 (void)
 {
-    if(mapvar3 == 2)
+    if (mapvar3 == 2)
     {
         mapvar3 = 0;
     }
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         Floor_MoveToValueTimes8(const:75, 64, 18, FALSE);
         Floor_RaiseAndCrush(const:50, 64, 20);
         Floor_RaiseAndCrush(const:52, 64, 20);
     }
-    while(mapvar3 < 2)
+    while (mapvar3 < 2)
     {
-        if(random(0, 10) < 5)
+        if (random(0, 10) < 5)
         {
             Thing_Projectile(74, T_POISONDART, 0, random(64, 80), 0);
             thingsound(74, "MaulatorHamSwing", 127);
         }
-        if(random(0, 10) < 5)
+        if (random(0, 10) < 5)
         {
             Thing_Projectile(75, T_POISONDART, 128, random(64, 80), 0);
             thingsound(75, "MaulatorHamSwing", 127);
@@ -230,9 +230,9 @@ script 22 (void)
 // Started by line 2123 at (3552, 1344)
 script 23 (int arg0)
 {
-    if(mapvar3 == 1)
+    if (mapvar3 == 1)
     {
-        if((arg0 == 1) || (arg0 == mapvar4) || (random(0, 10) < 4))
+        if ((arg0 == 1) || (arg0 == mapvar4) || (random(0, 10) < 4))
         {
             Teleport(const:77);
         }
@@ -244,17 +244,17 @@ script 24 (void)
 {
     int var0;
 
-    if(mapvar3 != 1)
+    if (mapvar3 != 1)
     {
         mapvar3 = 1;
         mapvar4 = random(2, 3);
         Floor_LowerToLowest(const:50, 64);
         tagwait(const:50);
         Floor_RaiseAndCrush(const:51, 64, 20);
-        while(mapvar3 < 2)
+        while (mapvar3 < 2)
         {
             var0 = 50;
-            while(var0 < 58)
+            while (var0 < 58)
             {
                 Thing_Projectile(var0, T_FIREBALL1, 0, 0, 48);
                 thingsound(var0, "FireDemonAttack", 127);
@@ -262,7 +262,7 @@ script 24 (void)
                 var0++;
             }
             var0 = 57;
-            while(var0 >= 50)
+            while (var0 >= 50)
             {
                 Thing_Projectile(var0, T_FIREBALL1, 0, 0, 48);
                 thingsound(var0, "FireDemonAttack", 127);
@@ -276,7 +276,7 @@ script 24 (void)
 // Started by line 1818 at (3456, 960)
 script 25 (void)
 {
-    if(mapvar3 == 1)
+    if (mapvar3 == 1)
     {
         Floor_MoveToValueTimes8(const:75, 64, 26, FALSE);
     }
@@ -289,7 +289,7 @@ script 25 (void)
 // Started by line 1666 at (-360, 3064)
 script 26 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         Floor_RaiseByValue(const:27, 16, 48);
         mapvar1 = 1;
@@ -299,7 +299,7 @@ script 26 (void)
 // Started by line 1654 at (-216, 2816)
 script 27 (void)
 {
-    if(mapvar5 == 0)
+    if (mapvar5 == 0)
     {
         print(s:"THE DOOR IS BARRED FROM THE INSIDE");
     }
@@ -309,7 +309,7 @@ script 27 (void)
 // Started by line 1826 at (1920, 2224)
 script 28 (void)
 {
-    if(mapvar5 == 0)
+    if (mapvar5 == 0)
     {
         print(s:"YOU HEAR A DOOR OPEN IN THE DISTANCE");
         mapvar5 = 1;
@@ -321,7 +321,7 @@ script 28 (void)
 // Started by line 1559 at (3232, 672)
 script 29 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         Door_Open(const:32, 16);
     }
@@ -342,7 +342,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -374,7 +374,7 @@ script 254 OPEN
 
     delay(random(100, 200));
     var0 = random(1, 8);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 110));
@@ -410,27 +410,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 0);
     }

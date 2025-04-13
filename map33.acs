@@ -38,7 +38,7 @@ script 4 (void)
     int var0;
 
     delay(const:32);
-    while(var0 < 12)
+    while (var0 < 12)
     {
         Thing_Activate(1+var0);
         Light_Fade(20+var0, 160, 8);
@@ -54,7 +54,7 @@ script 5 (void)
     int var0;
 
     Door_Open(const:6, 8);
-    while(var0 < 4)
+    while (var0 < 4)
     {
         Thing_Spawn(var0+12, T_BISHOP, var0*64);
         var0++;
@@ -73,7 +73,7 @@ script 254 OPEN
 
     delay(random(5, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient12", random(const:50, 80));

@@ -35,9 +35,9 @@ script 1 (void)
 // Started by thing 366 at (1328, -1008)
 script 2 (void)
 {
-    if(thingcount(T_ETTIN, 1) < 5)
+    if (thingcount(T_ETTIN, 1) < 5)
     {
-        if(mapvar3 == 0)
+        if (mapvar3 == 0)
         {
             Polyobj_Move(const:1, 4, 128, 128);
             mapvar3 = 2;
@@ -64,9 +64,9 @@ script 2 (void)
 // Started by thing 371 at (1584, 320)
 script 3 (void)
 {
-    if(thingcount(T_CENTAUR, 1) < 6)
+    if (thingcount(T_CENTAUR, 1) < 6)
     {
-        if(mapvar4 == 0)
+        if (mapvar4 == 0)
         {
             Floor_LowerToNearest(const:8, 32);
             mapvar4 = 2;
@@ -98,11 +98,11 @@ script 7 (void)
     int var0;
 
     var0 = 0;
-    if(thingcount(T_FIREGARGOYLE, 5) < 3)
+    if (thingcount(T_FIREGARGOYLE, 5) < 3)
     {
-        if(mapvar5 == 0)
+        if (mapvar5 == 0)
         {
-            while(var0 < 10)
+            while (var0 < 10)
             {
                 delay(const:105);
                 Thing_Spawn(const:4, T_BRIDGE, 0);
@@ -128,7 +128,7 @@ script 8 (void)
 // Started by line 703 at (-512, 1332)
 script 9 (void)
 {
-    if(mapvar0 == 0)
+    if (mapvar0 == 0)
     {
         Thing_Activate(const:8);
         delay(const:25);
@@ -151,7 +151,7 @@ script 10 (void)
 // Started by line 147 at (576, -3008)
 script 11 (void)
 {
-    if(mapvar1 == 0)
+    if (mapvar1 == 0)
     {
         Polyobj_RotateRight(const:4, 16, 128);
     }
@@ -185,7 +185,7 @@ script 13 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:22, 13, 0, 0, 0);
-    if(++shadow_puzzle_pieces == 6)
+    if (++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
@@ -206,7 +206,7 @@ script 14 (void)
     delay(const:96);
     printbold(s:"ON THE SHADOW WOOD");
     ACS_Execute(const:23, 13, 0, 0, 0);
-    if(++shadow_puzzle_pieces == 6)
+    if (++shadow_puzzle_pieces == 6)
     {
         ACS_Execute(const:10, 13, 0, 0, 0);
     }
@@ -228,7 +228,7 @@ script 100 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -243,7 +243,7 @@ script 254 OPEN
 
     delay(random(5, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient1", random(const:50, 80));
@@ -270,27 +270,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

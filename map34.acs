@@ -18,9 +18,9 @@ script 2 (int arg0)
     int var0;
 
     mapvar0 = arg0+mapvar0;
-    if(mapvar0 == 2)
+    if (mapvar0 == 2)
     {
-        if(gametype() != GAME_NET_DEATHMATCH)
+        if (gametype() != GAME_NET_DEATHMATCH)
         {
             sectorsound("SwitchOtherLevel", 127);
             printbold(s:"ONE NINTH OF THE PUZZLE HAS BEEN SOLVED");
@@ -64,7 +64,7 @@ script 2 (int arg0)
         Light_Fade(const:21, 144, 32);
         Light_Fade(const:19, 0, 56);
         Floor_RaiseByValue(const:19, 8, 56);
-        while(var0 < 9)
+        while (var0 < 9)
         {
             Light_Fade(22+var0, 16*var0, 32);
             delay(const:8);
@@ -91,10 +91,10 @@ script 4 (int arg0, int arg1)
     mapvar1 += arg1;
     Floor_LowerByValue(arg0, 8, 24);
     tagwait(arg0);
-    if(mapvar1 == 3)
+    if (mapvar1 == 3)
     {
         var0 = 20;
-        while(var0 < 24)
+        while (var0 < 24)
         {
             Thing_Spawn(var0, T_BISHOP, var1);
             var0++;
@@ -112,7 +112,7 @@ script 5 (void)
     thingsound(27, "GlassShatter", 127);
     delay(const:1);
     var0 = 10;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(27, random(54, 63), random(0, 255), random(10, 40), random(5, 20));
@@ -131,7 +131,7 @@ script 6 (int arg0, int arg1, int arg2)
     Ceiling_RaiseByValue(arg1, 128, 16);
     var0 = 10;
     Thing_SpawnNoFog(arg0+1, T_ETTIN, arg2);
-    while(var0 > 0)
+    while (var0 > 0)
     {
         delay(random(1, 2));
         var0--;
@@ -148,7 +148,7 @@ script 7 (void)
 
 script 8 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         delay(const:2);
@@ -172,7 +172,7 @@ script 8 (void)
 
 script 9 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "SW_OL2");
         delay(const:2);
@@ -201,7 +201,7 @@ script 9 (void)
 // Started by line 355 at (-192, 1216)
 script 10 (void)
 {
-    if(gametype() == GAME_NET_DEATHMATCH)
+    if (gametype() == GAME_NET_DEATHMATCH)
     {
         Floor_LowerByValue(const:2, 8, 128);
     }
@@ -265,7 +265,7 @@ script 105 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -279,7 +279,7 @@ script 254 OPEN
 
     delay(random(5, 7)*100);
     var0 = random(1, 5);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient13", random(const:50, 80));
@@ -306,27 +306,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

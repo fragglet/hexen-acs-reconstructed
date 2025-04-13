@@ -42,9 +42,9 @@ script 2 OPEN
 // Started by line 1811 at (560, -480)
 script 3 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
-        if(++mapvar4 == 6)
+        if (++mapvar4 == 6)
         {
             Door_Raise(const:12, 32, 0);
             terminate;
@@ -55,7 +55,7 @@ script 3 (void)
 // Started by line 1957 at (960, -2704)
 script 4 (void)
 {
-    if(mapvar4 == 6)
+    if (mapvar4 == 6)
     {
         Ceiling_RaiseByValue(const:13, 16, 128);
         tagwait(const:13);
@@ -149,9 +149,9 @@ script 8 (void)
 // Started by thing 652 at (-48, -3696)
 script 9 (void)
 {
-    if(thingcount(T_CENTAUR, 1) < 3)
+    if (thingcount(T_CENTAUR, 1) < 3)
     {
-        if(mapvar7 == 0)
+        if (mapvar7 == 0)
         {
             Polyobj_RotateRight(const:3, 4, 64);
             mapvar7 = 1;
@@ -211,7 +211,7 @@ script 15 (void)
 // Started by line 175 at (64, 0)
 script 16 (void)
 {
-    if(mapvar3 == 5)
+    if (mapvar3 == 5)
     {
         Polyobj_Move(const:6, 4, 128, 192);
         Polyobj_Move(const:5, 4, 64, 192);
@@ -235,7 +235,7 @@ script 17 (int arg0, int arg1, int arg2)
     delay(const:1);
     thingsound(arg1, "GlassShatter", 127);
     var0 = 20;
-    while(var0 > 0)
+    while (var0 > 0)
     {
         var0--;
         Thing_ProjectileGravity(arg1, random(54, 63), random(1, 255), random(10, 40), random(5, 20));
@@ -247,7 +247,7 @@ script 18 (void)
 {
     delay(const:25);
     ACS_Execute(const:8, 0, 0, 0, 0);
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         ACS_Execute(const:19, 0, 0, 0, 0);
         Radius_Quake(const:12, 255, 0, 120, 74);
@@ -275,7 +275,7 @@ script 19 (void)
 
 script 20 (void)
 {
-    if(mapvar6 == 9)
+    if (mapvar6 == 9)
     {
         Floor_LowerByValueTimes8(const:4, 32, 32);
         tagwait(const:4);
@@ -298,47 +298,47 @@ script 21 (void)
     do
     {
         var0 = random(const:1, 20);
-        if((var0 == 1) || (var0 == 2))
+        if ((var0 == 1) || (var0 == 2))
         {
             var1 = 2;
         }
-        else if((var0 == 3) || (var0 == 4))
+        else if ((var0 == 3) || (var0 == 4))
         {
             var1 = 3;
         }
-        else if((var0 == 5) || (var0 == 6))
+        else if ((var0 == 5) || (var0 == 6))
         {
             var1 = 5;
         }
-        else if((var0 == 7) || (var0 == 8) || (var0 == 9))
+        else if ((var0 == 7) || (var0 == 8) || (var0 == 9))
         {
             var1 = 19;
         }
-        else if((var0 == 10) || (var0 == 11) || (var0 == 12))
+        else if ((var0 == 10) || (var0 == 11) || (var0 == 12))
         {
             var1 = 11;
         }
-        else if((var0 == 13) || (var0 == 14) || (var0 == 15))
+        else if ((var0 == 13) || (var0 == 14) || (var0 == 15))
         {
             var1 = 12;
         }
-        else if((var0 == 16) || (var0 == 17) || (var0 == 18))
+        else if ((var0 == 16) || (var0 == 17) || (var0 == 18))
         {
             var1 = 24;
         }
-        else if(var0 == 19)
+        else if (var0 == 19)
         {
             var1 = 17;
         }
-        else if(var0 == 20)
+        else if (var0 == 20)
         {
             var1 = 26;
         }
         Thing_ProjectileGravity(var2, var1, random(const:1, 255), 80, 50);
-    } while(++var2 < 10);
+    } while (++var2 < 10);
     Plat_DownWaitUpStay(const:37, 64, 1000);
     tagwait(const:37);
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         delay(const:5000);
     }
@@ -360,9 +360,9 @@ script 21 (void)
 // Started by thing 671 at (1408, -1728)
 script 22 (void)
 {
-    if(thingcount(T_DEMON, 40) < 4)
+    if (thingcount(T_DEMON, 40) < 4)
     {
-        if(mapvar8 == 0)
+        if (mapvar8 == 0)
         {
             Door_Raise(const:38, 16, 0);
             mapvar8 = 1;
@@ -372,7 +372,7 @@ script 22 (void)
 
 script 23 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         delay(const:30);
         setlinetexture(6, SIDE_FRONT, TEXTURE_MIDDLE, "MONK24");
@@ -428,7 +428,7 @@ script 23 OPEN
 // Started by line 572 at (-128, -768)
 script 24 (void)
 {
-    if(mapvar5 == 0)
+    if (mapvar5 == 0)
     {
         mapvar5++;
         Radius_Quake(const:2, 70, 0, 120, 74);
@@ -530,7 +530,7 @@ script 39 (void)
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -559,7 +559,7 @@ script 254 OPEN
 
     delay(random(4, 8)*100);
     var0 = random(1, 7);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("EarthStartMove", random(const:50, 80));
@@ -592,27 +592,27 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 64);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 64);
     }

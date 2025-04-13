@@ -13,7 +13,7 @@ int mapvar6;
 
 script 1 (void)
 {
-    if(++mapvar1 == 2)
+    if (++mapvar1 == 2)
     {
         Polyobj_RotateRight(const:19, 2, 64);
         Polyobj_RotateLeft(const:20, 2, 64);
@@ -42,7 +42,7 @@ script 2 (void)
 // Started by line 1063 at (1384, 2496)
 script 3 (void)
 {
-    if(mapvar3 == 0)
+    if (mapvar3 == 0)
     {
         mapvar3 = 1;
         Floor_LowerByValue(const:52, 32, 112);
@@ -69,7 +69,7 @@ script 4 (void)
 // Started by line 1057 at (1384, 1728)
 script 5 (void)
 {
-    if(mapvar4 == 0)
+    if (mapvar4 == 0)
     {
         mapvar4 = 1;
         Floor_LowerByValue(const:53, 32, 112);
@@ -111,7 +111,7 @@ script 6 (void)
 // Started by thing 217 at (-288, -1056)
 script 7 (void)
 {
-    if(thingcount(T_DEMON, 23) == 0)
+    if (thingcount(T_DEMON, 23) == 0)
     {
         clearlinespecial();
         Thing_Activate(const:10);
@@ -162,7 +162,7 @@ script 10 OPEN
 // Started by line 1204 at (-1960, 1728)
 script 11 (void)
 {
-    if(mapvar5 == 0)
+    if (mapvar5 == 0)
     {
         mapvar5 = 1;
         Floor_LowerByValue(const:50, 32, 112);
@@ -189,7 +189,7 @@ script 12 (void)
 // Started by line 1215 at (-1960, 2496)
 script 13 (void)
 {
-    if(mapvar6 == 0)
+    if (mapvar6 == 0)
     {
         mapvar6 = 1;
         Floor_LowerByValue(const:51, 32, 112);
@@ -216,7 +216,7 @@ script 14 (void)
 // Started by line 557 at (-2160, 2112)
 script 15 (void)
 {
-    if(thingcount(T_DEMON, 22) == 0)
+    if (thingcount(T_DEMON, 22) == 0)
     {
         clearlinespecial();
         Thing_Activate(const:1);
@@ -287,7 +287,7 @@ script 19 (void)
 
 script 20 (void)
 {
-    if(++mapvar0 == 2)
+    if (++mapvar0 == 2)
     {
         Polyobj_RotateRight(const:14, 4, 64);
     }
@@ -320,9 +320,9 @@ script 24 (void)
     int var0;
 
     var0 = 0;
-    if(thingcount(T_CENTAUR, 21) == 0)
+    if (thingcount(T_CENTAUR, 21) == 0)
     {
-        while(var0 < 10)
+        while (var0 < 10)
         {
             Thing_Spawn(const:13, T_BRIDGE, 0);
             delay(const:10);
@@ -346,7 +346,7 @@ script 25 (void)
 
 script 26 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         delay(const:30);
         setlinetexture(25, SIDE_FRONT, TEXTURE_MIDDLE, "PRTL07");
@@ -389,7 +389,7 @@ script 26 OPEN
 // Started by thing 282 at (-2048, 2160)
 script 27 (void)
 {
-    if(thingcount(T_DEMON, 22) == 0)
+    if (thingcount(T_DEMON, 22) == 0)
     {
         Thing_Spawn(const:25, T_ITEMHEALTHFLASK, 0);
     }
@@ -398,7 +398,7 @@ script 27 (void)
 // Started by thing 54 at (1632, 2112)
 script 28 (void)
 {
-    if(thingcount(T_DEMON, 23) == 0)
+    if (thingcount(T_DEMON, 23) == 0)
     {
         Thing_Spawn(const:26, T_ITEMHEALTHFLASK, 0);
     }
@@ -422,7 +422,7 @@ script 31 (void)
 
 script 32 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         setlinetexture(30, SIDE_FRONT, TEXTURE_MIDDLE, "SW_OL2");
@@ -439,7 +439,7 @@ script 32 (void)
 
 script 33 (void)
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         sectorsound("SwitchOtherLevel", 127);
         setlinetexture(31, SIDE_FRONT, TEXTURE_MIDDLE, "SW_OL2");
@@ -456,7 +456,7 @@ script 33 (void)
 
 script 34 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         setlinespecial(30, 80 /*ACS_Execute*/, 32, 0, 0, 0, 0);
         setlinespecial(31, 80 /*ACS_Execute*/, 33, 0, 0, 0, 0);
@@ -465,7 +465,7 @@ script 34 OPEN
 
 script 200 OPEN
 {
-    if(gametype() != GAME_NET_DEATHMATCH)
+    if (gametype() != GAME_NET_DEATHMATCH)
     {
         terminate;
     }
@@ -514,7 +514,7 @@ script 254 OPEN
 
     delay(random(2, 7)*100);
     var0 = random(1, 4);
-    switch(var0)
+    switch (var0)
     {
     case 1:
         ambientsound("Ambient7", random(const:50, 80));
@@ -538,57 +538,57 @@ script 255 OPEN
 
     delay(const:8400);
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(255, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(254, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(253, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(252, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(251, T_ETTIN, 0);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(250, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(249, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(248, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(247, T_ETTIN, 96);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(246, T_ETTIN, 128);
     }
     var0 = random(const:0, 1);
-    if(var0 == 1)
+    if (var0 == 1)
     {
         Thing_Spawn(245, T_ETTIN, 0);
     }
