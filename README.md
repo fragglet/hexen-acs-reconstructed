@@ -14,6 +14,10 @@ meaningful variable names. This project is building on the decompiled source
 code to add these back. The goal is to produce source code that Doom / Hexen
 modders can study when making their own levels.
 
+The source here compiles exactly back to the BEHAVIOR lumps found in the Hexen
+IWAD. Credit for this goes to Luc Cluitmans, the author of DEACC. There are
+continuous integration checks to ensure any changes do not break this. 
+
 ## Status
 
 | Hub | Map                       | Bug  | Status |
