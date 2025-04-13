@@ -16,7 +16,7 @@ modders can study when making their own levels.
 
 The source here compiles exactly back to the BEHAVIOR lumps found in the Hexen
 IWAD. Credit for this goes to Luc Cluitmans, the author of DEACC. There are
-continuous integration checks to ensure any changes do not break this. 
+continuous integration checks to ensure any changes do not break this.
 
 ## Status
 
@@ -24,7 +24,7 @@ continuous integration checks to ensure any changes do not break this.
 
 |  Map                       | Bug  | Status |
 | ------------------------- | ---- | ------ |
-| [MAP01](map01.acs) (Winnowing Hall) | fragglet/hexen-acs-reconstructed#32 | In progress (partially complete) |
+| [MAP01](map01.acs) (Winnowing Hall) | | ✅ Done |
 | [MAP02](map02.acs) (Seven Portals) | fragglet/hexen-acs-reconstructed#1 | TODO |
 | [MAP03](map03.acs) (Guardian of Ice) | fragglet/hexen-acs-reconstructed#2 | TODO |
 | [MAP04](map04.acs) (Guardian of Fire) | fragglet/hexen-acs-reconstructed#3 | TODO |

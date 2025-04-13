@@ -6,9 +6,9 @@
 int mapvar0;
 int ramparts_opened;
 int courtyard_opened;
-int mapvar3;
-int mapvar4;
-int mapvar5;
+int cave_crushers;
+int bell_rung;
+int mapvar5_unused;
 int alcove_count;
 
 // Script 1 is the breaking glass script; when a stained-glass window is hit by
@@ -164,7 +164,7 @@ script 12 (void)
     int var0;
     int var1;
 
-    mapvar3 = 1;
+    cave_crushers = 1;
     while (var1 < 20)
     {
         while (var0 < 4)
@@ -179,30 +179,38 @@ script 12 (void)
     }
 }
 
-// Started by line 1534 at (-1280, -1220)
+// Script 13 is triggered after the player has successfully passed the crushing
+// floor/ceiling sequence that starts after the player gets the silver key. It
+// removes a single stalagmite from the silver key room, so that it's
+// subsequently possible to enter and exit that room without needing to get
+// past the crushers again.
 script 13 (void)
 {
-    if (mapvar3 == 1)
+    if (cave_crushers == 1)
     {
         Thing_Remove(const:32);
     }
 }
 
-// Started by thing 118 at (-352, -1680)
+// Script 14 is triggered when the player hits the bell in the bell tower. It
+// spawns a couple of monsters and removes the cage around the teleporter back
+// in the main hall.
 script 14 (void)
 {
-    if (mapvar4 == 0)
+    if (bell_rung == 0)
     {
         Thing_Spawn(const:33, T_FIREGARGOYLE, 0);
         Thing_Spawn(const:34, T_ETTIN, 128);
         setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "BLANK");
         setlinetexture(2, SIDE_BACK, TEXTURE_MIDDLE, "BLANK");
         setlineblocking(2, OFF);
-        mapvar4 = 1;
+        bell_rung = 1;
     }
 }
 
-// Started by thing 121 at (-3168, 2176)
+// Script 15 is triggered when the player picks up the emerald key. It starts
+// the crushing walls sequence that the player must avoid to get back to the
+// rest of the level.
 script 15 (void)
 {
     int var0;
@@ -243,6 +251,7 @@ script 16 (void)
     }
 }
 
+// Script 253 plays an owl hooting every couple of minutes.
 script 253 OPEN
 {
     delay(random(3, 7)*100);
@@ -250,6 +259,7 @@ script 253 OPEN
     restart;
 }
 
+// Script 254 plays random ambient/background sound effects.
 script 254 OPEN
 {
     int var0;
@@ -277,6 +287,8 @@ script 254 OPEN
     restart;
 }
 
+// Script 255 randomly spawns new Ettins every few minutes at four different
+// map spots in different parts of the map.
 script 255 OPEN
 {
     int var0;
