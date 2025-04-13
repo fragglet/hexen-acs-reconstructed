@@ -3,9 +3,9 @@
 
 #include "common.acs"
 
-int mapvar0;
+int floor_portal;
 int mapvar1;
-int mapvar2;
+int switches_pressed;
 int mapvar3;
 int mapvar4;
 int mapvar5;
@@ -13,6 +13,7 @@ int mapvar6;
 int mapvar7;
 
 // Started by line 306 at (-64, 1304)
+// Script 1 implements the switch in the south-east of the moving floor area:
 script 1 (void)
 {
     int var0;
@@ -41,6 +42,9 @@ script 1 (void)
 }
 
 // Started by line 191 at (96, 1440)
+// Script 2 is triggered when the player walks into the room at the northern-
+// most part of the map, and lowers the floor and stairs down to where the
+// portals are.
 script 2 (void)
 {
     if (gametype() != GAME_NET_DEATHMATCH)
@@ -83,10 +87,7 @@ script 3 (void)
     }
 }
 
-// Started by line 824 at (-1600, 1632)
-// Started by line 825 at (-1568, 1600)
-// Started by line 826 at (-1536, 1632)
-// Started by line 827 at (-1568, 1664)
+// Script 4 is triggered when the player picks up the steel key:
 script 4 (void)
 {
     int var0;
@@ -118,7 +119,8 @@ script 4 (void)
     }
 }
 
-// Started by line 208 at (-216, 1664)
+// Script 5 is triggered when the player walks into the moving floor room on
+// the western side of the map, and starts the floors moving:
 script 5 (void)
 {
     int var0;
@@ -189,12 +191,14 @@ script 6 (void)
     }
 }
 
-// Started by line 1074 at (96, 2576)
+// Script 7 implements the switch at the northernmost point of the map, and
+// randomly picks one of the four portals to be the portal back to the main
+// hub map (MAP02):
 script 7 (void)
 {
     int var0;
 
-    mapvar0 = random(const:1, 4);
+    floor_portal = random(const:1, 4);
     var0 = 0;
     while (var0 < 5)
     {
@@ -215,19 +219,19 @@ script 7 (void)
         delay(random(8, 32));
         var0++;
     }
-    if (mapvar0 == 1)
+    if (floor_portal == 1)
     {
         Light_ChangeToValue(const:36, 192);
     }
-    else if (mapvar0 == 2)
+    else if (floor_portal == 2)
     {
         Light_ChangeToValue(const:37, 192);
     }
-    else if (mapvar0 == 3)
+    else if (floor_portal == 3)
     {
         Light_ChangeToValue(const:38, 192);
     }
-    else if (mapvar0 == 4)
+    else if (floor_portal == 4)
     {
         Light_ChangeToValue(const:39, 192);
     }
@@ -237,73 +241,13 @@ script 7 (void)
     }
 }
 
-// Started by line 1005 at (-152, 2108)
-// Started by line 1006 at (-164, 2096)
-// Started by line 1007 at (-168, 2080)
-// Started by line 1008 at (-168, 2064)
-// Started by line 1009 at (-164, 2048)
-// Started by line 1010 at (-152, 2036)
-// Started by line 1011 at (-136, 2032)
-// Started by line 1012 at (-120, 2032)
-// Started by line 1013 at (-104, 2036)
-// Started by line 1014 at (-92, 2048)
-// Started by line 1015 at (-88, 2064)
-// Started by line 1016 at (-88, 2080)
-// Started by line 1017 at (-92, 2096)
-// Started by line 1018 at (-104, 2108)
-// Started by line 1019 at (-120, 2112)
-// Started by line 1020 at (-136, 2112)
-// Started by line 1021 at (-24, 2252)
-// Started by line 1022 at (-36, 2240)
-// Started by line 1023 at (-40, 2224)
-// Started by line 1024 at (-40, 2208)
-// Started by line 1025 at (-36, 2192)
-// Started by line 1026 at (-24, 2180)
-// Started by line 1027 at (-8, 2176)
-// Started by line 1028 at (8, 2176)
-// Started by line 1029 at (24, 2180)
-// Started by line 1030 at (36, 2192)
-// Started by line 1031 at (40, 2208)
-// Started by line 1032 at (40, 2224)
-// Started by line 1033 at (36, 2240)
-// Started by line 1034 at (24, 2252)
-// Started by line 1035 at (8, 2256)
-// Started by line 1036 at (-8, 2256)
-// Started by line 1037 at (168, 2252)
-// Started by line 1038 at (156, 2240)
-// Started by line 1039 at (152, 2224)
-// Started by line 1040 at (152, 2208)
-// Started by line 1041 at (156, 2192)
-// Started by line 1042 at (168, 2180)
-// Started by line 1043 at (184, 2176)
-// Started by line 1044 at (200, 2176)
-// Started by line 1045 at (216, 2180)
-// Started by line 1046 at (228, 2192)
-// Started by line 1047 at (232, 2208)
-// Started by line 1048 at (232, 2224)
-// Started by line 1049 at (228, 2240)
-// Started by line 1050 at (216, 2252)
-// Started by line 1051 at (200, 2256)
-// Started by line 1052 at (184, 2256)
-// Started by line 1053 at (296, 2108)
-// Started by line 1054 at (284, 2096)
-// Started by line 1055 at (280, 2080)
-// Started by line 1056 at (280, 2064)
-// Started by line 1057 at (284, 2048)
-// Started by line 1058 at (296, 2036)
-// Started by line 1059 at (312, 2032)
-// Started by line 1060 at (328, 2032)
-// Started by line 1061 at (344, 2036)
-// Started by line 1062 at (356, 2048)
-// Started by line 1063 at (360, 2064)
-// Started by line 1064 at (360, 2080)
-// Started by line 1065 at (356, 2096)
-// Started by line 1066 at (344, 2108)
-// Started by line 1067 at (328, 2112)
-// Started by line 1068 at (312, 2112)
+// Script 8 is triggered when the player walks onto one of the four floor
+// portals in the northmost room. One of the portals was chosen (by script
+// 7 above) to be the portal back to the main hub map; the others are traps
+// that kill the player.
 script 8 (int arg0, int arg1)
 {
-    if (mapvar0 == arg0)
+    if (floor_portal == arg0)
     {
         Teleport_NewMap(const:2, 1);
     }
@@ -313,7 +257,8 @@ script 8 (int arg0, int arg1)
     }
 }
 
-// Started by line 1149 at (864, 280)
+// Script 9 implements the switch found in the room at the top of the stairs
+// at the southeastern area of the map.
 script 9 (void)
 {
     int var0;
@@ -334,21 +279,22 @@ script 9 (void)
     Floor_LowerByValue(const:93, 16, 48);
 }
 
-// Started by line 1268 at (1104, -480)
-// Started by line 1269 at (624, -480)
+// Script 10 is activated when the player presses one of the switches at the
+// end of the raised walkways surrounding the room in the southeastern part of
+// the map. The player must press both switches to trigger the full action.
 script 10 (void)
 {
     int var0;
 
-    mapvar2 = mapvar2+1;
-    if (mapvar2 == 1)
+    switches_pressed = switches_pressed+1;
+    if (switches_pressed == 1)
     {
         Pillar_Open(const:88, 32, 56, 56);
         Light_Fade(const:53, 144, 32);
         Light_Fade(const:92, 144, 32);
         Thing_Activate(const:1);
     }
-    if (mapvar2 == 2)
+    if (switches_pressed == 2)
     {
         Pillar_Open(const:89, 32, 56, 56);
         Light_Fade(const:53, 176, 32);
@@ -715,6 +661,7 @@ script 100 OPEN
     setlinespecial(12, 129 /*UsePuzzleItem*/, 9, 6, 0, 0, 0);
 }
 
+// Script 200 opens all the doors in deathmatch mode.
 script 200 OPEN
 {
     if (gametype() != GAME_NET_DEATHMATCH)
@@ -731,6 +678,7 @@ script 200 OPEN
     Ceiling_RaiseByValue(const:10, 8, 32);
 }
 
+// Script 254 plays ambient background sound effects.
 script 254 OPEN
 {
     int var0;
@@ -758,6 +706,7 @@ script 254 OPEN
     restart;
 }
 
+// Script 255 randomly spawns new monsters every few minutes.
 script 255 OPEN
 {
     int var0;
