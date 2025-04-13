@@ -171,7 +171,7 @@ script 14 (void)
         break;
     case 2:
         mapvar7 = 40;
-        mapstr10 = "UseArtif act";
+        mapstr10 = "UseArtifact";
         break;
     case 3:
         mapvar7 = 50;

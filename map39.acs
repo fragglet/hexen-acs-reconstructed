@@ -45,7 +45,7 @@ script 3 OPEN
     else if (mapvar0 == 2)
     {
         mapvar3 = 40;
-        mapstr6 = "UseArtif act";
+        mapstr6 = "UseArtifact";
     }
     else if (mapvar0 == 3)
     {
@@ -85,7 +85,7 @@ script 3 OPEN
     else if (mapvar1 == 2)
     {
         mapvar4 = 40;
-        mapstr7 = "UseArtif act";
+        mapstr7 = "UseArtifact";
     }
     else if (mapvar1 == 3)
     {
@@ -125,7 +125,7 @@ script 3 OPEN
     else if (mapvar2 == 2)
     {
         mapvar5 = 40;
-        mapstr8 = "UseArtif act";
+        mapstr8 = "UseArtifact";
     }
     else if (mapvar2 == 3)
     {
