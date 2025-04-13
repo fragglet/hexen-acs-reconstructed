@@ -33,6 +33,7 @@ script 1 (void)
 // Started by thing 364 at (-1536, -672)
 // Started by thing 365 at (1168, -640)
 // Started by thing 366 at (1328, -1008)
+// Started by script 200
 script 2 (void)
 {
     if (thingcount(T_ETTIN, 1) < 5)
@@ -62,6 +63,7 @@ script 2 (void)
 // Started by thing 369 at (704, 1808)
 // Started by thing 370 at (1248, 1040)
 // Started by thing 371 at (1584, 320)
+// Started by script 200
 script 3 (void)
 {
     if (thingcount(T_CENTAUR, 1) < 6)
@@ -93,6 +95,7 @@ script 6 (void)
 // Started by thing 41 at (768, -560)
 // Started by thing 42 at (400, -288)
 // Started by thing 43 at (160, -544)
+// Started by script 200
 script 7 (void)
 {
     int var0;

@@ -3,6 +3,7 @@
 
 #include "common.acs"
 
+// Started by script 3
 script 1 (void)
 {
     until(thingcount(T_ETTIN, 0) == 0)
@@ -56,6 +57,7 @@ script 4 OPEN
     terminate;
 }
 
+// Started by script 4
 script 5 (void)
 {
     until(thingcount(T_DEMON, 0) < 4)
@@ -67,6 +69,7 @@ script 5 (void)
     restart;
 }
 
+// Started by script 4
 script 6 (void)
 {
     until(thingcount(T_DEMON, 0) == 0)

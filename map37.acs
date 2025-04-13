@@ -123,6 +123,7 @@ script 5 (void)
 }
 
 // Started by thing 21 at (96, 288)
+// Started by script 200
 script 6 (void)
 {
     Door_Open(const:24, 6);

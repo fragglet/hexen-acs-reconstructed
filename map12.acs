@@ -21,6 +21,7 @@ int mapvar12;
 // Started by line 769 at (-1816, 160)
 // Started by line 1162 at (96, 2008)
 // Started by thing 3 at (432, 64)
+// Started by script 9
 script 1 (void)
 {
     int var0;
@@ -252,6 +253,8 @@ script 10 (void)
 {
 }
 
+// Started by script 9
+// Started by script 13
 script 11 (void)
 {
     if (gametype() == GAME_NET_DEATHMATCH)

@@ -111,6 +111,7 @@ script 9 OPEN
     terminate;
 }
 
+// Started by script 34
 script 10 (void)
 {
     Pillar_BuildAndCrush(const:20, 64, 128, 50);
@@ -125,6 +126,7 @@ script 10 (void)
     }
 }
 
+// Started by script 34
 script 11 (void)
 {
     Pillar_BuildAndCrush(const:21, 32, 64, 50);
@@ -139,6 +141,7 @@ script 11 (void)
     }
 }
 
+// Started by script 34
 script 12 (void)
 {
     Pillar_BuildAndCrush(const:22, 16, 48, 50);
@@ -153,6 +156,7 @@ script 12 (void)
     }
 }
 
+// Started by script 34
 script 13 (void)
 {
     Pillar_BuildAndCrush(const:23, 24, 32, 50);
@@ -167,6 +171,7 @@ script 13 (void)
     }
 }
 
+// Started by script 34
 script 14 (void)
 {
     Pillar_BuildAndCrush(const:24, 64, 160, 50);
@@ -181,6 +186,7 @@ script 14 (void)
     }
 }
 
+// Started by script 34
 script 15 (void)
 {
     Pillar_BuildAndCrush(const:25, 4, 128, 50);
@@ -195,6 +201,7 @@ script 15 (void)
     }
 }
 
+// Started by script 34
 script 16 (void)
 {
     Pillar_BuildAndCrush(const:26, 32, 96, 50);
@@ -209,6 +216,7 @@ script 16 (void)
     }
 }
 
+// Started by script 34
 script 17 (void)
 {
     Pillar_BuildAndCrush(const:27, 8, 72, 50);
@@ -223,6 +231,7 @@ script 17 (void)
     }
 }
 
+// Started by script 34
 script 18 (void)
 {
     Pillar_BuildAndCrush(const:28, 16, 24, 50);
@@ -237,6 +246,7 @@ script 18 (void)
     }
 }
 
+// Started by script 34
 script 19 (void)
 {
     Pillar_BuildAndCrush(const:29, 64, 64, 50);
@@ -251,6 +261,7 @@ script 19 (void)
     }
 }
 
+// Started by script 34
 script 20 (void)
 {
     Pillar_BuildAndCrush(const:30, 24, 192, 50);
@@ -265,6 +276,7 @@ script 20 (void)
     }
 }
 
+// Started by script 34
 script 21 (void)
 {
     Pillar_BuildAndCrush(const:31, 32, 32, 50);
@@ -279,6 +291,7 @@ script 21 (void)
     }
 }
 
+// Started by script 34
 script 22 (void)
 {
     Pillar_BuildAndCrush(const:32, 8, 48, 50);
@@ -293,6 +306,7 @@ script 22 (void)
     }
 }
 
+// Started by script 34
 script 23 (void)
 {
     Pillar_BuildAndCrush(const:33, 4, 128, 50);
@@ -307,6 +321,7 @@ script 23 (void)
     }
 }
 
+// Started by script 34
 script 24 (void)
 {
     Pillar_BuildAndCrush(const:34, 64, 64, 50);
@@ -321,6 +336,7 @@ script 24 (void)
     }
 }
 
+// Started by script 34
 script 25 (void)
 {
     Pillar_BuildAndCrush(const:35, 32, 96, 50);
@@ -335,6 +351,7 @@ script 25 (void)
     }
 }
 
+// Started by script 34
 script 26 (void)
 {
     Pillar_BuildAndCrush(const:36, 16, 32, 50);
@@ -349,6 +366,7 @@ script 26 (void)
     }
 }
 
+// Started by script 34
 script 27 (void)
 {
     Pillar_BuildAndCrush(const:37, 24, 160, 50);
@@ -363,6 +381,7 @@ script 27 (void)
     }
 }
 
+// Started by script 34
 script 28 (void)
 {
     Pillar_BuildAndCrush(const:38, 48, 128, 50);
@@ -377,6 +396,7 @@ script 28 (void)
     }
 }
 
+// Started by script 34
 script 29 (void)
 {
     Pillar_BuildAndCrush(const:39, 160, 64, 50);
@@ -395,6 +415,7 @@ script 30 (void)
 {
 }
 
+// Started by script 32
 script 31 (void)
 {
     if (mapvar2 == 0)
@@ -436,6 +457,7 @@ script 33 OPEN
 
 // Started by line 1310 at (-640, 1152)
 // Started by line 1313 at (704, 1152)
+// Started by script 45
 script 34 (void)
 {
     if (mapvar7 == 0)

@@ -284,6 +284,7 @@ script 18 (void)
     terminate;
 }
 
+// Started by script 18
 script 19 (void)
 {
     delay(const:35);
@@ -344,6 +345,15 @@ script 22 OPEN
     setlinespecial(9, 80 /*ACS_Execute*/, 9, 0, 0, 0, 0);
 }
 
+// Started by script 1
+// Started by script 2
+// Started by script 3
+// Started by script 4
+// Started by script 5
+// Started by script 6
+// Started by script 7
+// Started by script 8
+// Started by script 9
 script 23 (int arg0)
 {
     setlinetexture(arg0, SIDE_FRONT, TEXTURE_BOTTOM, "S_11");

@@ -23,6 +23,7 @@ script 2 (void)
     Floor_LowerInstant(const:5, 0, 250);
 }
 
+// Started by script 200
 script 3 (void)
 {
     if (mapvar0 == 0)
@@ -51,6 +52,7 @@ script 3 (void)
 }
 
 // Started by line 1528 at (1600, -1464)
+// Started by script 200
 script 4 (void)
 {
     if (mapvar2 == 0)
@@ -64,6 +66,7 @@ script 4 (void)
     }
 }
 
+// Started by script 3
 script 5 (void)
 {
     int var0;
@@ -96,6 +99,7 @@ script 7 (void)
     mapvar1++;
 }
 
+// Started by script 200
 script 8 (void)
 {
     setlinetexture(2, SIDE_FRONT, TEXTURE_MIDDLE, "BOOKS04");
@@ -158,6 +162,7 @@ script 13 OPEN
 // Started by thing 457 at (-944, -1360)
 // Started by thing 458 at (-1424, -80)
 // Started by thing 459 at (-944, -80)
+// Started by script 200
 script 14 (void)
 {
     if (thingcount(T_FIREGARGOYLE, 12) == 0)
@@ -173,6 +178,7 @@ script 14 (void)
 // Started by line 1104 at (-1336, -608)
 // Started by line 1105 at (-1520, -576)
 // Started by line 1106 at (-1648, -704)
+// Started by script 200
 script 15 (void)
 {
     if (mapvar3 == 0)
@@ -199,6 +205,7 @@ script 15 (void)
 // Started by thing 463 at (-1504, -1520)
 // Started by thing 464 at (-1296, -1840)
 // Started by thing 465 at (-1088, -1728)
+// Started by script 200
 script 16 (void)
 {
     if (thingcount(T_BISHOP, 13) == 0)
@@ -224,6 +231,7 @@ script 18 (void)
 {
 }
 
+// Started by script 200
 script 20 (void)
 {
     Polyobj_DoorSwing(const:5, 4, 64, 210);
@@ -265,6 +273,8 @@ script 23 (void)
     Teleport_NewMap(const:24, 0);
 }
 
+// Started by script 5 in map21.acs
+// Started by script 200
 script 24 (void)
 {
     print(s:"YOU HEAR A DOOR OPEN UPSTAIRS");

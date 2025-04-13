@@ -664,11 +664,15 @@ script 20 (void)
     }
 }
 
+// Started by script 33 in map02.acs
+// Started by script 200
 script 21 (void)
 {
     Door_Open(const:100, 16);
 }
 
+// Started by script 32 in map02.acs
+// Started by script 200
 script 22 (void)
 {
     Door_Open(const:101, 16);

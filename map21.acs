@@ -162,6 +162,7 @@ script 8 (void)
     terminate;
 }
 
+// Started by script 7 in map11.acs
 script 9 (void)
 {
     mapvar3++;

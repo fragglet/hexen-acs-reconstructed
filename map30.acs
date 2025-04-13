@@ -74,12 +74,14 @@ script 4 (void)
     }
 }
 
+// Started by script 8 in map34.acs
 script 5 (void)
 {
     Door_Raise(const:7, 16, 0);
     terminate;
 }
 
+// Started by script 8 in map28.acs
 script 6 (void)
 {
     Door_Raise(const:3, 16, 0);

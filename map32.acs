@@ -25,6 +25,7 @@ script 1 (void)
 }
 
 // Started by thing 6 at (128, 1088)
+// Started by script 200
 script 2 (void)
 {
     if (gametype() != GAME_NET_DEATHMATCH)

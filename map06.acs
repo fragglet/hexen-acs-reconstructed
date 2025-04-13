@@ -58,6 +58,7 @@ script 3 (void)
     Floor_LowerByValue(const:9, 4, 104);
 }
 
+// Started by script 200
 script 4 (void)
 {
     int var0;
@@ -102,6 +103,7 @@ script 6 (void)
     ACS_Execute(const:7, 0, 0, 0, 0);
 }
 
+// Started by script 6
 script 7 (void)
 {
     Light_ChangeToValue(const:26, 205);
@@ -127,6 +129,7 @@ script 7 (void)
 }
 
 // Started by line 149 at (-32, -2752)
+// Started by script 200
 script 8 (void)
 {
     int var0;
@@ -144,6 +147,7 @@ script 8 (void)
     setlineblocking(2, OFF);
 }
 
+// Started by script 200
 script 9 (void)
 {
     setlinespecial(1, 80 /*ACS_Execute*/, 4, 0, 0, 0, 0);

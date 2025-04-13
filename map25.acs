@@ -78,6 +78,7 @@ script 3 (void)
 // Started by thing 266 at (400, 48)
 // Started by thing 267 at (400, -400)
 // Started by thing 268 at (480, -192)
+// Started by script 200
 script 4 (void)
 {
     if (mapvar2 == 0)
@@ -101,6 +102,7 @@ script 5 OPEN
     terminate;
 }
 
+// Started by script 5
 script 6 (void)
 {
     until(thingcount(T_ETTIN, 0) < 10)
@@ -150,6 +152,7 @@ script 9 OPEN
 // Started by thing 314 at (544, -608)
 // Started by thing 504 at (-448, 1168)
 // Started by thing 505 at (-1024, 1200)
+// Started by script 200
 script 10 (void)
 {
     if (thingcount(T_DEMON, 0) < 4)
@@ -261,6 +264,7 @@ script 22 (void)
 // Started by thing 509 at (-656, 1296)
 // Started by thing 510 at (-1216, 1408)
 // Started by thing 511 at (-1376, 1056)
+// Started by script 200
 script 23 (void)
 {
     if (thingcount(T_ETTIN, 22) < 10)

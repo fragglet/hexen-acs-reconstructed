@@ -160,6 +160,7 @@ script 13 (void)
 // Started by line 681 at (-980, 720)
 // Started by line 682 at (-980, 560)
 // Started by line 683 at (-872, 464)
+// Started by script 200
 script 14 (void)
 {
     mapvar6 = random(const:1, 8);
@@ -306,6 +307,7 @@ script 14 (void)
 // Started by line 1344 at (336, 1824)
 // Started by line 1350 at (720, 672)
 // Started by line 1356 at (-352, -1616)
+// Started by script 200
 script 15 (void)
 {
     if (++mapvar8 == 5)
@@ -315,6 +317,7 @@ script 15 (void)
 }
 
 // Started by line 1164 at (-368, 512)
+// Started by script 200
 script 16 (void)
 {
     Plat_PerpetualRaise(1, 16, 105);
@@ -388,6 +391,7 @@ script 20 OPEN
     terminate;
 }
 
+// Started by script 12
 script 21 (void)
 {
     Plat_DownWaitUpStay(const:6, 16, 350);
@@ -408,6 +412,7 @@ script 22 (void)
     }
 }
 
+// Started by script 12
 script 23 (void)
 {
     thingsound(50, "ClockTick", 64);

@@ -11,6 +11,8 @@ int mapvar4;
 int mapvar5;
 int mapvar6;
 
+// Started by script 9 in map04.acs
+// Started by script 44 in map05.acs
 script 1 (void)
 {
     if (++mapvar1 == 2)
@@ -259,18 +261,25 @@ script 15 (void)
     }
 }
 
+// Started by script 200
+// Started by script 20 in map03.acs
 script 16 (void)
 {
     delay(const:210);
     Stairs_BuildUpSync(const:6, 16, 24, 0);
 }
 
+// Started by script 200
+// Started by script 41 in map05.acs
+// Started by script 42 in map05.acs
 script 17 (void)
 {
     delay(const:210);
     Stairs_BuildUpSync(const:4, 8, 16, 0);
 }
 
+// Started by script 200
+// Started by script 11 in map04.acs
 script 18 (void)
 {
     delay(const:210);
@@ -278,6 +287,7 @@ script 18 (void)
 }
 
 // Started by line 1667 at (208, 2112)
+// Started by script 200
 script 19 (void)
 {
     Polyobj_RotateRight(const:8, 4, 64);
@@ -285,6 +295,9 @@ script 19 (void)
     Floor_LowerInstant(const:78, 0, 45);
 }
 
+// Started by script 10 in map04.acs
+// Started by script 39 in map05.acs
+// Started by script 40 in map05.acs
 script 20 (void)
 {
     if (++mapvar0 == 2)
@@ -293,6 +306,7 @@ script 20 (void)
     }
 }
 
+// Started by script 7
 script 21 (void)
 {
     Plat_DownWaitUpStay(16, 16, 105);
@@ -305,6 +319,7 @@ script 22 (void)
 {
 }
 
+// Started by script 15
 script 23 (void)
 {
     Plat_DownWaitUpStay(42, 8, 105);
@@ -315,6 +330,7 @@ script 23 (void)
 
 // Started by thing 276 at (-544, -352)
 // Started by thing 277 at (-32, -352)
+// Started by script 200
 script 24 (void)
 {
     int var0;
@@ -387,6 +403,7 @@ script 26 OPEN
 
 // Started by thing 281 at (-2048, 2048)
 // Started by thing 282 at (-2048, 2160)
+// Started by script 200
 script 27 (void)
 {
     if (thingcount(T_DEMON, 22) == 0)
@@ -396,6 +413,7 @@ script 27 (void)
 }
 
 // Started by thing 54 at (1632, 2112)
+// Started by script 200
 script 28 (void)
 {
     if (thingcount(T_DEMON, 23) == 0)
@@ -404,6 +422,7 @@ script 28 (void)
     }
 }
 
+// Started by script 7 in map03.acs
 script 29 (void)
 {
     Polyobj_RotateRight(const:2, 4, 64);

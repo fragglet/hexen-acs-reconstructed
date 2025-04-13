@@ -6,6 +6,7 @@
 int mapvar0;
 int mapvar1;
 
+// Started by script 8 in map28.acs
 script 1 (void)
 {
     Door_Open(const:4, 16);
@@ -141,6 +142,7 @@ script 6 (int arg0, int arg1, int arg2)
     Light_RaiseByValue(arg1+1, 24);
 }
 
+// Started by script 8 in map30.acs
 script 7 (void)
 {
     Door_Open(const:3, 8);

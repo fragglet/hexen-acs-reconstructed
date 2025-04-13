@@ -328,6 +328,7 @@ script 29 (void)
 }
 
 // Started by line 2093 at (-1864, 1584)
+// Started by script 200
 script 50 (void)
 {
     Thing_Activate(const:60);

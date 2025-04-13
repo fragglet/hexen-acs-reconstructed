@@ -15,6 +15,7 @@ int mapvar1;
 // Started by line 136 at (-128, 576)
 // Started by line 451 at (-288, 528)
 // Started by line 452 at (32, 528)
+// Started by script 200
 script 1 (void)
 {
     if (mapvar0 == 0)
@@ -26,6 +27,8 @@ script 1 (void)
     }
 }
 
+// Started by script 200
+// Started by script 8 in map30.acs
 script 2 (void)
 {
     Polyobj_OR_Move(const:8, 6, 64, 128);
@@ -49,6 +52,8 @@ script 4 (void)
     terminate;
 }
 
+// Started by script 200
+// Started by script 8 in map34.acs
 script 5 (void)
 {
     Polyobj_OR_Move(const:9, 6, 192, 128);
@@ -58,6 +63,7 @@ script 5 (void)
     mapvar1++;
 }
 
+// Started by script 200
 script 6 OPEN
 {
     until(mapvar1 == 2)

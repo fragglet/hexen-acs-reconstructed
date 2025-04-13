@@ -24,6 +24,7 @@ script 1 (void)
     ACS_Execute(const:16, 13, 0, 0, 0);
 }
 
+// Started by script 5
 script 2 (void)
 {
     int var0;
@@ -38,6 +39,7 @@ script 2 (void)
     ACS_Execute(3, 13, 0, 0, 0);
 }
 
+// Started by script 2
 script 3 (void)
 {
     int var0;
@@ -98,6 +100,7 @@ script 6 (void)
     }
 }
 
+// Started by script 6
 script 7 (void)
 {
     setlinetexture(4, SIDE_FRONT, TEXTURE_TOP, "Spawn09");
@@ -207,6 +210,13 @@ script 9 (void)
     }
 }
 
+// Started by script 3 in map08.acs
+// Started by script 4 in map08.acs
+// Started by script 2 in map09.acs
+// Started by script 3 in map09.acs
+// Started by script 13 in map10.acs
+// Started by script 14 in map10.acs
+// Started by script 200
 script 10 (void)
 {
     if (mapvar3 == 0)
@@ -221,6 +231,7 @@ script 10 (void)
 // Started by line 252 at (1312, -960)
 // Started by line 254 at (1200, -928)
 // Started by line 256 at (1216, -928)
+// Started by script 200
 script 11 (void)
 {
     if (mapvar0 == 0)
@@ -251,6 +262,7 @@ script 13 OPEN
     Light_Flicker(const:70, 192, 144);
 }
 
+// Started by script 1
 script 15 (void)
 {
     setlinetexture(1, SIDE_FRONT, TEXTURE_MIDDLE, "Spawn09");
@@ -295,6 +307,7 @@ script 15 (void)
     }
 }
 
+// Started by script 1
 script 16 (void)
 {
     int var0;
@@ -322,31 +335,37 @@ script 17 (void)
     Door_Open(200, 16);
 }
 
+// Started by script 3 in map08.acs
 script 18 (void)
 {
     Light_Fade(const:150, 176, 32);
 }
 
+// Started by script 4 in map08.acs
 script 19 (void)
 {
     Light_Fade(const:151, 176, 32);
 }
 
+// Started by script 2 in map09.acs
 script 20 (void)
 {
     Light_Fade(const:152, 176, 32);
 }
 
+// Started by script 3 in map09.acs
 script 21 (void)
 {
     Light_Fade(const:153, 176, 32);
 }
 
+// Started by script 13 in map10.acs
 script 22 (void)
 {
     Light_Fade(const:154, 176, 32);
 }
 
+// Started by script 14 in map10.acs
 script 23 (void)
 {
     Light_Fade(const:155, 176, 32);
@@ -354,6 +373,7 @@ script 23 (void)
 
 // Started by line 1018 at (-1184, 2116)
 // Started by line 1229 at (-1072, 1664)
+// Started by script 200
 script 24 (void)
 {
     if (mapvar2 == 0)
