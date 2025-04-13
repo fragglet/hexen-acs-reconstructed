@@ -16,39 +16,39 @@ modders can study when making their own levels.
 
 ## Status
 
-| Map                | Status |
-| ------------------ | ------ |
-| [MAP01](map01.acs) | In progress (partially complete) |
-| [MAP02](map02.acs) | TODO |
-| [MAP03](map03.acs) | TODO |
-| [MAP04](map04.acs) | TODO |
-| [MAP05](map05.acs) | TODO |
-| [MAP06](map06.acs) | TODO |
-| [MAP08](map08.acs) | TODO |
-| [MAP09](map09.acs) | TODO |
-| [MAP10](map10.acs) | TODO |
-| [MAP11](map11.acs) | TODO |
-| [MAP12](map12.acs) | TODO |
-| [MAP13](map13.acs) | TODO |
-| [MAP21](map21.acs) | TODO |
-| [MAP22](map22.acs) | TODO |
-| [MAP23](map23.acs) | TODO |
-| [MAP24](map24.acs) | TODO |
-| [MAP25](map25.acs) | TODO |
-| [MAP26](map26.acs) | TODO |
-| [MAP27](map27.acs) | TODO |
-| [MAP28](map28.acs) | TODO |
-| [MAP30](map30.acs) | TODO |
-| [MAP31](map31.acs) | TODO |
-| [MAP32](map32.acs) | TODO |
-| [MAP33](map33.acs) | TODO |
-| [MAP34](map34.acs) | TODO |
-| [MAP35](map35.acs) | TODO |
-| [MAP36](map36.acs) | TODO |
-| [MAP37](map37.acs) | TODO |
-| [MAP38](map38.acs) | TODO |
-| [MAP39](map39.acs) | TODO |
-| [MAP40](map40.acs) | TODO |
+| Map                | Bug  | Status |
+| ------------------ | ---- | ------ |
+| [MAP01](map01.acs) | fragglet/hexen-acs-reconstructed#32 | In progress (partially complete) |
+| [MAP02](map02.acs) | fragglet/hexen-acs-reconstructed#1 | TODO |
+| [MAP03](map03.acs) | fragglet/hexen-acs-reconstructed#2 | TODO |
+| [MAP04](map04.acs) | fragglet/hexen-acs-reconstructed#3 | TODO |
+| [MAP05](map05.acs) | fragglet/hexen-acs-reconstructed#4 | TODO |
+| [MAP06](map06.acs) | fragglet/hexen-acs-reconstructed#5 | TODO |
+| [MAP08](map08.acs) | fragglet/hexen-acs-reconstructed#7 | TODO |
+| [MAP09](map09.acs) | fragglet/hexen-acs-reconstructed#8 | TODO |
+| [MAP10](map10.acs) | fragglet/hexen-acs-reconstructed#9 | TODO |
+| [MAP11](map11.acs) | fragglet/hexen-acs-reconstructed#10 | TODO |
+| [MAP12](map12.acs) | fragglet/hexen-acs-reconstructed#11 | TODO |
+| [MAP13](map13.acs) | fragglet/hexen-acs-reconstructed#12 | TODO |
+| [MAP21](map21.acs) | fragglet/hexen-acs-reconstructed#13 | TODO |
+| [MAP22](map22.acs) | fragglet/hexen-acs-reconstructed#14 | TODO |
+| [MAP23](map23.acs) | fragglet/hexen-acs-reconstructed#15 | TODO |
+| [MAP24](map24.acs) | fragglet/hexen-acs-reconstructed#16 | TODO |
+| [MAP25](map25.acs) | fragglet/hexen-acs-reconstructed#17 | TODO |
+| [MAP26](map26.acs) | fragglet/hexen-acs-reconstructed#18 | TODO |
+| [MAP27](map27.acs) | fragglet/hexen-acs-reconstructed#19 | TODO |
+| [MAP28](map28.acs) | fragglet/hexen-acs-reconstructed#20 | TODO |
+| [MAP30](map30.acs) | fragglet/hexen-acs-reconstructed#21 | TODO |
+| [MAP31](map31.acs) | fragglet/hexen-acs-reconstructed#22 | TODO |
+| [MAP32](map32.acs) | fragglet/hexen-acs-reconstructed#23 | TODO |
+| [MAP33](map33.acs) | fragglet/hexen-acs-reconstructed#24 | TODO |
+| [MAP34](map34.acs) | fragglet/hexen-acs-reconstructed#25 | TODO |
+| [MAP35](map35.acs) | fragglet/hexen-acs-reconstructed#26 | TODO |
+| [MAP36](map36.acs) | fragglet/hexen-acs-reconstructed#27 | TODO |
+| [MAP37](map37.acs) | fragglet/hexen-acs-reconstructed#28 | TODO |
+| [MAP38](map38.acs) | fragglet/hexen-acs-reconstructed#29 | TODO |
+| [MAP39](map39.acs) | fragglet/hexen-acs-reconstructed#30 | TODO |
+| [MAP40](map40.acs) | fragglet/hexen-acs-reconstructed#31 | TODO |
 
 ## How to help
 
