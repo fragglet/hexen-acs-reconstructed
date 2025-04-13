@@ -3,10 +3,6 @@
 
 #include "common.acs"
 
-// BEHAVIOR 7 scripts, 12 strings
-
-// ----------------------------------------
-// List of MAP variables:
 int mapvar0;
 int mapvar1;
 int mapvar2;
@@ -16,9 +12,6 @@ int mapvar5;
 str mapstr6;
 str mapstr7;
 str mapstr8;
-
-// ----------------------------------------
-// Scripts:
 
 // Started by line 555 at (0, -1168)
 script 1 (void)

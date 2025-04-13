@@ -3,11 +3,6 @@
 
 #include "common.acs"
 
-// BEHAVIOR 9 scripts, 11 strings
-
-// ----------------------------------------
-// Scripts:
-
 // Started by line 341 at (1256, 392)
 script 1 (void)
 {

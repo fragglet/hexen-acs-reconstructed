@@ -3,8 +3,6 @@
 
 #include "common.acs"
 
-// ----------------------------------------
-// List of MAP variables:
 int mapvar0;
 int ramparts_opened;
 int courtyard_opened;
@@ -12,9 +10,6 @@ int mapvar3;
 int mapvar4;
 int mapvar5;
 int alcove_count;
-
-// ----------------------------------------
-// Scripts:
 
 // Script 1 is the breaking glass script; when a stained-glass window is hit by
 // the player, this script gets invoked, lowering the sector and spawning
