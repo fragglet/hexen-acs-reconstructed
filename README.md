@@ -20,39 +20,61 @@ continuous integration checks to ensure any changes do not break this.
 
 ## Status
 
-| Hub | Map                       | Bug  | Status |
-| --- | ------------------------- | ---- | ------ |
-| 1 | [MAP01](map01.acs) (Winnowing Hall) | fragglet/hexen-acs-reconstructed#32 | In progress (partially complete) |
-| 1 | [MAP02](map02.acs) (Seven Portals) | fragglet/hexen-acs-reconstructed#1 | TODO |
-| 1 | [MAP03](map03.acs) (Guardian of Ice) | fragglet/hexen-acs-reconstructed#2 | TODO |
-| 1 | [MAP04](map04.acs) (Guardian of Fire) | fragglet/hexen-acs-reconstructed#3 | TODO |
-| 1 | [MAP05](map05.acs) (Guardian of Steel) | fragglet/hexen-acs-reconstructed#4 | TODO |
-| 1 | [MAP06](map06.acs) (Bright Crucible) | fragglet/hexen-acs-reconstructed#5 | TODO |
-| 2 | [MAP08](map08.acs) (Darkmere) | fragglet/hexen-acs-reconstructed#7 | TODO |
-| 2 | [MAP09](map09.acs) (Caves of Circe) | fragglet/hexen-acs-reconstructed#8 | TODO |
-| 2 | [MAP10](map10.acs) (Wastelands) | fragglet/hexen-acs-reconstructed#9 | TODO |
-| 2 | [MAP11](map11.acs) (Sacred Grove) | fragglet/hexen-acs-reconstructed#10 | TODO |
-| 2 | [MAP12](map12.acs) (Hypostyle) | fragglet/hexen-acs-reconstructed#11 | TODO |
-| 2 | [MAP13](map13.acs) (Shadow Wood) | fragglet/hexen-acs-reconstructed#12 | TODO |
-| 4 | [MAP21](map21.acs) (Forsaken Outpost) | fragglet/hexen-acs-reconstructed#13 | TODO |
-| 4 | [MAP22](map22.acs) (Castle of Grief) | fragglet/hexen-acs-reconstructed#14 | TODO |
-| 4 | [MAP23](map23.acs) (Gibbet) | fragglet/hexen-acs-reconstructed#15 | TODO |
-| 4 | [MAP24](map24.acs) (Effluvium) | fragglet/hexen-acs-reconstructed#16 | TODO |
-| 4 | [MAP25](map25.acs) (Dungeons) | fragglet/hexen-acs-reconstructed#17 | TODO |
-| 4 | [MAP26](map26.acs) (Desolate Garden) | fragglet/hexen-acs-reconstructed#18 | TODO |
-| 3 | [MAP27](map27.acs) (Heresiarch's Seminary) | fragglet/hexen-acs-reconstructed#19 | TODO |
-| 3 | [MAP28](map28.acs) (Dragon Chapel) | fragglet/hexen-acs-reconstructed#20 | TODO |
-| 3 | [MAP30](map30.acs) (Griffin Chapel) | fragglet/hexen-acs-reconstructed#21 | TODO |
-| 3 | [MAP31](map31.acs) (Deathwind Chapel) | fragglet/hexen-acs-reconstructed#22 | TODO |
-| 3 | [MAP32](map32.acs) (Orchard of Lamentations) | fragglet/hexen-acs-reconstructed#23 | TODO |
-| 3 | [MAP33](map33.acs) (Silent Refectory) | fragglet/hexen-acs-reconstructed#24 | TODO |
-| 3 | [MAP34](map34.acs) (Wolf Chapel) | fragglet/hexen-acs-reconstructed#25 | TODO |
-| 5 | [MAP35](map35.acs) (Necropolis) | fragglet/hexen-acs-reconstructed#26 | TODO |
-| 5 | [MAP36](map36.acs) (Zedek's Tomb) | fragglet/hexen-acs-reconstructed#27 | TODO |
-| 5 | [MAP37](map37.acs) (Menelkir's Tomb) | fragglet/hexen-acs-reconstructed#28 | TODO |
-| 5 | [MAP38](map38.acs) (Traductus' Tomb) | fragglet/hexen-acs-reconstructed#29 | TODO |
-| 5 | [MAP39](map39.acs) (Vivarium) | fragglet/hexen-acs-reconstructed#30 | TODO |
-| 5 | [MAP40](map40.acs) (Dark Crucible) | fragglet/hexen-acs-reconstructed#31 | TODO |
+### Hub 1: Seven Portals
+
+|  Map                       | Bug  | Status |
+| ------------------------- | ---- | ------ |
+| [MAP01](map01.acs) (Winnowing Hall) | fragglet/hexen-acs-reconstructed#32 | In progress (partially complete) |
+| [MAP02](map02.acs) (Seven Portals) | fragglet/hexen-acs-reconstructed#1 | TODO |
+| [MAP03](map03.acs) (Guardian of Ice) | fragglet/hexen-acs-reconstructed#2 | TODO |
+| [MAP04](map04.acs) (Guardian of Fire) | fragglet/hexen-acs-reconstructed#3 | TODO |
+| [MAP05](map05.acs) (Guardian of Steel) | fragglet/hexen-acs-reconstructed#4 | TODO |
+| [MAP06](map06.acs) (Bright Crucible) | fragglet/hexen-acs-reconstructed#5 | TODO |
+
+### Hub 2: Shadow Wood
+
+| Map                       | Bug  | Status |
+| ------------------------- | ---- | ------ |
+| [MAP08](map08.acs) (Darkmere) | fragglet/hexen-acs-reconstructed#7 | TODO |
+| [MAP09](map09.acs) (Caves of Circe) | fragglet/hexen-acs-reconstructed#8 | TODO |
+| [MAP10](map10.acs) (Wastelands) | fragglet/hexen-acs-reconstructed#9 | TODO |
+| [MAP11](map11.acs) (Sacred Grove) | fragglet/hexen-acs-reconstructed#10 | TODO |
+| [MAP12](map12.acs) (Hypostyle) | fragglet/hexen-acs-reconstructed#11 | TODO |
+| [MAP13](map13.acs) (Shadow Wood) | fragglet/hexen-acs-reconstructed#12 | TODO |
+
+### Hub 3: Heresiarch's Seminary
+
+| Map                       | Bug  | Status |
+| ------------------------- | ---- | ------ |
+| [MAP27](map27.acs) (Heresiarch's Seminary) | fragglet/hexen-acs-reconstructed#19 | TODO |
+| [MAP28](map28.acs) (Dragon Chapel) | fragglet/hexen-acs-reconstructed#20 | TODO |
+| [MAP30](map30.acs) (Griffin Chapel) | fragglet/hexen-acs-reconstructed#21 | TODO |
+| [MAP31](map31.acs) (Deathwind Chapel) | fragglet/hexen-acs-reconstructed#22 | TODO |
+| [MAP32](map32.acs) (Orchard of Lamentations) | fragglet/hexen-acs-reconstructed#23 | TODO |
+| [MAP33](map33.acs) (Silent Refectory) | fragglet/hexen-acs-reconstructed#24 | TODO |
+| [MAP34](map34.acs) (Wolf Chapel) | fragglet/hexen-acs-reconstructed#25 | TODO |
+
+### Hub 4: Castle of Grief
+
+| Map                       | Bug  | Status |
+| ------------------------- | ---- | ------ |
+| [MAP21](map21.acs) (Forsaken Outpost) | fragglet/hexen-acs-reconstructed#13 | TODO |
+| [MAP22](map22.acs) (Castle of Grief) | fragglet/hexen-acs-reconstructed#14 | TODO |
+| [MAP23](map23.acs) (Gibbet) | fragglet/hexen-acs-reconstructed#15 | TODO |
+| [MAP24](map24.acs) (Effluvium) | fragglet/hexen-acs-reconstructed#16 | TODO |
+| [MAP25](map25.acs) (Dungeons) | fragglet/hexen-acs-reconstructed#17 | TODO |
+| [MAP26](map26.acs) (Desolate Garden) | fragglet/hexen-acs-reconstructed#18 | TODO |
+
+### Hub 5: Necropolis
+
+| Map                       | Bug  | Status |
+| ------------------------- | ---- | ------ |
+| [MAP35](map35.acs) (Necropolis) | fragglet/hexen-acs-reconstructed#26 | TODO |
+| [MAP36](map36.acs) (Zedek's Tomb) | fragglet/hexen-acs-reconstructed#27 | TODO |
+| [MAP37](map37.acs) (Menelkir's Tomb) | fragglet/hexen-acs-reconstructed#28 | TODO |
+| [MAP38](map38.acs) (Traductus' Tomb) | fragglet/hexen-acs-reconstructed#29 | TODO |
+| [MAP39](map39.acs) (Vivarium) | fragglet/hexen-acs-reconstructed#30 | TODO |
+| [MAP40](map40.acs) (Dark Crucible) | fragglet/hexen-acs-reconstructed#31 | TODO |
 
 ## How to help
 
