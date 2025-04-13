@@ -5,11 +5,11 @@
 
 int mapvar0;
 int mapvar1;
-int mapvar2;
-int mapvar3;
-int mapvar4;
-int mapvar5;
-int mapvar6;
+int center_switches;
+int ne_door_portal;
+int se_door_portal;
+int sw_door_portal;
+int nw_door_portal;
 
 // Started by script 9 in map04.acs
 // Started by script 44 in map05.acs
@@ -46,9 +46,9 @@ script 2 (void)
 // Fire.
 script 3 (void)
 {
-    if (mapvar3 == 0)
+    if (ne_door_portal == 0)
     {
-        mapvar3 = 1;
+        ne_door_portal = 1;
         Floor_LowerByValue(const:52, 32, 112);
         Thing_Activate(const:8);
         Light_Fade(const:65, 176, 35);
@@ -75,9 +75,9 @@ script 4 (void)
 // Steel.
 script 5 (void)
 {
-    if (mapvar4 == 0)
+    if (se_door_portal == 0)
     {
-        mapvar4 = 1;
+        se_door_portal = 1;
         Floor_LowerByValue(const:53, 32, 112);
         Thing_Activate(const:6);
         Light_Fade(const:64, 176, 35);
@@ -138,14 +138,14 @@ script 8 (void)
 // the map. Script 10 catches when all three switches have been pressed.
 script 9 (void)
 {
-    mapvar2++;
+    center_switches++;
 }
 
 // Script 10 checks once a second to see if the three switches in the center
 // of the map have been pressed. Once they have, another door opens.
 script 10 OPEN
 {
-    until (mapvar2 == 3)
+    until (center_switches == 3)
     {
         delay(35);
     }
@@ -159,9 +159,9 @@ script 10 OPEN
 // Steel.
 script 11 (void)
 {
-    if (mapvar5 == 0)
+    if (sw_door_portal == 0)
     {
-        mapvar5 = 1;
+        sw_door_portal = 1;
         Floor_LowerByValue(const:50, 32, 112);
         Thing_Activate(const:4);
         Light_Fade(const:62, 176, 35);
@@ -188,9 +188,9 @@ script 12 (void)
 // Fire.
 script 13 (void)
 {
-    if (mapvar6 == 0)
+    if (nw_door_portal == 0)
     {
-        mapvar6 = 1;
+        nw_door_portal = 1;
         Floor_LowerByValue(const:51, 32, 112);
         Thing_Activate(const:2);
         Light_Fade(const:61, 176, 35);
@@ -490,7 +490,7 @@ script 200 OPEN
     {
         terminate;
     }
-    mapvar2 = 3;
+    center_switches = 3;
     delay(random(35, 70));
     Polyobj_RotateRight(const:2, 4, 64);
     delay(random(35, 70));
