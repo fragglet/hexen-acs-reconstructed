@@ -82,7 +82,7 @@ script 5 (void)
 
 script 6 OPEN
 {
-    until(mapvar1 == 2)
+    until (mapvar1 == 2)
     {
         delay(const:25);
     }
@@ -139,7 +139,7 @@ script 12 (void)
 
 script 13 OPEN
 {
-    until(thingcount(T_DEMON, 0) == 3)
+    until (thingcount(T_DEMON, 0) == 3)
     {
         delay(const:210);
     }

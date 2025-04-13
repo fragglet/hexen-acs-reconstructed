@@ -6,7 +6,7 @@
 // Started by script 3
 script 1 (void)
 {
-    until(thingcount(T_ETTIN, 0) == 0)
+    until (thingcount(T_ETTIN, 0) == 0)
     {
         delay(const:350);
         Thing_Spawn(const:1, T_ETTIN, 192);
@@ -17,7 +17,7 @@ script 1 (void)
 
 script 2 OPEN
 {
-    until(thingcount(T_ETTIN, 0) == 0)
+    until (thingcount(T_ETTIN, 0) == 0)
     {
         delay(35);
     }
@@ -43,7 +43,7 @@ script 3 OPEN
 
 script 4 OPEN
 {
-    until(thingcount(T_ETTIN, 0) > 20)
+    until (thingcount(T_ETTIN, 0) > 20)
     {
         delay(const:35);
     }
@@ -60,7 +60,7 @@ script 4 OPEN
 // Started by script 4
 script 5 (void)
 {
-    until(thingcount(T_DEMON, 0) < 4)
+    until (thingcount(T_DEMON, 0) < 4)
     {
         delay(const:105);
     }
@@ -72,7 +72,7 @@ script 5 (void)
 // Started by script 4
 script 6 (void)
 {
-    until(thingcount(T_DEMON, 0) == 0)
+    until (thingcount(T_DEMON, 0) == 0)
     {
         delay(const:35);
     }

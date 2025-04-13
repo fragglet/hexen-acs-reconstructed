@@ -26,7 +26,7 @@ script 1 (void)
 
 script 2 OPEN
 {
-    until(mapvar0 == 3)
+    until (mapvar0 == 3)
     {
         delay(const:35);
     }
@@ -271,7 +271,7 @@ script 19 (void)
 {
     int var0;
 
-    until(var0 == 100)
+    until (var0 == 100)
     {
         Thing_ProjectileGravity(random(const:70, 73), random(const:41, 49), random(const:1, 255), 20, 0);
         delay(const:4);

@@ -124,7 +124,7 @@ script 11 (void)
 
 script 12 OPEN
 {
-    until(mapvar2 == 4)
+    until (mapvar2 == 4)
     {
         delay(35);
     }
@@ -383,7 +383,7 @@ script 19 (void)
 
 script 20 OPEN
 {
-    until(mapvar1 == 2)
+    until (mapvar1 == 2)
     {
         delay(const:35);
     }

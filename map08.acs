@@ -93,7 +93,7 @@ script 15 OPEN
     do
     {
         Floor_Waggle(181+var0, 10+((var0%8)*4), 90, var0*5, 0);
-    } until(++var0 > 19);
+    } until (++var0 > 19);
 }
 
 // Started by line 1660 at (928, 1648)

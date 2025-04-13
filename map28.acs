@@ -66,7 +66,7 @@ script 5 (void)
 // Started by script 200
 script 6 OPEN
 {
-    until(mapvar1 == 2)
+    until (mapvar1 == 2)
     {
         delay(const:30);
     }

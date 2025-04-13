@@ -258,17 +258,17 @@ script 100 OPEN
     setlinespecial(1, 129 /*UsePuzzleItem*/, 12, 5, 1, 0, 0);
     setlinespecial(2, 129 /*UsePuzzleItem*/, 11, 5, 2, 0, 0);
     setlinespecial(3, 129 /*UsePuzzleItem*/, 10, 5, 3, 0, 0);
-    until(thingcount(T_WRAITH, 0) < 5)
+    until (thingcount(T_WRAITH, 0) < 5)
     {
         delay(const:128);
     }
     Thing_Activate(const:2);
-    until(thingcount(T_WRAITHBURIED, 2) < 5)
+    until (thingcount(T_WRAITHBURIED, 2) < 5)
     {
         delay(const:128);
     }
     Thing_Activate(const:3);
-    until(thingcount(T_WRAITHBURIED, 3) < 5)
+    until (thingcount(T_WRAITHBURIED, 3) < 5)
     {
         delay(const:128);
     }

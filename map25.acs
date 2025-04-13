@@ -91,7 +91,7 @@ script 4 (void)
 
 script 5 OPEN
 {
-    until(mapvar0 == 7)
+    until (mapvar0 == 7)
     {
         delay(const:35);
     }
@@ -105,7 +105,7 @@ script 5 OPEN
 // Started by script 5
 script 6 (void)
 {
-    until(thingcount(T_ETTIN, 0) < 10)
+    until (thingcount(T_ETTIN, 0) < 10)
     {
         delay(const:210);
     }
@@ -133,7 +133,7 @@ script 8 (void)
 
 script 9 OPEN
 {
-    until(thingcount(T_NONE, 99) == 0)
+    until (thingcount(T_NONE, 99) == 0)
     {
         delay(const:210);
     }

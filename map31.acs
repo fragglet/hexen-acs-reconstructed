@@ -104,7 +104,7 @@ script 7 (void)
         }
         Thing_Spawn(var0, T_CENTAUR, 128);
         delay(const:2);
-    } until(mapvar0 && mapvar1);
+    } until (mapvar0 && mapvar1);
 }
 
 // Started by line 629 at (256, 288)

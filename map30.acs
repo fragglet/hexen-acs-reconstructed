@@ -56,7 +56,7 @@ script 3 (void)
 // Started by line 679 at (-256, 864)
 script 4 (void)
 {
-    until(mapvar2 == 1)
+    until (mapvar2 == 1)
     {
         Polyobj_DoorSlide(3, random(const:4, 16), 0, 192, random(const:25, 125));
         Polyobj_DoorSlide(4, random(const:4, 16), 0, 224, random(const:15, 105));

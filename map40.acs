@@ -399,7 +399,7 @@ script 100 OPEN
     int var0;
     int var1;
 
-    until(mapvar0 == 1)
+    until (mapvar0 == 1)
     {
         delay(const:128);
     }
@@ -446,7 +446,7 @@ script 999 OPEN
 // Started by script 249
 script 220 (void)
 {
-    until(thingcount(T_ETTIN, 0) == 0)
+    until (thingcount(T_ETTIN, 0) == 0)
     {
         delay(1*35);
     }
@@ -457,7 +457,7 @@ script 220 (void)
 // Started by script 220
 script 221 (void)
 {
-    until(thingcount(T_CENTAUR, 0) == 0)
+    until (thingcount(T_CENTAUR, 0) == 0)
     {
         delay(1*35);
     }

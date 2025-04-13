@@ -152,7 +152,7 @@ script 9 (void)
 
 script 10 OPEN
 {
-    until(mapvar2 == 3)
+    until (mapvar2 == 3)
     {
         delay(35);
     }

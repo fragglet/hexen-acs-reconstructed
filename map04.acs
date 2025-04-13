@@ -169,7 +169,7 @@ script 6 (void)
 {
     if (mapvar0 == 0)
     {
-        until(thingcount(T_ETTIN, 31) == 0)
+        until (thingcount(T_ETTIN, 31) == 0)
         {
             delay(const:8);
         }
