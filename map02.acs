@@ -41,7 +41,9 @@ script 2 (void)
     delay(const:25);
 }
 
-// Started by line 1063 at (1384, 2496)
+// Script 3 implements the switch found behind the north-eastern door. It
+// opens the door in the same area that leads to the portal to the Guardian of
+// Fire.
 script 3 (void)
 {
     if (mapvar3 == 0)
@@ -68,7 +70,9 @@ script 4 (void)
 {
 }
 
-// Started by line 1057 at (1384, 1728)
+// Script 5 implements the switch found behind the south-eastern door. It
+// opens the door in the same area that leads to the portal to the Guardian of
+// Steel.
 script 5 (void)
 {
     if (mapvar4 == 0)
@@ -95,22 +99,10 @@ script 6 (void)
 {
 }
 
-// Started by line 527 at (1576, 2112)
-// Started by thing 203 at (1280, 1904)
-// Started by thing 204 at (1280, 2320)
-// Started by thing 205 at (1440, 2432)
-// Started by thing 206 at (1440, 1792)
-// Started by thing 207 at (-2016, 1792)
-// Started by thing 208 at (-1856, 1904)
-// Started by thing 209 at (-1856, 2320)
-// Started by thing 210 at (-2016, 2432)
-// Started by thing 211 at (-288, -672)
-// Started by thing 212 at (-288, -736)
-// Started by thing 213 at (-288, -800)
-// Started by thing 214 at (-288, -864)
-// Started by thing 215 at (-288, -928)
-// Started by thing 216 at (-288, -992)
-// Started by thing 217 at (-288, -1056)
+// Script 7 is invoked when the player is in the room behind the eastern door,
+// and walks up to the window that looks out on the icy area where the portal
+// is. It only triggers once the Chaos Serpents in the area have been killed.
+// Oddly, a bunch of wall torches are also configured to start the script.
 script 7 (void)
 {
     if (thingcount(T_DEMON, 23) == 0)
@@ -142,14 +134,15 @@ script 8 (void)
 {
 }
 
-// Started by line 985 at (-352, 2128)
-// Started by line 991 at (-224, 2032)
-// Started by line 997 at (-336, 1952)
+// Script 9 is triggered by three switches in the building in the center of
+// the map. Script 10 catches when all three switches have been pressed.
 script 9 (void)
 {
     mapvar2++;
 }
 
+// Script 10 checks once a second to see if the three switches in the center
+// of the map have been pressed. Once they have, another door opens.
 script 10 OPEN
 {
     until (mapvar2 == 3)
@@ -161,7 +154,9 @@ script 10 OPEN
     delay(const:35);
 }
 
-// Started by line 1204 at (-1960, 1728)
+// Script 11 implements the switch found behind the south-western door. It
+// opens the door in the same area that leads to the portal to the Guardian of
+// Steel.
 script 11 (void)
 {
     if (mapvar5 == 0)
@@ -188,7 +183,9 @@ script 12 (void)
 {
 }
 
-// Started by line 1215 at (-1960, 2496)
+// Script 13 implements the switch found behind the north-western door. It
+// opens the door in the same area that leads to the portal to the Guardian of
+// Fire.
 script 13 (void)
 {
     if (mapvar6 == 0)
@@ -215,7 +212,9 @@ script 14 (void)
 {
 }
 
-// Started by line 557 at (-2160, 2112)
+// Script 15 is invoked when the player is in the room behind the western door,
+// and walks up to the window that looks out on the icy area where the portal
+// is. It only triggers once the Chaos Serpents in the area have been killed.
 script 15 (void)
 {
     if (thingcount(T_DEMON, 22) == 0)
@@ -360,6 +359,8 @@ script 25 (void)
     Light_Fade(const:82, 0, 5);
 }
 
+// Script 26 runs at the start of the map and shows the Korax face animation
+// and voice: "Greetings, mortal. Are you ready to die?"
 script 26 OPEN
 {
     if (gametype() != GAME_NET_DEATHMATCH)
@@ -482,6 +483,7 @@ script 34 OPEN
     }
 }
 
+// Script 200 opens all the doors on startup in deathmatch mode.
 script 200 OPEN
 {
     if (gametype() != GAME_NET_DEATHMATCH)
@@ -527,6 +529,7 @@ script 200 OPEN
     terminate;
 }
 
+// Script 254 plays background ambient sound effects.
 script 254 OPEN
 {
     int var0;
@@ -551,6 +554,8 @@ script 254 OPEN
     restart;
 }
 
+// Script 255 randomly spawns new Ettins every few minutes at different map
+// spots around the map.
 script 255 OPEN
 {
     int var0;

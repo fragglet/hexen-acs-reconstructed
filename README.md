@@ -25,7 +25,7 @@ continuous integration checks to ensure any changes do not break this.
 |  Map                       | Bug  | Status |
 | ------------------------- | ---- | ------ |
 | [MAP01](map01.acs) (Winnowing Hall) | | ✅ Done |
-| [MAP02](map02.acs) (Seven Portals) | fragglet/hexen-acs-reconstructed#1 | TODO |
+| [MAP02](map02.acs) (Seven Portals) | fragglet/hexen-acs-reconstructed#1 | In progress |
 | [MAP03](map03.acs) (Guardian of Ice) | fragglet/hexen-acs-reconstructed#2 | TODO |
 | [MAP04](map04.acs) (Guardian of Fire) | fragglet/hexen-acs-reconstructed#3 | TODO |
 | [MAP05](map05.acs) (Guardian of Steel) | fragglet/hexen-acs-reconstructed#4 | TODO |
