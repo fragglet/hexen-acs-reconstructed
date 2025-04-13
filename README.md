@@ -53,8 +53,12 @@ modders can study when making their own levels.
 ## How to help
 
 You don't need to be an expert programmer or reverse engineer to help out.
-Pick one of the levels above and start documenting! Before each script in the
-file you'll find comments that look like this:
+Pick one of the levels above and start documenting! Before you start, make sure
+to comment first on the associated tracking bug for that level to avoid
+duplicating others' work.
+
+Before each script, you'll find that header comments have been automatically
+added that look like this:
 ```c
 // Started by line 527 at (1576, 2112)
 // Started by thing 203 at (1280, 1904)
